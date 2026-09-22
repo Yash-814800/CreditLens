@@ -1,0 +1,13 @@
+{
+  "persona_id": "P02",
+  "full_name": "Priya Nair",
+  "phone": "9812345602",
+  "pan": "BBBPN2345B",
+  "aadhaar": "234567890102",
+  "declared_address": "7B, Kothrud, Pune - 411038",
+  "stated_vocation": "food delivery partner",
+  "requested_line_inr": 20000,
+  "consent_given": true,
+  "consent_text_version": "v1",
+  "consent_at": "2026-09-01T10:00:00+05:30"
+}

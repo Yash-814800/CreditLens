@@ -1,0 +1,23 @@
+# Automatic HTTPS via Let's Encrypt. {$SITE_ADDRESS} is read from the
+# container's environment (Caddy's native {$VAR} syntax) -- set by
+# docker-compose.prod.yml from the Elastic IP Terraform allocated, rendered
+# as an sslip.io hostname (e.g. 13-234-56-78.sslip.io) unless a real domain
+# is configured (see docs/deployment.md).
+#
+# CAVEAT: sslip.io hostnames share Let's Encrypt's public rate limits with
+# every other sslip.io user (50 certs/domain/week is the *registered domain*
+# sslip.io itself, but the per-*exact-hostname* limit is what matters here
+# and is much more generous) -- if cert issuance ever fails with a rate-limit
+# error, wait an hour and retry, or switch to a real domain.
+{$SITE_ADDRESS} {
+	reverse_proxy frontend:8080
+
+	encode gzip
+
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "same-origin"
+	}
+}

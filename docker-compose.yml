@@ -1,0 +1,57 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    env_file: .env
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - creditlens_db_data:/var/lib/postgresql/data
+    healthcheck:
+      # -h 127.0.0.1 forces a real TCP check against the final daemon; without a
+      # host, pg_isready defaults to the Unix socket, which can also answer "ready"
+      # during initdb's brief temporary-server bootstrap phase on first ever start.
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    ports:
+      # Host-side port only (convenience for a local psql client); the app
+      # itself always talks to `db:5432` over the internal compose network,
+      # so this binding is free to differ from Postgres's default port --
+      # kept off 5432 to avoid colliding with other unrelated Postgres
+      # containers a dev machine may already have running.
+      - "127.0.0.1:55432:5432"
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file: .env
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      # Synthetic fraud-eval corpus, history parquet, and demo_pack personas
+      # (Phase 2) -- read by tests, scripts/eval_*.py, and (Phase 6) the demo
+      # persona endpoints. Read-write because the extraction cache also lives
+      # under data/ (data/.extraction_cache, gitignored).
+      - ./data:/app/data
+      # scripts/seed_history.py needs a live DB connection (DATABASE_URL's
+      # `db` hostname only resolves inside this compose network), so `make
+      # seed` runs it via `docker compose exec` rather than `uv run` from the
+      # host -- read-only, this container never writes back to scripts/.
+      - ./scripts:/app/scripts:ro
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:8080"
+
+volumes:
+  creditlens_db_data:

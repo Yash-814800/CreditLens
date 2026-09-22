@@ -1,0 +1,11 @@
+{
+  "persona_id": "P03",
+  "docs_present": [
+    "GIG_PAYOUT",
+    "UTILITY_BILL",
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "DECLINE",
+  "notes": "High volatility, low balance, 2-month tenure, frequent late payments -> DECLINE + recourse.",
+  "requested_line_inr": 30000
+}

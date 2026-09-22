@@ -1,0 +1,11 @@
+{
+  "persona_id": "P04",
+  "docs_present": [
+    "GIG_PAYOUT",
+    "UTILITY_BILL",
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "REFER_OR_DECLINE",
+  "notes": "Otherwise strong profile, but the gig-payout screenshot has an edited amount plus simulated editor metadata -> document-integrity fraud finding caps the outcome regardless of score.",
+  "requested_line_inr": 22000
+}

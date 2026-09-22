@@ -1,0 +1,136 @@
+# Transparent additive scorecard (CLAUDE.md rule 3: no black-box decisioning).
+#
+# score = clamp(base + sum(points earned across all present factors), 0, 100).
+# A missing factor (its source document wasn't submitted) contributes 0 points
+# -- neutral, never a penalty -- and instead lowers `data_completeness`
+# (computed in scorecard.py from how many of the 7 factors below are present).
+#
+# Bin edges were chosen empirically against the DEV/VALIDATION split of
+# data/synth/history.parquet (2000 synthetic borrower profiles; see
+# scripts/tier_distribution.py and docs/PROGRESS.md's Phase 5 section for the
+# quintile/default-rate tables this was tuned against), honoring the exact
+# fixed points CLAUDE.md's Phase 5 spec mandates for each factor's top bin
+# (utility_tenure_months >=12mo = +25; weekly_inflow_cv >0.8 = -30;
+# avg_daily_balance_inr bin edges at 3500 and 6000) and the max_up/max_down
+# ceiling for every other factor. Edges elsewhere were placed at roughly the
+# VALIDATION split's quintile boundaries of each feature, rounded to values a
+# human underwriter would recognise, then adjusted by at most +/-30% where a
+# rounder number gave a cleaner tier split -- never tuned against the TEST
+# split (see scripts/validate_scorecard.py, Phase 8).
+#
+# Each factor's bins are ordered ascending by `upper_bound` (exclusive); the
+# last bin's `upper_bound: null` means "+infinity". A feature value is looked
+# up by finding the first bin whose upper_bound the value is strictly less
+# than. `direction` is documentation + drives the hypothesis monotonicity test
+# generator (scorecard.py itself doesn't need it -- the bin table alone is
+# already monotonic in points by construction).
+version: v1
+base: 15
+factors:
+  utility_tenure_months:
+    label: "Utility bill history"
+    direction: higher_is_better
+    max_up: 25
+    max_down: -10
+    reason_code_on_penalty: RC01
+    bins:
+      - {upper_bound: 4, points: -10, label: "Less than 4 months of utility history"}
+      - {upper_bound: 7, points: -4, label: "4-7 months of utility history"}
+      - {upper_bound: 10, points: 6, label: "7-10 months of utility history"}
+      - {upper_bound: 12, points: 14, label: "10-12 months of utility history"}
+      - {upper_bound: null, points: 25, label: "12+ months of established utility history"}
+
+  weekly_inflow_cv:
+    label: "Weekly cash-inflow stability (bank statement)"
+    direction: lower_is_better
+    max_up: 15
+    max_down: -30
+    reason_code_on_penalty: RC03
+    # Bin shares are decile-anchored against the VALIDATION split (~10 / 20 /
+    # 40 / 20 / 7 / 3 percent of the population respectively), not even
+    # fifths: the middle 40% (CV 0.38-0.54, squarely around the population
+    # median of 0.45) is scored MODESTLY POSITIVE (+5), not neutral/negative
+    # -- this factor's max_down (-30) is deliberately double its max_up (+15)
+    # per CLAUDE.md's own design table, which would otherwise make an
+    # ordinary, unremarkable applicant's *average* contribution negative
+    # by construction (a symmetric -30..+15 spread averaged across any
+    # roughly-even bin scheme skews negative) even though most of this
+    # synthetic population does not default. Only the genuine bottom decile
+    # (CV > 0.8, ~3% of applicants) reaches the mandated -30 floor.
+    bins:
+      - {upper_bound: 0.27, points: 15, label: "Very stable weekly cash inflow (CV < 0.27)"}
+      - {upper_bound: 0.38, points: 8, label: "Stable weekly cash inflow (CV 0.27-0.38)"}
+      - {upper_bound: 0.54, points: 5, label: "Typical cash-inflow variability (CV 0.38-0.54)"}
+      - {upper_bound: 0.67, points: -10, label: "High cash-inflow variability (CV 0.54-0.67)"}
+      - {upper_bound: 0.80, points: -20, label: "Very high cash-inflow variability (CV 0.67-0.80)"}
+      - {upper_bound: null, points: -30, label: "Extreme cash-inflow variability (CV >= 0.80)"}
+
+  utility_on_time_ratio:
+    label: "Utility payment on-time ratio"
+    direction: higher_is_better
+    max_up: 15
+    max_down: -15
+    reason_code_on_penalty: RC02
+    bins:
+      - {upper_bound: 0.52, points: -15, label: "Frequent late utility payments (<52% on-time)"}
+      - {upper_bound: 0.64, points: -5, label: "Several late utility payments (52-64% on-time)"}
+      - {upper_bound: 0.79, points: 6, label: "Typically on-time utility payments (64-79%)"}
+      - {upper_bound: 0.88, points: 11, label: "Largely on-time utility payments (79-88%)"}
+      - {upper_bound: null, points: 15, label: "Consistently on-time utility payments (88-100%)"}
+
+  avg_daily_balance_inr:
+    label: "Average daily bank balance"
+    direction: higher_is_better
+    max_up: 10
+    max_down: -10
+    reason_code_on_penalty: RC04
+    # The two middle edges (3,500 / 6,000) are CLAUDE.md's own mandated bin
+    # edges for this factor, kept exactly as specified; the bottom two edges
+    # (1,400 / 2,100) are decile-anchored against the VALIDATION split so
+    # that the population median (~Rs 2,600) falls in a modestly positive
+    # "typical" band rather than a punitive one, for the same reason
+    # documented on weekly_inflow_cv above.
+    bins:
+      - {upper_bound: 1400, points: -10, label: "Average daily balance below Rs 1,400"}
+      - {upper_bound: 2100, points: -3, label: "Average daily balance Rs 1,400-2,100"}
+      - {upper_bound: 3500, points: 5, label: "Average daily balance Rs 2,100-3,500"}
+      - {upper_bound: 6000, points: 8, label: "Average daily balance Rs 3,500-6,000"}
+      - {upper_bound: null, points: 10, label: "Average daily balance above Rs 6,000"}
+
+  gig_active_days_per_week:
+    label: "Gig-platform work activity"
+    direction: higher_is_better
+    max_up: 8
+    max_down: -8
+    reason_code_on_penalty: RC05
+    bins:
+      - {upper_bound: 3.3, points: -8, label: "Low work activity (<3.3 active days/week)"}
+      - {upper_bound: 4.0, points: -2, label: "Below-average work activity (3.3-4.0 active days/week)"}
+      - {upper_bound: 4.85, points: 4, label: "Typical work activity (4.0-4.85 active days/week)"}
+      - {upper_bound: 5.6, points: 6, label: "Above-average work activity (4.85-5.6 active days/week)"}
+      - {upper_bound: null, points: 8, label: "High work activity (5.6+ active days/week)"}
+
+  income_reconciliation_ratio:
+    label: "Income reconciliation (bank credits vs. declared platform payouts)"
+    direction: higher_is_better
+    max_up: 7
+    max_down: -10
+    reason_code_on_penalty: RC06
+    bins:
+      - {upper_bound: 0.66, points: -10, label: "Income not reconciled with bank records (<66% match)"}
+      - {upper_bound: 0.78, points: -3, label: "Partially reconciled income (66-78% match)"}
+      - {upper_bound: 0.97, points: 3, label: "Typically reconciled income (78-97% match)"}
+      - {upper_bound: 1.08, points: 5, label: "Well-reconciled income (97-108% match)"}
+      - {upper_bound: null, points: 7, label: "Fully reconciled income (108%+ match)"}
+
+  authenticity_score:
+    label: "Document authenticity (fraud/integrity layer)"
+    direction: higher_is_better
+    max_up: 5
+    max_down: -25
+    reason_code_on_penalty: RC07
+    bins:
+      - {upper_bound: 0.40, points: -25, label: "Significant document authenticity concerns (high fraud-risk band)"}
+      - {upper_bound: 0.70, points: -10, label: "Some document authenticity concerns (medium fraud-risk band)"}
+      - {upper_bound: 0.90, points: 0, label: "No major document authenticity concerns (low fraud-risk band)"}
+      - {upper_bound: null, points: 5, label: "Strong document authenticity confidence"}

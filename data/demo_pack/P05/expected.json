@@ -1,0 +1,11 @@
+{
+  "persona_id": "P05",
+  "docs_present": [
+    "GIG_PAYOUT",
+    "UTILITY_BILL",
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "APPROVE",
+  "notes": "Clean applicant. Its utility bill image is the ORIGINAL that P06 later re-submits under a different identity -- this is the syndicate pHash-collision demo.",
+  "requested_line_inr": 18000
+}

@@ -1,0 +1,11 @@
+{
+  "persona_id": "P07",
+  "docs_present": [
+    "GIG_PAYOUT",
+    "UTILITY_BILL",
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "REFER",
+  "notes": "Bill/bank holder name does not match KYC name, AND the gig payout's declared payout account last-4 does not match the bank statement's account last-4 -> identity mismatch (RC08) -> REFER.",
+  "requested_line_inr": 20000
+}

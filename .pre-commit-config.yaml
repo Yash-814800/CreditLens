@@ -1,0 +1,23 @@
+# CLAUDE.md rule 2 (no hardcoded secrets, ever) and rule 10 (lint clean every
+# phase) enforced locally, before a commit ever reaches CI (.github/workflows/ci.yml
+# runs the same two checks again server-side as the non-bypassable backstop).
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.4
+    hooks:
+      - id: ruff
+        name: ruff (backend)
+        args: [--fix]
+        files: ^backend/
+      - id: ruff-format
+        name: ruff format (backend)
+        files: ^backend/
+      - id: ruff
+        name: ruff (datagen)
+        args: [--fix]
+        files: ^datagen/
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.21.2
+    hooks:
+      - id: gitleaks

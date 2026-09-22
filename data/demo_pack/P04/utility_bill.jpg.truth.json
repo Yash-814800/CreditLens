@@ -1,0 +1,251 @@
+{
+  "doc_type": "UTILITY_BILL",
+  "doc_id": "P04-utility_bill",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Sanjay Kulkarni",
+    "consumer_number": "CN04778899",
+    "service_address": "Velachery, Chennai - 600042",
+    "connection_date": "2025-06-17",
+    "meter_number": "MT0455",
+    "bill_date": "2026-09-11",
+    "due_date": "2026-09-27",
+    "billing_period_start": "2026-08-12",
+    "billing_period_end": "2026-09-09",
+    "units_consumed": 188,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 1278.4
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 134.42
+      },
+      {
+        "label": "Tax",
+        "amount": 70.64
+      }
+    ],
+    "total_amount_due": 1483.46,
+    "payment_history": [
+      {
+        "month": "2025-09",
+        "amount": 1184.98,
+        "due_date": "2025-09-20",
+        "paid_date": "2025-09-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-10",
+        "amount": 1354.76,
+        "due_date": "2025-10-20",
+        "paid_date": "2025-10-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-11",
+        "amount": 1381.97,
+        "due_date": "2025-11-20",
+        "paid_date": "2025-11-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-12",
+        "amount": 1559.05,
+        "due_date": "2025-12-20",
+        "paid_date": "2025-12-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-01",
+        "amount": 1538.87,
+        "due_date": "2026-01-20",
+        "paid_date": "2026-01-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-02",
+        "amount": 1670.45,
+        "due_date": "2026-02-20",
+        "paid_date": "2026-02-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-03",
+        "amount": 1470.4,
+        "due_date": "2026-03-20",
+        "paid_date": "2026-03-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-04",
+        "amount": 1648.02,
+        "due_date": "2026-04-20",
+        "paid_date": "2026-04-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-05",
+        "amount": 1659.08,
+        "due_date": "2026-05-20",
+        "paid_date": "2026-05-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-06",
+        "amount": 1258.46,
+        "due_date": "2026-06-20",
+        "paid_date": "2026-06-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-07",
+        "amount": 1317.51,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-07-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-08",
+        "amount": 1455.03,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-18",
+        "status": "On-time"
+      }
+    ]
+  },
+  "original_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Sanjay Kulkarni",
+    "consumer_number": "CN04778899",
+    "service_address": "Velachery, Chennai - 600042",
+    "connection_date": "2025-06-17",
+    "meter_number": "MT0455",
+    "bill_date": "2026-09-11",
+    "due_date": "2026-09-27",
+    "billing_period_start": "2026-08-12",
+    "billing_period_end": "2026-09-09",
+    "units_consumed": 188,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 1278.4
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 134.42
+      },
+      {
+        "label": "Tax",
+        "amount": 70.64
+      }
+    ],
+    "total_amount_due": 1483.46,
+    "payment_history": [
+      {
+        "month": "2025-09",
+        "amount": 1184.98,
+        "due_date": "2025-09-20",
+        "paid_date": "2025-09-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-10",
+        "amount": 1354.76,
+        "due_date": "2025-10-20",
+        "paid_date": "2025-10-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-11",
+        "amount": 1381.97,
+        "due_date": "2025-11-20",
+        "paid_date": "2025-11-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-12",
+        "amount": 1559.05,
+        "due_date": "2025-12-20",
+        "paid_date": "2025-12-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-01",
+        "amount": 1538.87,
+        "due_date": "2026-01-20",
+        "paid_date": "2026-01-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-02",
+        "amount": 1670.45,
+        "due_date": "2026-02-20",
+        "paid_date": "2026-02-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-03",
+        "amount": 1470.4,
+        "due_date": "2026-03-20",
+        "paid_date": "2026-03-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-04",
+        "amount": 1648.02,
+        "due_date": "2026-04-20",
+        "paid_date": "2026-04-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-05",
+        "amount": 1659.08,
+        "due_date": "2026-05-20",
+        "paid_date": "2026-05-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-06",
+        "amount": 1258.46,
+        "due_date": "2026-06-20",
+        "paid_date": "2026-06-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-07",
+        "amount": 1317.51,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-07-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-08",
+        "amount": 1455.03,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-18",
+        "status": "On-time"
+      }
+    ]
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P04",
+    "full_name": "Sanjay Kulkarni",
+    "phone": "9812345604",
+    "declared_address": "Velachery, Chennai - 600042",
+    "stated_vocation": "ride-hailing driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

@@ -1,0 +1,2425 @@
+{
+  "doc_type": "BANK_STATEMENT",
+  "doc_id": "P09-bank_statement",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "account_holder": "Kavita Sharma",
+    "account_number_masked": "XXXXXXXX5233",
+    "bank": "Demo Sahakari Bank",
+    "period_from": "2026-03-18",
+    "period_to": "2026-09-14",
+    "transactions": [
+      {
+        "date": "2026-03-18",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922769",
+        "debit": null,
+        "credit": 1077.27,
+        "balance": 6077.27
+      },
+      {
+        "date": "2026-03-18",
+        "narration": "ATM CASH WDL",
+        "ref": "922770",
+        "debit": 324.9,
+        "credit": null,
+        "balance": 5752.37
+      },
+      {
+        "date": "2026-03-21",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922771",
+        "ref": "922771",
+        "debit": null,
+        "credit": 5310.7,
+        "balance": 11063.07
+      },
+      {
+        "date": "2026-03-21",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922772",
+        "debit": 138.22,
+        "credit": null,
+        "balance": 10924.85
+      },
+      {
+        "date": "2026-03-24",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922773",
+        "debit": 374.48,
+        "credit": null,
+        "balance": 10550.37
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922774",
+        "ref": "922774",
+        "debit": null,
+        "credit": 3820.81,
+        "balance": 14371.18
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922775",
+        "debit": 350.98,
+        "credit": null,
+        "balance": 14020.2
+      },
+      {
+        "date": "2026-03-29",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922776",
+        "debit": 339.13,
+        "credit": null,
+        "balance": 13681.07
+      },
+      {
+        "date": "2026-03-30",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922777",
+        "debit": 127.69,
+        "credit": null,
+        "balance": 13553.38
+      },
+      {
+        "date": "2026-04-01",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922778",
+        "debit": 354.94,
+        "credit": null,
+        "balance": 13198.44
+      },
+      {
+        "date": "2026-04-02",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922779",
+        "debit": null,
+        "credit": 1240.42,
+        "balance": 14438.86
+      },
+      {
+        "date": "2026-04-02",
+        "narration": "ATM CASH WDL",
+        "ref": "922780",
+        "debit": 266.91,
+        "credit": null,
+        "balance": 14171.95
+      },
+      {
+        "date": "2026-04-03",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922781",
+        "debit": 320.69,
+        "credit": null,
+        "balance": 13851.26
+      },
+      {
+        "date": "2026-04-04",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922782",
+        "ref": "922782",
+        "debit": null,
+        "credit": 5084.63,
+        "balance": 18935.89
+      },
+      {
+        "date": "2026-04-04",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922783",
+        "debit": 167.22,
+        "credit": null,
+        "balance": 18768.67
+      },
+      {
+        "date": "2026-04-06",
+        "narration": "ATM CASH WDL",
+        "ref": "922784",
+        "debit": 197.22,
+        "credit": null,
+        "balance": 18571.45
+      },
+      {
+        "date": "2026-04-07",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922785",
+        "debit": 256.12,
+        "credit": null,
+        "balance": 18315.33
+      },
+      {
+        "date": "2026-04-08",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922786",
+        "debit": 148.44,
+        "credit": null,
+        "balance": 18166.89
+      },
+      {
+        "date": "2026-04-09",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922787",
+        "debit": 149.16,
+        "credit": null,
+        "balance": 18017.73
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922788",
+        "ref": "922788",
+        "debit": null,
+        "credit": 4490.26,
+        "balance": 22507.99
+      },
+      {
+        "date": "2026-04-12",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922789",
+        "debit": 285.02,
+        "credit": null,
+        "balance": 22222.97
+      },
+      {
+        "date": "2026-04-13",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922790",
+        "debit": 88.2,
+        "credit": null,
+        "balance": 22134.77
+      },
+      {
+        "date": "2026-04-17",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922791",
+        "debit": 128.68,
+        "credit": null,
+        "balance": 22006.09
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922792",
+        "ref": "922792",
+        "debit": null,
+        "credit": 4003.79,
+        "balance": 26009.88
+      },
+      {
+        "date": "2026-04-19",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922793",
+        "debit": 214.08,
+        "credit": null,
+        "balance": 25795.8
+      },
+      {
+        "date": "2026-04-20",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922794",
+        "debit": 185.56,
+        "credit": null,
+        "balance": 25610.24
+      },
+      {
+        "date": "2026-04-22",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922795",
+        "debit": 340.27,
+        "credit": null,
+        "balance": 25269.97
+      },
+      {
+        "date": "2026-04-23",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922796",
+        "debit": 57.83,
+        "credit": null,
+        "balance": 25212.14
+      },
+      {
+        "date": "2026-04-24",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922797",
+        "debit": null,
+        "credit": 1391.31,
+        "balance": 26603.45
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922798",
+        "ref": "922798",
+        "debit": null,
+        "credit": 6232.69,
+        "balance": 32836.14
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922799",
+        "debit": 296.83,
+        "credit": null,
+        "balance": 32539.31
+      },
+      {
+        "date": "2026-04-27",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922800",
+        "debit": 394.02,
+        "credit": null,
+        "balance": 32145.29
+      },
+      {
+        "date": "2026-04-28",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922801",
+        "debit": 192.11,
+        "credit": null,
+        "balance": 31953.18
+      },
+      {
+        "date": "2026-04-30",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922802",
+        "debit": 97.44,
+        "credit": null,
+        "balance": 31855.74
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922803",
+        "ref": "922803",
+        "debit": null,
+        "credit": 5993.4,
+        "balance": 37849.14
+      },
+      {
+        "date": "2026-05-04",
+        "narration": "ATM CASH WDL",
+        "ref": "922804",
+        "debit": 224.57,
+        "credit": null,
+        "balance": 37624.57
+      },
+      {
+        "date": "2026-05-05",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922805",
+        "debit": null,
+        "credit": 1736.43,
+        "balance": 39361.0
+      },
+      {
+        "date": "2026-05-06",
+        "narration": "ATM CASH WDL",
+        "ref": "922806",
+        "debit": 97.25,
+        "credit": null,
+        "balance": 39263.75
+      },
+      {
+        "date": "2026-05-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922807",
+        "debit": 256.74,
+        "credit": null,
+        "balance": 39007.01
+      },
+      {
+        "date": "2026-05-08",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922808",
+        "debit": 71.42,
+        "credit": null,
+        "balance": 38935.59
+      },
+      {
+        "date": "2026-05-09",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922809",
+        "ref": "922809",
+        "debit": null,
+        "credit": 3269.63,
+        "balance": 42205.22
+      },
+      {
+        "date": "2026-05-09",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922810",
+        "debit": 160.02,
+        "credit": null,
+        "balance": 42045.2
+      },
+      {
+        "date": "2026-05-10",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922811",
+        "debit": 235.83,
+        "credit": null,
+        "balance": 41809.37
+      },
+      {
+        "date": "2026-05-11",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922812",
+        "debit": null,
+        "credit": 1368.25,
+        "balance": 43177.62
+      },
+      {
+        "date": "2026-05-11",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922813",
+        "debit": 99.56,
+        "credit": null,
+        "balance": 43078.06
+      },
+      {
+        "date": "2026-05-13",
+        "narration": "ATM CASH WDL",
+        "ref": "922814",
+        "debit": 280.77,
+        "credit": null,
+        "balance": 42797.29
+      },
+      {
+        "date": "2026-05-15",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922815",
+        "debit": 192.11,
+        "credit": null,
+        "balance": 42605.18
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922816",
+        "ref": "922816",
+        "debit": null,
+        "credit": 4746.55,
+        "balance": 47351.73
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922817",
+        "debit": null,
+        "credit": 635.68,
+        "balance": 47987.41
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "ATM CASH WDL",
+        "ref": "922818",
+        "debit": 157.02,
+        "credit": null,
+        "balance": 47830.39
+      },
+      {
+        "date": "2026-05-17",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922819",
+        "debit": 224.87,
+        "credit": null,
+        "balance": 47605.52
+      },
+      {
+        "date": "2026-05-18",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922820",
+        "debit": 169.61,
+        "credit": null,
+        "balance": 47435.91
+      },
+      {
+        "date": "2026-05-19",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922821",
+        "debit": 110.48,
+        "credit": null,
+        "balance": 47325.43
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922822",
+        "ref": "922822",
+        "debit": null,
+        "credit": 5776.34,
+        "balance": 53101.77
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922823",
+        "debit": null,
+        "credit": 974.97,
+        "balance": 54076.74
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922824",
+        "debit": 288.06,
+        "credit": null,
+        "balance": 53788.68
+      },
+      {
+        "date": "2026-05-24",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922825",
+        "debit": 138.29,
+        "credit": null,
+        "balance": 53650.39
+      },
+      {
+        "date": "2026-05-25",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922826",
+        "debit": 286.72,
+        "credit": null,
+        "balance": 53363.67
+      },
+      {
+        "date": "2026-05-27",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922827",
+        "debit": 318.06,
+        "credit": null,
+        "balance": 53045.61
+      },
+      {
+        "date": "2026-05-29",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922828",
+        "debit": 295.89,
+        "credit": null,
+        "balance": 52749.72
+      },
+      {
+        "date": "2026-05-30",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922829",
+        "ref": "922829",
+        "debit": null,
+        "credit": 6202.99,
+        "balance": 58952.71
+      },
+      {
+        "date": "2026-06-01",
+        "narration": "ATM CASH WDL",
+        "ref": "922830",
+        "debit": 201.15,
+        "credit": null,
+        "balance": 58751.56
+      },
+      {
+        "date": "2026-06-03",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922831",
+        "debit": 170.8,
+        "credit": null,
+        "balance": 58580.76
+      },
+      {
+        "date": "2026-06-04",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922832",
+        "debit": 85.5,
+        "credit": null,
+        "balance": 58495.26
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922833",
+        "ref": "922833",
+        "debit": null,
+        "credit": 3630.82,
+        "balance": 62126.08
+      },
+      {
+        "date": "2026-06-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922834",
+        "debit": 197.79,
+        "credit": null,
+        "balance": 61928.29
+      },
+      {
+        "date": "2026-06-10",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922835",
+        "debit": null,
+        "credit": 1356.32,
+        "balance": 63284.61
+      },
+      {
+        "date": "2026-06-11",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922836",
+        "debit": 195.57,
+        "credit": null,
+        "balance": 63089.04
+      },
+      {
+        "date": "2026-06-12",
+        "narration": "ATM CASH WDL",
+        "ref": "922837",
+        "debit": 163.98,
+        "credit": null,
+        "balance": 62925.06
+      },
+      {
+        "date": "2026-06-13",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922838",
+        "ref": "922838",
+        "debit": null,
+        "credit": 5142.43,
+        "balance": 68067.49
+      },
+      {
+        "date": "2026-06-14",
+        "narration": "ATM CASH WDL",
+        "ref": "922839",
+        "debit": 136.53,
+        "credit": null,
+        "balance": 67930.96
+      },
+      {
+        "date": "2026-06-15",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922840",
+        "debit": 148.31,
+        "credit": null,
+        "balance": 67782.65
+      },
+      {
+        "date": "2026-06-17",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922841",
+        "debit": 175.36,
+        "credit": null,
+        "balance": 67607.29
+      },
+      {
+        "date": "2026-06-19",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922842",
+        "debit": 98.54,
+        "credit": null,
+        "balance": 67508.75
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922843",
+        "ref": "922843",
+        "debit": null,
+        "credit": 2800.48,
+        "balance": 70309.23
+      },
+      {
+        "date": "2026-06-21",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922844",
+        "debit": null,
+        "credit": 236.42,
+        "balance": 70545.65
+      },
+      {
+        "date": "2026-06-22",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922845",
+        "debit": 316.95,
+        "credit": null,
+        "balance": 70228.7
+      },
+      {
+        "date": "2026-06-26",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922846",
+        "debit": 178.02,
+        "credit": null,
+        "balance": 70050.68
+      },
+      {
+        "date": "2026-06-27",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922847",
+        "ref": "922847",
+        "debit": null,
+        "credit": 3634.25,
+        "balance": 73684.93
+      },
+      {
+        "date": "2026-06-28",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922848",
+        "debit": null,
+        "credit": 846.97,
+        "balance": 74531.9
+      },
+      {
+        "date": "2026-06-29",
+        "narration": "ATM CASH WDL",
+        "ref": "922849",
+        "debit": 213.85,
+        "credit": null,
+        "balance": 74318.05
+      },
+      {
+        "date": "2026-07-02",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922850",
+        "debit": null,
+        "credit": 716.56,
+        "balance": 75034.61
+      },
+      {
+        "date": "2026-07-02",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922851",
+        "debit": 169.45,
+        "credit": null,
+        "balance": 74865.16
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922852",
+        "ref": "922852",
+        "debit": null,
+        "credit": 5917.65,
+        "balance": 80782.81
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "ATM CASH WDL",
+        "ref": "922853",
+        "debit": 310.48,
+        "credit": null,
+        "balance": 80472.33
+      },
+      {
+        "date": "2026-07-06",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922854",
+        "debit": 384.55,
+        "credit": null,
+        "balance": 80087.78
+      },
+      {
+        "date": "2026-07-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922855",
+        "debit": 278.97,
+        "credit": null,
+        "balance": 79808.81
+      },
+      {
+        "date": "2026-07-08",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922856",
+        "debit": 369.02,
+        "credit": null,
+        "balance": 79439.79
+      },
+      {
+        "date": "2026-07-09",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922857",
+        "debit": 138.96,
+        "credit": null,
+        "balance": 79300.83
+      },
+      {
+        "date": "2026-07-10",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922858",
+        "debit": null,
+        "credit": 820.4,
+        "balance": 80121.23
+      },
+      {
+        "date": "2026-07-11",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922859",
+        "ref": "922859",
+        "debit": null,
+        "credit": 5187.43,
+        "balance": 85308.66
+      },
+      {
+        "date": "2026-07-12",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922860",
+        "debit": 208.83,
+        "credit": null,
+        "balance": 85099.83
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922861",
+        "ref": "922861",
+        "debit": null,
+        "credit": 5574.81,
+        "balance": 90674.64
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922862",
+        "debit": null,
+        "credit": 1059.46,
+        "balance": 91734.1
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922863",
+        "debit": 47.31,
+        "credit": null,
+        "balance": 91686.79
+      },
+      {
+        "date": "2026-07-19",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922864",
+        "debit": 176.16,
+        "credit": null,
+        "balance": 91510.63
+      },
+      {
+        "date": "2026-07-20",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922865",
+        "debit": 224.86,
+        "credit": null,
+        "balance": 91285.77
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922866",
+        "debit": null,
+        "credit": 1297.7,
+        "balance": 92583.47
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922867",
+        "debit": 286.52,
+        "credit": null,
+        "balance": 92296.95
+      },
+      {
+        "date": "2026-07-22",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922868",
+        "debit": 202.68,
+        "credit": null,
+        "balance": 92094.27
+      },
+      {
+        "date": "2026-07-23",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922869",
+        "debit": 112.2,
+        "credit": null,
+        "balance": 91982.07
+      },
+      {
+        "date": "2026-07-24",
+        "narration": "ATM CASH WDL",
+        "ref": "922870",
+        "debit": 320.9,
+        "credit": null,
+        "balance": 91661.17
+      },
+      {
+        "date": "2026-07-25",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922871",
+        "ref": "922871",
+        "debit": null,
+        "credit": 4479.86,
+        "balance": 96141.03
+      },
+      {
+        "date": "2026-07-28",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922872",
+        "debit": 278.06,
+        "credit": null,
+        "balance": 95862.97
+      },
+      {
+        "date": "2026-07-30",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922873",
+        "debit": null,
+        "credit": 1076.26,
+        "balance": 96939.23
+      },
+      {
+        "date": "2026-07-30",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922874",
+        "debit": 394.73,
+        "credit": null,
+        "balance": 96544.5
+      },
+      {
+        "date": "2026-07-31",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922875",
+        "debit": 114.59,
+        "credit": null,
+        "balance": 96429.91
+      },
+      {
+        "date": "2026-08-01",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922876",
+        "ref": "922876",
+        "debit": null,
+        "credit": 5667.14,
+        "balance": 102097.05
+      },
+      {
+        "date": "2026-08-02",
+        "narration": "ATM CASH WDL",
+        "ref": "922877",
+        "debit": 171.08,
+        "credit": null,
+        "balance": 101925.97
+      },
+      {
+        "date": "2026-08-03",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922878",
+        "debit": 277.15,
+        "credit": null,
+        "balance": 101648.82
+      },
+      {
+        "date": "2026-08-08",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922879",
+        "ref": "922879",
+        "debit": null,
+        "credit": 5995.3,
+        "balance": 107644.12
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922880",
+        "debit": null,
+        "credit": 325.87,
+        "balance": 107969.99
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922881",
+        "debit": 183.44,
+        "credit": null,
+        "balance": 107786.55
+      },
+      {
+        "date": "2026-08-11",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922882",
+        "debit": 148.97,
+        "credit": null,
+        "balance": 107637.58
+      },
+      {
+        "date": "2026-08-12",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922883",
+        "debit": 243.13,
+        "credit": null,
+        "balance": 107394.45
+      },
+      {
+        "date": "2026-08-13",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922884",
+        "debit": 425.04,
+        "credit": null,
+        "balance": 106969.41
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922885",
+        "ref": "922885",
+        "debit": null,
+        "credit": 4720.85,
+        "balance": 111690.26
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922886",
+        "debit": 114.97,
+        "credit": null,
+        "balance": 111575.29
+      },
+      {
+        "date": "2026-08-18",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922887",
+        "debit": null,
+        "credit": 732.53,
+        "balance": 112307.82
+      },
+      {
+        "date": "2026-08-18",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922888",
+        "debit": 167.46,
+        "credit": null,
+        "balance": 112140.36
+      },
+      {
+        "date": "2026-08-19",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922889",
+        "debit": 337.47,
+        "credit": null,
+        "balance": 111802.89
+      },
+      {
+        "date": "2026-08-20",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922890",
+        "debit": 159.24,
+        "credit": null,
+        "balance": 111643.65
+      },
+      {
+        "date": "2026-08-21",
+        "narration": "ATM CASH WDL",
+        "ref": "922891",
+        "debit": 226.47,
+        "credit": null,
+        "balance": 111417.18
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922892",
+        "ref": "922892",
+        "debit": null,
+        "credit": 4926.54,
+        "balance": 116343.72
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922893",
+        "debit": 194.95,
+        "credit": null,
+        "balance": 116148.77
+      },
+      {
+        "date": "2026-08-23",
+        "narration": "ATM CASH WDL",
+        "ref": "922894",
+        "debit": 282.35,
+        "credit": null,
+        "balance": 115866.42
+      },
+      {
+        "date": "2026-08-24",
+        "narration": "ATM CASH WDL",
+        "ref": "922895",
+        "debit": 86.29,
+        "credit": null,
+        "balance": 115780.13
+      },
+      {
+        "date": "2026-08-26",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922896",
+        "debit": 195.62,
+        "credit": null,
+        "balance": 115584.51
+      },
+      {
+        "date": "2026-08-28",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922897",
+        "debit": 193.91,
+        "credit": null,
+        "balance": 115390.6
+      },
+      {
+        "date": "2026-08-29",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922898",
+        "ref": "922898",
+        "debit": null,
+        "credit": 4456.7,
+        "balance": 119847.3
+      },
+      {
+        "date": "2026-08-30",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922899",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 119817.3
+      },
+      {
+        "date": "2026-08-31",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922900",
+        "debit": 254.92,
+        "credit": null,
+        "balance": 119562.38
+      },
+      {
+        "date": "2026-09-02",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922901",
+        "debit": 287.5,
+        "credit": null,
+        "balance": 119274.88
+      },
+      {
+        "date": "2026-09-03",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922902",
+        "debit": 191.87,
+        "credit": null,
+        "balance": 119083.01
+      },
+      {
+        "date": "2026-09-04",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922903",
+        "debit": 259.21,
+        "credit": null,
+        "balance": 118823.8
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922904",
+        "ref": "922904",
+        "debit": null,
+        "credit": 4678.75,
+        "balance": 123502.55
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922905",
+        "debit": 169.9,
+        "credit": null,
+        "balance": 123332.65
+      },
+      {
+        "date": "2026-09-06",
+        "narration": "ATM CASH WDL",
+        "ref": "922906",
+        "debit": 184.53,
+        "credit": null,
+        "balance": 123148.12
+      },
+      {
+        "date": "2026-09-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922907",
+        "debit": 105.77,
+        "credit": null,
+        "balance": 123042.35
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922908",
+        "debit": null,
+        "credit": 827.12,
+        "balance": 123869.47
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922909",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 123839.47
+      },
+      {
+        "date": "2026-09-09",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922910",
+        "debit": 292.62,
+        "credit": null,
+        "balance": 123546.85
+      },
+      {
+        "date": "2026-09-10",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922911",
+        "debit": 328.8,
+        "credit": null,
+        "balance": 123218.05
+      },
+      {
+        "date": "2026-09-11",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922912",
+        "debit": null,
+        "credit": 963.33,
+        "balance": 124181.38
+      },
+      {
+        "date": "2026-09-11",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922913",
+        "debit": 376.2,
+        "credit": null,
+        "balance": 123805.18
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922914",
+        "ref": "922914",
+        "debit": null,
+        "credit": 4280.08,
+        "balance": 128085.26
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922915",
+        "debit": 242.01,
+        "credit": null,
+        "balance": 127843.25
+      },
+      {
+        "date": "2026-09-13",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922916",
+        "debit": 171.57,
+        "credit": null,
+        "balance": 127671.68
+      },
+      {
+        "date": "2026-09-14",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922917",
+        "debit": null,
+        "credit": 611.43,
+        "balance": 128283.11
+      }
+    ]
+  },
+  "original_fields": {
+    "account_holder": "Kavita Sharma",
+    "account_number_masked": "XXXXXXXX5233",
+    "bank": "Demo Sahakari Bank",
+    "period_from": "2026-03-18",
+    "period_to": "2026-09-14",
+    "transactions": [
+      {
+        "date": "2026-03-18",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922769",
+        "debit": null,
+        "credit": 1077.27,
+        "balance": 6077.27
+      },
+      {
+        "date": "2026-03-18",
+        "narration": "ATM CASH WDL",
+        "ref": "922770",
+        "debit": 324.9,
+        "credit": null,
+        "balance": 5752.37
+      },
+      {
+        "date": "2026-03-21",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922771",
+        "ref": "922771",
+        "debit": null,
+        "credit": 5310.7,
+        "balance": 11063.07
+      },
+      {
+        "date": "2026-03-21",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922772",
+        "debit": 138.22,
+        "credit": null,
+        "balance": 10924.85
+      },
+      {
+        "date": "2026-03-24",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922773",
+        "debit": 374.48,
+        "credit": null,
+        "balance": 10550.37
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922774",
+        "ref": "922774",
+        "debit": null,
+        "credit": 3820.81,
+        "balance": 14371.18
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922775",
+        "debit": 350.98,
+        "credit": null,
+        "balance": 14020.2
+      },
+      {
+        "date": "2026-03-29",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922776",
+        "debit": 339.13,
+        "credit": null,
+        "balance": 13681.07
+      },
+      {
+        "date": "2026-03-30",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922777",
+        "debit": 127.69,
+        "credit": null,
+        "balance": 13553.38
+      },
+      {
+        "date": "2026-04-01",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922778",
+        "debit": 354.94,
+        "credit": null,
+        "balance": 13198.44
+      },
+      {
+        "date": "2026-04-02",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922779",
+        "debit": null,
+        "credit": 1240.42,
+        "balance": 14438.86
+      },
+      {
+        "date": "2026-04-02",
+        "narration": "ATM CASH WDL",
+        "ref": "922780",
+        "debit": 266.91,
+        "credit": null,
+        "balance": 14171.95
+      },
+      {
+        "date": "2026-04-03",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922781",
+        "debit": 320.69,
+        "credit": null,
+        "balance": 13851.26
+      },
+      {
+        "date": "2026-04-04",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922782",
+        "ref": "922782",
+        "debit": null,
+        "credit": 5084.63,
+        "balance": 18935.89
+      },
+      {
+        "date": "2026-04-04",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922783",
+        "debit": 167.22,
+        "credit": null,
+        "balance": 18768.67
+      },
+      {
+        "date": "2026-04-06",
+        "narration": "ATM CASH WDL",
+        "ref": "922784",
+        "debit": 197.22,
+        "credit": null,
+        "balance": 18571.45
+      },
+      {
+        "date": "2026-04-07",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922785",
+        "debit": 256.12,
+        "credit": null,
+        "balance": 18315.33
+      },
+      {
+        "date": "2026-04-08",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922786",
+        "debit": 148.44,
+        "credit": null,
+        "balance": 18166.89
+      },
+      {
+        "date": "2026-04-09",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922787",
+        "debit": 149.16,
+        "credit": null,
+        "balance": 18017.73
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922788",
+        "ref": "922788",
+        "debit": null,
+        "credit": 4490.26,
+        "balance": 22507.99
+      },
+      {
+        "date": "2026-04-12",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922789",
+        "debit": 285.02,
+        "credit": null,
+        "balance": 22222.97
+      },
+      {
+        "date": "2026-04-13",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922790",
+        "debit": 88.2,
+        "credit": null,
+        "balance": 22134.77
+      },
+      {
+        "date": "2026-04-17",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922791",
+        "debit": 128.68,
+        "credit": null,
+        "balance": 22006.09
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922792",
+        "ref": "922792",
+        "debit": null,
+        "credit": 4003.79,
+        "balance": 26009.88
+      },
+      {
+        "date": "2026-04-19",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922793",
+        "debit": 214.08,
+        "credit": null,
+        "balance": 25795.8
+      },
+      {
+        "date": "2026-04-20",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922794",
+        "debit": 185.56,
+        "credit": null,
+        "balance": 25610.24
+      },
+      {
+        "date": "2026-04-22",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922795",
+        "debit": 340.27,
+        "credit": null,
+        "balance": 25269.97
+      },
+      {
+        "date": "2026-04-23",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922796",
+        "debit": 57.83,
+        "credit": null,
+        "balance": 25212.14
+      },
+      {
+        "date": "2026-04-24",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922797",
+        "debit": null,
+        "credit": 1391.31,
+        "balance": 26603.45
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922798",
+        "ref": "922798",
+        "debit": null,
+        "credit": 6232.69,
+        "balance": 32836.14
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922799",
+        "debit": 296.83,
+        "credit": null,
+        "balance": 32539.31
+      },
+      {
+        "date": "2026-04-27",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922800",
+        "debit": 394.02,
+        "credit": null,
+        "balance": 32145.29
+      },
+      {
+        "date": "2026-04-28",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922801",
+        "debit": 192.11,
+        "credit": null,
+        "balance": 31953.18
+      },
+      {
+        "date": "2026-04-30",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922802",
+        "debit": 97.44,
+        "credit": null,
+        "balance": 31855.74
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922803",
+        "ref": "922803",
+        "debit": null,
+        "credit": 5993.4,
+        "balance": 37849.14
+      },
+      {
+        "date": "2026-05-04",
+        "narration": "ATM CASH WDL",
+        "ref": "922804",
+        "debit": 224.57,
+        "credit": null,
+        "balance": 37624.57
+      },
+      {
+        "date": "2026-05-05",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922805",
+        "debit": null,
+        "credit": 1736.43,
+        "balance": 39361.0
+      },
+      {
+        "date": "2026-05-06",
+        "narration": "ATM CASH WDL",
+        "ref": "922806",
+        "debit": 97.25,
+        "credit": null,
+        "balance": 39263.75
+      },
+      {
+        "date": "2026-05-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922807",
+        "debit": 256.74,
+        "credit": null,
+        "balance": 39007.01
+      },
+      {
+        "date": "2026-05-08",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922808",
+        "debit": 71.42,
+        "credit": null,
+        "balance": 38935.59
+      },
+      {
+        "date": "2026-05-09",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922809",
+        "ref": "922809",
+        "debit": null,
+        "credit": 3269.63,
+        "balance": 42205.22
+      },
+      {
+        "date": "2026-05-09",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922810",
+        "debit": 160.02,
+        "credit": null,
+        "balance": 42045.2
+      },
+      {
+        "date": "2026-05-10",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922811",
+        "debit": 235.83,
+        "credit": null,
+        "balance": 41809.37
+      },
+      {
+        "date": "2026-05-11",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922812",
+        "debit": null,
+        "credit": 1368.25,
+        "balance": 43177.62
+      },
+      {
+        "date": "2026-05-11",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922813",
+        "debit": 99.56,
+        "credit": null,
+        "balance": 43078.06
+      },
+      {
+        "date": "2026-05-13",
+        "narration": "ATM CASH WDL",
+        "ref": "922814",
+        "debit": 280.77,
+        "credit": null,
+        "balance": 42797.29
+      },
+      {
+        "date": "2026-05-15",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922815",
+        "debit": 192.11,
+        "credit": null,
+        "balance": 42605.18
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922816",
+        "ref": "922816",
+        "debit": null,
+        "credit": 4746.55,
+        "balance": 47351.73
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922817",
+        "debit": null,
+        "credit": 635.68,
+        "balance": 47987.41
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "ATM CASH WDL",
+        "ref": "922818",
+        "debit": 157.02,
+        "credit": null,
+        "balance": 47830.39
+      },
+      {
+        "date": "2026-05-17",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922819",
+        "debit": 224.87,
+        "credit": null,
+        "balance": 47605.52
+      },
+      {
+        "date": "2026-05-18",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922820",
+        "debit": 169.61,
+        "credit": null,
+        "balance": 47435.91
+      },
+      {
+        "date": "2026-05-19",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922821",
+        "debit": 110.48,
+        "credit": null,
+        "balance": 47325.43
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922822",
+        "ref": "922822",
+        "debit": null,
+        "credit": 5776.34,
+        "balance": 53101.77
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922823",
+        "debit": null,
+        "credit": 974.97,
+        "balance": 54076.74
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922824",
+        "debit": 288.06,
+        "credit": null,
+        "balance": 53788.68
+      },
+      {
+        "date": "2026-05-24",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922825",
+        "debit": 138.29,
+        "credit": null,
+        "balance": 53650.39
+      },
+      {
+        "date": "2026-05-25",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922826",
+        "debit": 286.72,
+        "credit": null,
+        "balance": 53363.67
+      },
+      {
+        "date": "2026-05-27",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922827",
+        "debit": 318.06,
+        "credit": null,
+        "balance": 53045.61
+      },
+      {
+        "date": "2026-05-29",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922828",
+        "debit": 295.89,
+        "credit": null,
+        "balance": 52749.72
+      },
+      {
+        "date": "2026-05-30",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922829",
+        "ref": "922829",
+        "debit": null,
+        "credit": 6202.99,
+        "balance": 58952.71
+      },
+      {
+        "date": "2026-06-01",
+        "narration": "ATM CASH WDL",
+        "ref": "922830",
+        "debit": 201.15,
+        "credit": null,
+        "balance": 58751.56
+      },
+      {
+        "date": "2026-06-03",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922831",
+        "debit": 170.8,
+        "credit": null,
+        "balance": 58580.76
+      },
+      {
+        "date": "2026-06-04",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922832",
+        "debit": 85.5,
+        "credit": null,
+        "balance": 58495.26
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922833",
+        "ref": "922833",
+        "debit": null,
+        "credit": 3630.82,
+        "balance": 62126.08
+      },
+      {
+        "date": "2026-06-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922834",
+        "debit": 197.79,
+        "credit": null,
+        "balance": 61928.29
+      },
+      {
+        "date": "2026-06-10",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922835",
+        "debit": null,
+        "credit": 1356.32,
+        "balance": 63284.61
+      },
+      {
+        "date": "2026-06-11",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922836",
+        "debit": 195.57,
+        "credit": null,
+        "balance": 63089.04
+      },
+      {
+        "date": "2026-06-12",
+        "narration": "ATM CASH WDL",
+        "ref": "922837",
+        "debit": 163.98,
+        "credit": null,
+        "balance": 62925.06
+      },
+      {
+        "date": "2026-06-13",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922838",
+        "ref": "922838",
+        "debit": null,
+        "credit": 5142.43,
+        "balance": 68067.49
+      },
+      {
+        "date": "2026-06-14",
+        "narration": "ATM CASH WDL",
+        "ref": "922839",
+        "debit": 136.53,
+        "credit": null,
+        "balance": 67930.96
+      },
+      {
+        "date": "2026-06-15",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922840",
+        "debit": 148.31,
+        "credit": null,
+        "balance": 67782.65
+      },
+      {
+        "date": "2026-06-17",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922841",
+        "debit": 175.36,
+        "credit": null,
+        "balance": 67607.29
+      },
+      {
+        "date": "2026-06-19",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922842",
+        "debit": 98.54,
+        "credit": null,
+        "balance": 67508.75
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922843",
+        "ref": "922843",
+        "debit": null,
+        "credit": 2800.48,
+        "balance": 70309.23
+      },
+      {
+        "date": "2026-06-21",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922844",
+        "debit": null,
+        "credit": 236.42,
+        "balance": 70545.65
+      },
+      {
+        "date": "2026-06-22",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922845",
+        "debit": 316.95,
+        "credit": null,
+        "balance": 70228.7
+      },
+      {
+        "date": "2026-06-26",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922846",
+        "debit": 178.02,
+        "credit": null,
+        "balance": 70050.68
+      },
+      {
+        "date": "2026-06-27",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922847",
+        "ref": "922847",
+        "debit": null,
+        "credit": 3634.25,
+        "balance": 73684.93
+      },
+      {
+        "date": "2026-06-28",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922848",
+        "debit": null,
+        "credit": 846.97,
+        "balance": 74531.9
+      },
+      {
+        "date": "2026-06-29",
+        "narration": "ATM CASH WDL",
+        "ref": "922849",
+        "debit": 213.85,
+        "credit": null,
+        "balance": 74318.05
+      },
+      {
+        "date": "2026-07-02",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922850",
+        "debit": null,
+        "credit": 716.56,
+        "balance": 75034.61
+      },
+      {
+        "date": "2026-07-02",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922851",
+        "debit": 169.45,
+        "credit": null,
+        "balance": 74865.16
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922852",
+        "ref": "922852",
+        "debit": null,
+        "credit": 5917.65,
+        "balance": 80782.81
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "ATM CASH WDL",
+        "ref": "922853",
+        "debit": 310.48,
+        "credit": null,
+        "balance": 80472.33
+      },
+      {
+        "date": "2026-07-06",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922854",
+        "debit": 384.55,
+        "credit": null,
+        "balance": 80087.78
+      },
+      {
+        "date": "2026-07-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922855",
+        "debit": 278.97,
+        "credit": null,
+        "balance": 79808.81
+      },
+      {
+        "date": "2026-07-08",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922856",
+        "debit": 369.02,
+        "credit": null,
+        "balance": 79439.79
+      },
+      {
+        "date": "2026-07-09",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922857",
+        "debit": 138.96,
+        "credit": null,
+        "balance": 79300.83
+      },
+      {
+        "date": "2026-07-10",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922858",
+        "debit": null,
+        "credit": 820.4,
+        "balance": 80121.23
+      },
+      {
+        "date": "2026-07-11",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922859",
+        "ref": "922859",
+        "debit": null,
+        "credit": 5187.43,
+        "balance": 85308.66
+      },
+      {
+        "date": "2026-07-12",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922860",
+        "debit": 208.83,
+        "credit": null,
+        "balance": 85099.83
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922861",
+        "ref": "922861",
+        "debit": null,
+        "credit": 5574.81,
+        "balance": 90674.64
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922862",
+        "debit": null,
+        "credit": 1059.46,
+        "balance": 91734.1
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922863",
+        "debit": 47.31,
+        "credit": null,
+        "balance": 91686.79
+      },
+      {
+        "date": "2026-07-19",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922864",
+        "debit": 176.16,
+        "credit": null,
+        "balance": 91510.63
+      },
+      {
+        "date": "2026-07-20",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922865",
+        "debit": 224.86,
+        "credit": null,
+        "balance": 91285.77
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922866",
+        "debit": null,
+        "credit": 1297.7,
+        "balance": 92583.47
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922867",
+        "debit": 286.52,
+        "credit": null,
+        "balance": 92296.95
+      },
+      {
+        "date": "2026-07-22",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922868",
+        "debit": 202.68,
+        "credit": null,
+        "balance": 92094.27
+      },
+      {
+        "date": "2026-07-23",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922869",
+        "debit": 112.2,
+        "credit": null,
+        "balance": 91982.07
+      },
+      {
+        "date": "2026-07-24",
+        "narration": "ATM CASH WDL",
+        "ref": "922870",
+        "debit": 320.9,
+        "credit": null,
+        "balance": 91661.17
+      },
+      {
+        "date": "2026-07-25",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922871",
+        "ref": "922871",
+        "debit": null,
+        "credit": 4479.86,
+        "balance": 96141.03
+      },
+      {
+        "date": "2026-07-28",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922872",
+        "debit": 278.06,
+        "credit": null,
+        "balance": 95862.97
+      },
+      {
+        "date": "2026-07-30",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922873",
+        "debit": null,
+        "credit": 1076.26,
+        "balance": 96939.23
+      },
+      {
+        "date": "2026-07-30",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922874",
+        "debit": 394.73,
+        "credit": null,
+        "balance": 96544.5
+      },
+      {
+        "date": "2026-07-31",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922875",
+        "debit": 114.59,
+        "credit": null,
+        "balance": 96429.91
+      },
+      {
+        "date": "2026-08-01",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922876",
+        "ref": "922876",
+        "debit": null,
+        "credit": 5667.14,
+        "balance": 102097.05
+      },
+      {
+        "date": "2026-08-02",
+        "narration": "ATM CASH WDL",
+        "ref": "922877",
+        "debit": 171.08,
+        "credit": null,
+        "balance": 101925.97
+      },
+      {
+        "date": "2026-08-03",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922878",
+        "debit": 277.15,
+        "credit": null,
+        "balance": 101648.82
+      },
+      {
+        "date": "2026-08-08",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922879",
+        "ref": "922879",
+        "debit": null,
+        "credit": 5995.3,
+        "balance": 107644.12
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922880",
+        "debit": null,
+        "credit": 325.87,
+        "balance": 107969.99
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922881",
+        "debit": 183.44,
+        "credit": null,
+        "balance": 107786.55
+      },
+      {
+        "date": "2026-08-11",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922882",
+        "debit": 148.97,
+        "credit": null,
+        "balance": 107637.58
+      },
+      {
+        "date": "2026-08-12",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922883",
+        "debit": 243.13,
+        "credit": null,
+        "balance": 107394.45
+      },
+      {
+        "date": "2026-08-13",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922884",
+        "debit": 425.04,
+        "credit": null,
+        "balance": 106969.41
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922885",
+        "ref": "922885",
+        "debit": null,
+        "credit": 4720.85,
+        "balance": 111690.26
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922886",
+        "debit": 114.97,
+        "credit": null,
+        "balance": 111575.29
+      },
+      {
+        "date": "2026-08-18",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922887",
+        "debit": null,
+        "credit": 732.53,
+        "balance": 112307.82
+      },
+      {
+        "date": "2026-08-18",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922888",
+        "debit": 167.46,
+        "credit": null,
+        "balance": 112140.36
+      },
+      {
+        "date": "2026-08-19",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922889",
+        "debit": 337.47,
+        "credit": null,
+        "balance": 111802.89
+      },
+      {
+        "date": "2026-08-20",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922890",
+        "debit": 159.24,
+        "credit": null,
+        "balance": 111643.65
+      },
+      {
+        "date": "2026-08-21",
+        "narration": "ATM CASH WDL",
+        "ref": "922891",
+        "debit": 226.47,
+        "credit": null,
+        "balance": 111417.18
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922892",
+        "ref": "922892",
+        "debit": null,
+        "credit": 4926.54,
+        "balance": 116343.72
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922893",
+        "debit": 194.95,
+        "credit": null,
+        "balance": 116148.77
+      },
+      {
+        "date": "2026-08-23",
+        "narration": "ATM CASH WDL",
+        "ref": "922894",
+        "debit": 282.35,
+        "credit": null,
+        "balance": 115866.42
+      },
+      {
+        "date": "2026-08-24",
+        "narration": "ATM CASH WDL",
+        "ref": "922895",
+        "debit": 86.29,
+        "credit": null,
+        "balance": 115780.13
+      },
+      {
+        "date": "2026-08-26",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922896",
+        "debit": 195.62,
+        "credit": null,
+        "balance": 115584.51
+      },
+      {
+        "date": "2026-08-28",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922897",
+        "debit": 193.91,
+        "credit": null,
+        "balance": 115390.6
+      },
+      {
+        "date": "2026-08-29",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922898",
+        "ref": "922898",
+        "debit": null,
+        "credit": 4456.7,
+        "balance": 119847.3
+      },
+      {
+        "date": "2026-08-30",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922899",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 119817.3
+      },
+      {
+        "date": "2026-08-31",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922900",
+        "debit": 254.92,
+        "credit": null,
+        "balance": 119562.38
+      },
+      {
+        "date": "2026-09-02",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922901",
+        "debit": 287.5,
+        "credit": null,
+        "balance": 119274.88
+      },
+      {
+        "date": "2026-09-03",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922902",
+        "debit": 191.87,
+        "credit": null,
+        "balance": 119083.01
+      },
+      {
+        "date": "2026-09-04",
+        "narration": "GROCERY STORE UPI",
+        "ref": "922903",
+        "debit": 259.21,
+        "credit": null,
+        "balance": 118823.8
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922904",
+        "ref": "922904",
+        "debit": null,
+        "credit": 4678.75,
+        "balance": 123502.55
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922905",
+        "debit": 169.9,
+        "credit": null,
+        "balance": 123332.65
+      },
+      {
+        "date": "2026-09-06",
+        "narration": "ATM CASH WDL",
+        "ref": "922906",
+        "debit": 184.53,
+        "credit": null,
+        "balance": 123148.12
+      },
+      {
+        "date": "2026-09-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "922907",
+        "debit": 105.77,
+        "credit": null,
+        "balance": 123042.35
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922908",
+        "debit": null,
+        "credit": 827.12,
+        "balance": 123869.47
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922909",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 123839.47
+      },
+      {
+        "date": "2026-09-09",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922910",
+        "debit": 292.62,
+        "credit": null,
+        "balance": 123546.85
+      },
+      {
+        "date": "2026-09-10",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "922911",
+        "debit": 328.8,
+        "credit": null,
+        "balance": 123218.05
+      },
+      {
+        "date": "2026-09-11",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922912",
+        "debit": null,
+        "credit": 963.33,
+        "balance": 124181.38
+      },
+      {
+        "date": "2026-09-11",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922913",
+        "debit": 376.2,
+        "credit": null,
+        "balance": 123805.18
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "UPI/FOODDASHPARTNER PAYOUT/922914",
+        "ref": "922914",
+        "debit": null,
+        "credit": 4280.08,
+        "balance": 128085.26
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "922915",
+        "debit": 242.01,
+        "credit": null,
+        "balance": 127843.25
+      },
+      {
+        "date": "2026-09-13",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "922916",
+        "debit": 171.57,
+        "credit": null,
+        "balance": 127671.68
+      },
+      {
+        "date": "2026-09-14",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "922917",
+        "debit": null,
+        "credit": 611.43,
+        "balance": 128283.11
+      }
+    ]
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P09",
+    "full_name": "Kavita Sharma",
+    "phone": "9812345609",
+    "declared_address": "12, 4th Cross, Malleshwaram, Bengaluru - 560003",
+    "stated_vocation": "food delivery partner"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

@@ -1,0 +1,287 @@
+{
+  "doc_type": "GIG_PAYOUT",
+  "doc_id": "P07-gig_payout",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Rohit Verma",
+    "partner_id": "ZIP-P07",
+    "partner_since": "2025-12-08",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 3690.44,
+        "incentives": 281.18,
+        "deductions": 411.95,
+        "net_payout": 3559.67
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 3,
+        "trips_or_orders": 11,
+        "gross_earnings": 2579.66,
+        "incentives": 93.21,
+        "deductions": 157.25,
+        "net_payout": 2515.62
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 2816.17,
+        "incentives": 183.64,
+        "deductions": 162.4,
+        "net_payout": 2837.41
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 5,
+        "trips_or_orders": 23,
+        "gross_earnings": 4594.83,
+        "incentives": 350.75,
+        "deductions": 455.93,
+        "net_payout": 4489.65
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 5343.35,
+        "incentives": 254.38,
+        "deductions": 589.35,
+        "net_payout": 5008.38
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 4039.82,
+        "incentives": 86.26,
+        "deductions": 416.61,
+        "net_payout": 3709.47
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 4,
+        "trips_or_orders": 18,
+        "gross_earnings": 3547.16,
+        "incentives": 35.05,
+        "deductions": 418.13,
+        "net_payout": 3164.08
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 7,
+        "trips_or_orders": 32,
+        "gross_earnings": 5466.77,
+        "incentives": 117.32,
+        "deductions": 639.31,
+        "net_payout": 4944.78
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 3,
+        "trips_or_orders": 14,
+        "gross_earnings": 2590.87,
+        "incentives": 46.47,
+        "deductions": 241.0,
+        "net_payout": 2396.34
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 4,
+        "trips_or_orders": 20,
+        "gross_earnings": 3512.69,
+        "incentives": 249.44,
+        "deductions": 293.95,
+        "net_payout": 3468.18
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 3372.23,
+        "incentives": 11.04,
+        "deductions": 285.12,
+        "net_payout": 3098.15
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 4573.02,
+        "incentives": 296.72,
+        "deductions": 340.28,
+        "net_payout": 4529.46
+      }
+    ],
+    "total_net_payout_period": 43721.19,
+    "payout_account_last4": "0514"
+  },
+  "original_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Rohit Verma",
+    "partner_id": "ZIP-P07",
+    "partner_since": "2025-12-08",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 3690.44,
+        "incentives": 281.18,
+        "deductions": 411.95,
+        "net_payout": 3559.67
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 3,
+        "trips_or_orders": 11,
+        "gross_earnings": 2579.66,
+        "incentives": 93.21,
+        "deductions": 157.25,
+        "net_payout": 2515.62
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 2816.17,
+        "incentives": 183.64,
+        "deductions": 162.4,
+        "net_payout": 2837.41
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 5,
+        "trips_or_orders": 23,
+        "gross_earnings": 4594.83,
+        "incentives": 350.75,
+        "deductions": 455.93,
+        "net_payout": 4489.65
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 5343.35,
+        "incentives": 254.38,
+        "deductions": 589.35,
+        "net_payout": 5008.38
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 4039.82,
+        "incentives": 86.26,
+        "deductions": 416.61,
+        "net_payout": 3709.47
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 4,
+        "trips_or_orders": 18,
+        "gross_earnings": 3547.16,
+        "incentives": 35.05,
+        "deductions": 418.13,
+        "net_payout": 3164.08
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 7,
+        "trips_or_orders": 32,
+        "gross_earnings": 5466.77,
+        "incentives": 117.32,
+        "deductions": 639.31,
+        "net_payout": 4944.78
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 3,
+        "trips_or_orders": 14,
+        "gross_earnings": 2590.87,
+        "incentives": 46.47,
+        "deductions": 241.0,
+        "net_payout": 2396.34
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 4,
+        "trips_or_orders": 20,
+        "gross_earnings": 3512.69,
+        "incentives": 249.44,
+        "deductions": 293.95,
+        "net_payout": 3468.18
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 3372.23,
+        "incentives": 11.04,
+        "deductions": 285.12,
+        "net_payout": 3098.15
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 4573.02,
+        "incentives": 296.72,
+        "deductions": 340.28,
+        "net_payout": 4529.46
+      }
+    ],
+    "total_net_payout_period": 43721.19,
+    "payout_account_last4": "0514"
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P07",
+    "full_name": "Rohit Verma",
+    "phone": "9812345607",
+    "declared_address": "Andheri East, Mumbai - 400069",
+    "stated_vocation": "cab driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

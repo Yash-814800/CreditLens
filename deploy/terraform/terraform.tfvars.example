@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars (gitignored) to override defaults. Every variable
+# already has a sensible default in variables.tf -- only budget_alert_email
+# genuinely needs to be set per-deployer.
+budget_alert_email = "you@example.com"

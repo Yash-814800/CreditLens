@@ -1,0 +1,17 @@
+# Root .dockerignore: applies to any image built with the repo root as
+# build context (currently just backend/Dockerfile, via docker-compose.yml
+# and deploy/scripts/push_images.sh's `-f backend/Dockerfile .`). Keeps the
+# build context small -- data/ and frontend/node_modules alone are 300MB+
+# and irrelevant to the backend image.
+.git
+data
+frontend/node_modules
+frontend/dist
+backend/.venv
+backend/__pycache__
+backend/**/__pycache__
+backend/.pytest_cache
+backend/.ruff_cache
+datagen
+deploy/terraform/.terraform
+*.pyc

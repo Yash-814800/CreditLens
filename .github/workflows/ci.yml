@@ -1,0 +1,168 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+env:
+  # CI-only, throwaway credentials -- never real secrets, never used outside this
+  # ephemeral service container. Real secrets always come from .env locally or
+  # SSM Parameter Store in AWS (CLAUDE.md rule 2).
+  APP_ENV: development
+  MOCK_LLM: "true"
+  POSTGRES_DB: creditlens
+  POSTGRES_USER: creditlens_admin
+  POSTGRES_PASSWORD: ci-only-admin-password
+  APP_DB_USER: creditlens_app
+  APP_DB_PASSWORD: ci-only-app-password
+  DATABASE_URL: postgresql+asyncpg://creditlens_app:ci-only-app-password@localhost:5432/creditlens
+  JWT_SECRET: ci-only-jwt-secret-at-least-32-characters-long
+  HMAC_PEPPER: ci-only-hmac-pepper-at-least-32-characters
+  JWT_EXPIRE_MINUTES: "30"
+  GEMINI_API_KEY: ""
+  GEMINI_VISION_MODEL: ""
+  GEMINI_SUMMARY_MODEL: ""
+  GEMINI_MAX_CALLS_PER_RUN: "20"
+  STORAGE_BACKEND: local
+  S3_BUCKET: ""
+  AWS_REGION: ap-south-1
+  CORS_ORIGINS: "http://localhost:5173,http://localhost:8080"
+  MAX_UPLOAD_MB: "15"
+  RATE_LIMIT_LOGIN: "5/minute"
+  RATE_LIMIT_UPLOAD: "10/minute"
+  ENABLE_DEMO_ENDPOINTS: "true"
+  DEMO_UNDERWRITER_PASSWORD: ci-only-underwriter-pw
+  DEMO_AUDITOR_PASSWORD: ci-only-auditor-pw
+  DEMO_ADMIN_PASSWORD: ci-only-admin-user-pw
+  SITE_ADDRESS: localhost
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      db:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_DB: creditlens
+          POSTGRES_USER: creditlens_admin
+          POSTGRES_PASSWORD: ci-only-admin-password
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U creditlens_admin -d creditlens"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-dejavu-core fonts-liberation
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.5.11"
+
+      - name: Sync backend dependencies
+        working-directory: backend
+        run: uv sync --frozen
+
+      - name: Run migrations (creates schema, least-privilege role, audit trigger)
+        working-directory: backend
+        run: uv run alembic upgrade head
+
+      - name: Seed historical precedents
+        working-directory: backend
+        run: uv run python ../scripts/seed_history.py
+
+
+      - name: Lint (ruff)
+        working-directory: backend
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+
+      - name: Test (pytest, unit + integration, with coverage)
+        working-directory: backend
+        run: uv run pytest -q --cov=app --cov-report=term-missing
+
+      - name: Security scan (bandit)
+        working-directory: backend
+        run: uv run bandit -r app -q
+
+      - name: Dependency vulnerability scan (pip-audit)
+        working-directory: backend
+        run: uv run pip-audit || true # informational -- see docs/threat_model.md for accepted-risk policy
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Lint + typecheck
+        working-directory: frontend
+        run: |
+          npm run lint
+          npm run typecheck
+
+      - name: Test (vitest)
+        working-directory: frontend
+        run: npm test -- --run
+
+      - name: Build
+        working-directory: frontend
+        run: npm run build
+
+      - name: Dependency vulnerability scan (npm audit)
+        working-directory: frontend
+        run: npm audit --audit-level=high
+
+  datagen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-dejavu-core fonts-liberation
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.5.11"
+
+      - name: Sync datagen dependencies
+        working-directory: datagen
+        run: uv sync
+
+      - name: Lint (ruff)
+        working-directory: datagen
+        run: uv run ruff check .
+
+      - name: Test (pytest)
+        working-directory: datagen
+        run: uv run pytest -q
+
+  secrets-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history -- the whole point of this scan
+
+      - name: gitleaks (full git history)
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

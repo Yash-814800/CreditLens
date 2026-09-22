@@ -1,0 +1,104 @@
+# Policy engine configuration (backend/app/services/scoring/decision.py).
+#
+# Rule order (hard rules first, then score tiers, then the two-signal
+# precedent check, then limit sizing) is fixed in decision.py per CLAUDE.md
+# Phase 5's spec; only the numeric thresholds below are meant to be tuned
+# without touching Python.
+version: v1
+
+score_tiers:
+  approve_min: 70
+  refer_min: 45
+  # score < refer_min -> DECLINE (subject to the hard rules below, which can
+  # never turn a DECLINE into something worse -- DECLINE is the floor).
+
+completeness_gate:
+  # data_completeness = (# of the 7 scorecard factors that are non-null) / 7.
+  # Below this, the application is incomplete and is capped at REFER
+  # (RC09) regardless of score -- CLAUDE.md: "never DECLINE for thin data
+  # alone".
+  min_data_completeness: 0.55
+  # Lowest per-field extraction confidence among CRITICAL fields (the ones
+  # scoring.features.py actually reads) across all submitted documents.
+  # Below this, confidence is too low to trust and the application is
+  # likewise capped at REFER.
+  min_extraction_confidence: 0.55
+
+fraud_gate:
+  # Any HIGH-severity fraud finding -> hard DECLINE (RC07), worded
+  # non-accusatorially (see decision.py's REASON_TEXT for RC07).
+  high_severity_outcome: DECLINE
+  # MEDIUM severity caps the outcome at REFER even if the score alone would
+  # APPROVE.
+  medium_severity_cap: REFER
+
+identity_gate:
+  # Cross-field name-similarity / payout-account-last4 check (Phase 4's
+  # cross_field.py) reports PASS/WARN/FAIL. FAIL caps at REFER (RC08); WARN
+  # is folded into the fraud findings/score instead of a separate hard rule.
+  fail_cap: REFER
+
+injection_gate:
+  # Any document with suspected_instruction_text=true (or a matching
+  # prompt-injection-pattern guardrail finding) caps the outcome at REFER --
+  # a single ambiguous flag is treated as "needs a human look", not proof of
+  # fraud, so it caps rather than declines.
+  suspected_cap: REFER
+
+two_signal:
+  # Precedent neighbourhood size k (tuned on VALIDATION split)
+  k: 35
+  # An APPROVE is downgraded to REFER if the peer cohort's default-rate
+  # 95% CI *lower* bound already exceeds what policy considers acceptable
+  # for an approval (i.e. even the optimistic end of the peer estimate is
+  # too risky to just trust the scorecard).
+  # Tuned on the VALIDATION split: blind-spot peers default at ~28-36% with
+  # Wilson CI lower bound exceeding 0.15, whereas normal borrowers remain <= 0.063.
+  max_acceptable_default_rate_for_approve: 0.15
+  # A DECLINE is upgraded to REFER if the peer cohort's default-rate 95% CI
+  # *upper* bound is already below what policy considers clearly decline-
+  # worthy (i.e. even the pessimistic end of the peer estimate looks fine,
+  # so a hard scorecard DECLINE deserves a second look instead of an
+  # automatic no).
+  # Tuned on the VALIDATION split: resilient peers default at ~3-5% with
+  # Wilson CI upper bound <= 0.19 (for up to 2 defaults in k=35), whereas
+  # typical declining borrowers have CI upper bounds > 0.30.
+  min_acceptable_default_rate_for_decline: 0.19
+  # Peer sample below this is too small to move a decision either way.
+  min_sample_size: 15
+
+limit_sizing:
+  # eligible_line_inr = min(requested_line_inr, multiplier * verified_monthly_income_inr, absolute_cap_inr)
+  # then, if the final outcome is REFER, that result is further scaled by
+  # starter_tier_fraction ("a REFER gets a starter-tier limit, a fraction of
+  # the above" -- CLAUDE.md Phase 5 spec).
+  multiplier_by_outcome:
+    APPROVE: 6.0
+    REFER: 3.0
+    DECLINE: 0.0
+  starter_tier_fraction_for_refer: 0.5
+  absolute_cap_inr: 100000
+  # verified_monthly_income_inr is None -> a document is missing/unreliable,
+  # so no multiplier-based limit can be computed at all; eligible line is
+  # instead a small fixed floor (a REFER can still be offered a nominal
+  # starter amount pending manual verification), never the raw requested
+  # amount.
+  no_income_signal_floor_inr: 2000
+
+principal_reasons_max: 4
+
+# Underwriter-facing plain-language text for every reason code, keyed by the
+# exact codes CLAUDE.md defines. Kept here (not hardcoded in decision.py) so
+# wording can be revised without a code change, per CLAUDE.md rule 4/10's
+# spirit that policy artifacts are versioned config.
+reason_code_text:
+  RC01: "Your utility bill history is shorter than what is typically required to confidently assess payment reliability."
+  RC02: "Your utility bill payment history shows late payments in recent months."
+  RC03: "Your weekly income shows significant variability, which makes it harder to predict your ability to repay consistently."
+  RC04: "Your average bank balance is lower than what is typically required for this credit line."
+  RC05: "Your recent work activity on the gig platform is lower than what is typically required for this credit line."
+  RC06: "The income shown in your bank statement does not fully match the income declared in your gig-platform payout report."
+  RC07: "We were unable to fully verify the authenticity of one or more submitted documents."
+  RC08: "Some identifying details across your submitted documents and application do not match."
+  RC09: "Your application is missing one or more required documents, or a document could not be read with enough confidence."
+  RC10: "The credit line you requested exceeds what your verified income currently supports."

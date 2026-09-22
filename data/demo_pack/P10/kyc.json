@@ -1,0 +1,13 @@
+{
+  "persona_id": "P10",
+  "full_name": "Vikram Joshi",
+  "phone": "9812345610",
+  "pan": "JJJPV0123J",
+  "aadhaar": "234567890110",
+  "declared_address": "42, Koramangala 4th Block, Bengaluru - 560034",
+  "stated_vocation": "cab driver",
+  "requested_line_inr": 25000,
+  "consent_given": true,
+  "consent_text_version": "v1",
+  "consent_at": "2026-09-01T10:00:00+05:30"
+}

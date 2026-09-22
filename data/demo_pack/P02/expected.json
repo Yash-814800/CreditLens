@@ -1,0 +1,11 @@
+{
+  "persona_id": "P02",
+  "docs_present": [
+    "GIG_PAYOUT",
+    "UTILITY_BILL",
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "REFER",
+  "notes": "Moderate volatility, only 7-month utility tenure -> tiered-limit REFER, not APPROVE/DECLINE.",
+  "requested_line_inr": 20000
+}

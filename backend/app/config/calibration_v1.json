@@ -1,0 +1,81 @@
+{
+  "version": "v1",
+  "generated_at": "2026-09-22T00:23:09.874573+00:00",
+  "source": "data/synth/history.parquet",
+  "split": "val",
+  "n_total": 392,
+  "scorecard_version": "v1",
+  "note": "SYNTHETIC data. Default rates below are calibration bands for this demo's synthetic history dataset only -- not a real-world predictive-accuracy claim (CLAUDE.md rule 4).",
+  "bands": [
+    {
+      "band": "0-10",
+      "score_min": 0,
+      "score_max": 10,
+      "n": 78,
+      "default_rate": 0.2436
+    },
+    {
+      "band": "10-20",
+      "score_min": 10,
+      "score_max": 20,
+      "n": 33,
+      "default_rate": 0.1515
+    },
+    {
+      "band": "20-30",
+      "score_min": 20,
+      "score_max": 30,
+      "n": 28,
+      "default_rate": 0.1429
+    },
+    {
+      "band": "30-40",
+      "score_min": 30,
+      "score_max": 40,
+      "n": 37,
+      "default_rate": 0.0811
+    },
+    {
+      "band": "40-50",
+      "score_min": 40,
+      "score_max": 50,
+      "n": 31,
+      "default_rate": 0.0968
+    },
+    {
+      "band": "50-60",
+      "score_min": 50,
+      "score_max": 60,
+      "n": 27,
+      "default_rate": 0.1111
+    },
+    {
+      "band": "60-70",
+      "score_min": 60,
+      "score_max": 70,
+      "n": 32,
+      "default_rate": 0.0938
+    },
+    {
+      "band": "70-80",
+      "score_min": 70,
+      "score_max": 80,
+      "n": 56,
+      "default_rate": 0.0893
+    },
+    {
+      "band": "80-90",
+      "score_min": 80,
+      "score_max": 90,
+      "n": 43,
+      "default_rate": 0.0698
+    },
+    {
+      "band": "90-100",
+      "score_min": 90,
+      "score_max": 100,
+      "n": 27,
+      "default_rate": 0.1481
+    }
+  ]
+}

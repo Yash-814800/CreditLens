@@ -1,0 +1,1689 @@
+{
+  "doc_type": "BANK_STATEMENT",
+  "doc_id": "P10-bank_statement",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "account_holder": "Vikram Joshi",
+    "account_number_masked": "XXXXXXXX5370",
+    "bank": "Demo Sahakari Bank",
+    "period_from": "2026-03-18",
+    "period_to": "2026-09-14",
+    "transactions": [
+      {
+        "date": "2026-03-21",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353728",
+        "ref": "353728",
+        "debit": null,
+        "credit": 8169.61,
+        "balance": 8369.61
+      },
+      {
+        "date": "2026-03-21",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353729",
+        "debit": 3676.32,
+        "credit": null,
+        "balance": 4693.29
+      },
+      {
+        "date": "2026-03-23",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353730",
+        "debit": 2815.97,
+        "credit": null,
+        "balance": 1877.32
+      },
+      {
+        "date": "2026-03-24",
+        "narration": "GROCERY / LIVING",
+        "ref": "353731",
+        "debit": 1677.32,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353732",
+        "ref": "353732",
+        "debit": null,
+        "credit": 5411.22,
+        "balance": 5611.22
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353733",
+        "debit": 2435.05,
+        "credit": null,
+        "balance": 3176.17
+      },
+      {
+        "date": "2026-03-30",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353734",
+        "debit": 1905.7,
+        "credit": null,
+        "balance": 1270.47
+      },
+      {
+        "date": "2026-03-31",
+        "narration": "GROCERY / LIVING",
+        "ref": "353735",
+        "debit": 1070.47,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-04-04",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353736",
+        "ref": "353736",
+        "debit": null,
+        "credit": 7954.78,
+        "balance": 8154.78
+      },
+      {
+        "date": "2026-04-04",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353737",
+        "debit": 3579.65,
+        "credit": null,
+        "balance": 4575.13
+      },
+      {
+        "date": "2026-04-06",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353738",
+        "debit": 2745.08,
+        "credit": null,
+        "balance": 1830.05
+      },
+      {
+        "date": "2026-04-07",
+        "narration": "GROCERY / LIVING",
+        "ref": "353739",
+        "debit": 1630.05,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353740",
+        "ref": "353740",
+        "debit": null,
+        "credit": 5300.65,
+        "balance": 5500.65
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353741",
+        "debit": 2385.29,
+        "credit": null,
+        "balance": 3115.36
+      },
+      {
+        "date": "2026-04-13",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353742",
+        "debit": 1869.22,
+        "credit": null,
+        "balance": 1246.14
+      },
+      {
+        "date": "2026-04-14",
+        "narration": "GROCERY / LIVING",
+        "ref": "353743",
+        "debit": 1046.14,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353744",
+        "ref": "353744",
+        "debit": null,
+        "credit": 7799.17,
+        "balance": 7999.17
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353745",
+        "debit": 3509.63,
+        "credit": null,
+        "balance": 4489.54
+      },
+      {
+        "date": "2026-04-20",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353746",
+        "debit": 2693.72,
+        "credit": null,
+        "balance": 1795.82
+      },
+      {
+        "date": "2026-04-21",
+        "narration": "GROCERY / LIVING",
+        "ref": "353747",
+        "debit": 1595.82,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353748",
+        "ref": "353748",
+        "debit": null,
+        "credit": 4817.7,
+        "balance": 5017.7
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353749",
+        "debit": 2167.97,
+        "credit": null,
+        "balance": 2849.73
+      },
+      {
+        "date": "2026-04-27",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353750",
+        "debit": 1709.84,
+        "credit": null,
+        "balance": 1139.89
+      },
+      {
+        "date": "2026-04-28",
+        "narration": "GROCERY / LIVING",
+        "ref": "353751",
+        "debit": 939.89,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353752",
+        "ref": "353752",
+        "debit": null,
+        "credit": 8202.43,
+        "balance": 8402.43
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353753",
+        "debit": 3691.09,
+        "credit": null,
+        "balance": 4711.34
+      },
+      {
+        "date": "2026-05-04",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353754",
+        "debit": 2826.8,
+        "credit": null,
+        "balance": 1884.54
+      },
+      {
+        "date": "2026-05-05",
+        "narration": "GROCERY / LIVING",
+        "ref": "353755",
+        "debit": 1684.54,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-09",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353756",
+        "ref": "353756",
+        "debit": null,
+        "credit": 5097.93,
+        "balance": 5297.93
+      },
+      {
+        "date": "2026-05-09",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353757",
+        "debit": 2294.07,
+        "credit": null,
+        "balance": 3003.86
+      },
+      {
+        "date": "2026-05-11",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353758",
+        "debit": 1802.32,
+        "credit": null,
+        "balance": 1201.54
+      },
+      {
+        "date": "2026-05-12",
+        "narration": "GROCERY / LIVING",
+        "ref": "353759",
+        "debit": 1001.54,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353760",
+        "ref": "353760",
+        "debit": null,
+        "credit": 8524.96,
+        "balance": 8724.96
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353761",
+        "debit": 3836.23,
+        "credit": null,
+        "balance": 4888.73
+      },
+      {
+        "date": "2026-05-18",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353762",
+        "debit": 2933.24,
+        "credit": null,
+        "balance": 1955.49
+      },
+      {
+        "date": "2026-05-19",
+        "narration": "GROCERY / LIVING",
+        "ref": "353763",
+        "debit": 1755.49,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353764",
+        "ref": "353764",
+        "debit": null,
+        "credit": 5172.88,
+        "balance": 5372.88
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353765",
+        "debit": 2327.8,
+        "credit": null,
+        "balance": 3045.08
+      },
+      {
+        "date": "2026-05-25",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353766",
+        "debit": 1827.05,
+        "credit": null,
+        "balance": 1218.03
+      },
+      {
+        "date": "2026-05-26",
+        "narration": "GROCERY / LIVING",
+        "ref": "353767",
+        "debit": 1018.03,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-30",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353768",
+        "ref": "353768",
+        "debit": null,
+        "credit": 8511.73,
+        "balance": 8711.73
+      },
+      {
+        "date": "2026-05-30",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353769",
+        "debit": 3830.28,
+        "credit": null,
+        "balance": 4881.45
+      },
+      {
+        "date": "2026-06-01",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353770",
+        "debit": 2928.87,
+        "credit": null,
+        "balance": 1952.58
+      },
+      {
+        "date": "2026-06-02",
+        "narration": "GROCERY / LIVING",
+        "ref": "353771",
+        "debit": 1752.58,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353772",
+        "ref": "353772",
+        "debit": null,
+        "credit": 4954.92,
+        "balance": 5154.92
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353773",
+        "debit": 2229.71,
+        "credit": null,
+        "balance": 2925.21
+      },
+      {
+        "date": "2026-06-08",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353774",
+        "debit": 1755.13,
+        "credit": null,
+        "balance": 1170.08
+      },
+      {
+        "date": "2026-06-09",
+        "narration": "GROCERY / LIVING",
+        "ref": "353775",
+        "debit": 970.08,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-06-13",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353776",
+        "ref": "353776",
+        "debit": null,
+        "credit": 7664.25,
+        "balance": 7864.25
+      },
+      {
+        "date": "2026-06-13",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353777",
+        "debit": 3448.91,
+        "credit": null,
+        "balance": 4415.34
+      },
+      {
+        "date": "2026-06-15",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353778",
+        "debit": 2649.2,
+        "credit": null,
+        "balance": 1766.14
+      },
+      {
+        "date": "2026-06-16",
+        "narration": "GROCERY / LIVING",
+        "ref": "353779",
+        "debit": 1566.14,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353780",
+        "ref": "353780",
+        "debit": null,
+        "credit": 4946.57,
+        "balance": 5146.57
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353781",
+        "debit": 2225.96,
+        "credit": null,
+        "balance": 2920.61
+      },
+      {
+        "date": "2026-06-22",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353782",
+        "debit": 1752.37,
+        "credit": null,
+        "balance": 1168.24
+      },
+      {
+        "date": "2026-06-23",
+        "narration": "GROCERY / LIVING",
+        "ref": "353783",
+        "debit": 968.24,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-06-27",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353784",
+        "ref": "353784",
+        "debit": null,
+        "credit": 8100.67,
+        "balance": 8300.67
+      },
+      {
+        "date": "2026-06-27",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353785",
+        "debit": 3645.3,
+        "credit": null,
+        "balance": 4655.37
+      },
+      {
+        "date": "2026-06-29",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353786",
+        "debit": 2793.22,
+        "credit": null,
+        "balance": 1862.15
+      },
+      {
+        "date": "2026-06-30",
+        "narration": "GROCERY / LIVING",
+        "ref": "353787",
+        "debit": 1662.15,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353788",
+        "ref": "353788",
+        "debit": null,
+        "credit": 4881.37,
+        "balance": 5081.37
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353789",
+        "debit": 2196.62,
+        "credit": null,
+        "balance": 2884.75
+      },
+      {
+        "date": "2026-07-06",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353790",
+        "debit": 1730.85,
+        "credit": null,
+        "balance": 1153.9
+      },
+      {
+        "date": "2026-07-07",
+        "narration": "GROCERY / LIVING",
+        "ref": "353791",
+        "debit": 953.9,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-07-11",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353792",
+        "ref": "353792",
+        "debit": null,
+        "credit": 7742.77,
+        "balance": 7942.77
+      },
+      {
+        "date": "2026-07-11",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353793",
+        "debit": 3484.25,
+        "credit": null,
+        "balance": 4458.52
+      },
+      {
+        "date": "2026-07-13",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353794",
+        "debit": 2675.11,
+        "credit": null,
+        "balance": 1783.41
+      },
+      {
+        "date": "2026-07-14",
+        "narration": "GROCERY / LIVING",
+        "ref": "353795",
+        "debit": 1583.41,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353796",
+        "ref": "353796",
+        "debit": null,
+        "credit": 4967.93,
+        "balance": 5167.93
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353797",
+        "debit": 2235.57,
+        "credit": null,
+        "balance": 2932.36
+      },
+      {
+        "date": "2026-07-20",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353798",
+        "debit": 1759.42,
+        "credit": null,
+        "balance": 1172.94
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "GROCERY / LIVING",
+        "ref": "353799",
+        "debit": 972.94,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-07-25",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353800",
+        "ref": "353800",
+        "debit": null,
+        "credit": 8107.42,
+        "balance": 8307.42
+      },
+      {
+        "date": "2026-07-25",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353801",
+        "debit": 3648.34,
+        "credit": null,
+        "balance": 4659.08
+      },
+      {
+        "date": "2026-07-27",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353802",
+        "debit": 2795.45,
+        "credit": null,
+        "balance": 1863.63
+      },
+      {
+        "date": "2026-07-28",
+        "narration": "GROCERY / LIVING",
+        "ref": "353803",
+        "debit": 1663.63,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-01",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353804",
+        "ref": "353804",
+        "debit": null,
+        "credit": 4791.19,
+        "balance": 4991.19
+      },
+      {
+        "date": "2026-08-01",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353805",
+        "debit": 2156.04,
+        "credit": null,
+        "balance": 2835.15
+      },
+      {
+        "date": "2026-08-03",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353806",
+        "debit": 1701.09,
+        "credit": null,
+        "balance": 1134.06
+      },
+      {
+        "date": "2026-08-04",
+        "narration": "GROCERY / LIVING",
+        "ref": "353807",
+        "debit": 934.06,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-08",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353808",
+        "ref": "353808",
+        "debit": null,
+        "credit": 8093.84,
+        "balance": 8293.84
+      },
+      {
+        "date": "2026-08-08",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353809",
+        "debit": 3642.23,
+        "credit": null,
+        "balance": 4651.61
+      },
+      {
+        "date": "2026-08-10",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353810",
+        "debit": 2790.97,
+        "credit": null,
+        "balance": 1860.64
+      },
+      {
+        "date": "2026-08-11",
+        "narration": "GROCERY / LIVING",
+        "ref": "353811",
+        "debit": 1660.64,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353812",
+        "ref": "353812",
+        "debit": null,
+        "credit": 4557.81,
+        "balance": 4757.81
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353813",
+        "debit": 2051.01,
+        "credit": null,
+        "balance": 2706.8
+      },
+      {
+        "date": "2026-08-17",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353814",
+        "debit": 1624.08,
+        "credit": null,
+        "balance": 1082.72
+      },
+      {
+        "date": "2026-08-18",
+        "narration": "GROCERY / LIVING",
+        "ref": "353815",
+        "debit": 882.72,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353816",
+        "ref": "353816",
+        "debit": null,
+        "credit": 8311.08,
+        "balance": 8511.08
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353817",
+        "debit": 3739.99,
+        "credit": null,
+        "balance": 4771.09
+      },
+      {
+        "date": "2026-08-24",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353818",
+        "debit": 2862.65,
+        "credit": null,
+        "balance": 1908.44
+      },
+      {
+        "date": "2026-08-25",
+        "narration": "GROCERY / LIVING",
+        "ref": "353819",
+        "debit": 1708.44,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-29",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353820",
+        "ref": "353820",
+        "debit": null,
+        "credit": 5041.77,
+        "balance": 5241.77
+      },
+      {
+        "date": "2026-08-29",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353821",
+        "debit": 2268.8,
+        "credit": null,
+        "balance": 2972.97
+      },
+      {
+        "date": "2026-08-31",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353822",
+        "debit": 1783.78,
+        "credit": null,
+        "balance": 1189.19
+      },
+      {
+        "date": "2026-09-01",
+        "narration": "GROCERY / LIVING",
+        "ref": "353823",
+        "debit": 989.19,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353824",
+        "ref": "353824",
+        "debit": null,
+        "credit": 7623.41,
+        "balance": 7823.41
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353825",
+        "debit": 3430.53,
+        "credit": null,
+        "balance": 4392.88
+      },
+      {
+        "date": "2026-09-07",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353826",
+        "debit": 2635.73,
+        "credit": null,
+        "balance": 1757.15
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "GROCERY / LIVING",
+        "ref": "353827",
+        "debit": 1557.15,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353828",
+        "ref": "353828",
+        "debit": null,
+        "credit": 5220.43,
+        "balance": 5420.43
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353829",
+        "debit": 2349.19,
+        "credit": null,
+        "balance": 3071.24
+      },
+      {
+        "date": "2026-09-14",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353830",
+        "debit": 1842.74,
+        "credit": null,
+        "balance": 1228.5
+      }
+    ]
+  },
+  "original_fields": {
+    "account_holder": "Vikram Joshi",
+    "account_number_masked": "XXXXXXXX5370",
+    "bank": "Demo Sahakari Bank",
+    "period_from": "2026-03-18",
+    "period_to": "2026-09-14",
+    "transactions": [
+      {
+        "date": "2026-03-21",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353728",
+        "ref": "353728",
+        "debit": null,
+        "credit": 8169.61,
+        "balance": 8369.61
+      },
+      {
+        "date": "2026-03-21",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353729",
+        "debit": 3676.32,
+        "credit": null,
+        "balance": 4693.29
+      },
+      {
+        "date": "2026-03-23",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353730",
+        "debit": 2815.97,
+        "credit": null,
+        "balance": 1877.32
+      },
+      {
+        "date": "2026-03-24",
+        "narration": "GROCERY / LIVING",
+        "ref": "353731",
+        "debit": 1677.32,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353732",
+        "ref": "353732",
+        "debit": null,
+        "credit": 5411.22,
+        "balance": 5611.22
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353733",
+        "debit": 2435.05,
+        "credit": null,
+        "balance": 3176.17
+      },
+      {
+        "date": "2026-03-30",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353734",
+        "debit": 1905.7,
+        "credit": null,
+        "balance": 1270.47
+      },
+      {
+        "date": "2026-03-31",
+        "narration": "GROCERY / LIVING",
+        "ref": "353735",
+        "debit": 1070.47,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-04-04",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353736",
+        "ref": "353736",
+        "debit": null,
+        "credit": 7954.78,
+        "balance": 8154.78
+      },
+      {
+        "date": "2026-04-04",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353737",
+        "debit": 3579.65,
+        "credit": null,
+        "balance": 4575.13
+      },
+      {
+        "date": "2026-04-06",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353738",
+        "debit": 2745.08,
+        "credit": null,
+        "balance": 1830.05
+      },
+      {
+        "date": "2026-04-07",
+        "narration": "GROCERY / LIVING",
+        "ref": "353739",
+        "debit": 1630.05,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353740",
+        "ref": "353740",
+        "debit": null,
+        "credit": 5300.65,
+        "balance": 5500.65
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353741",
+        "debit": 2385.29,
+        "credit": null,
+        "balance": 3115.36
+      },
+      {
+        "date": "2026-04-13",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353742",
+        "debit": 1869.22,
+        "credit": null,
+        "balance": 1246.14
+      },
+      {
+        "date": "2026-04-14",
+        "narration": "GROCERY / LIVING",
+        "ref": "353743",
+        "debit": 1046.14,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353744",
+        "ref": "353744",
+        "debit": null,
+        "credit": 7799.17,
+        "balance": 7999.17
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353745",
+        "debit": 3509.63,
+        "credit": null,
+        "balance": 4489.54
+      },
+      {
+        "date": "2026-04-20",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353746",
+        "debit": 2693.72,
+        "credit": null,
+        "balance": 1795.82
+      },
+      {
+        "date": "2026-04-21",
+        "narration": "GROCERY / LIVING",
+        "ref": "353747",
+        "debit": 1595.82,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353748",
+        "ref": "353748",
+        "debit": null,
+        "credit": 4817.7,
+        "balance": 5017.7
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353749",
+        "debit": 2167.97,
+        "credit": null,
+        "balance": 2849.73
+      },
+      {
+        "date": "2026-04-27",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353750",
+        "debit": 1709.84,
+        "credit": null,
+        "balance": 1139.89
+      },
+      {
+        "date": "2026-04-28",
+        "narration": "GROCERY / LIVING",
+        "ref": "353751",
+        "debit": 939.89,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353752",
+        "ref": "353752",
+        "debit": null,
+        "credit": 8202.43,
+        "balance": 8402.43
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353753",
+        "debit": 3691.09,
+        "credit": null,
+        "balance": 4711.34
+      },
+      {
+        "date": "2026-05-04",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353754",
+        "debit": 2826.8,
+        "credit": null,
+        "balance": 1884.54
+      },
+      {
+        "date": "2026-05-05",
+        "narration": "GROCERY / LIVING",
+        "ref": "353755",
+        "debit": 1684.54,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-09",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353756",
+        "ref": "353756",
+        "debit": null,
+        "credit": 5097.93,
+        "balance": 5297.93
+      },
+      {
+        "date": "2026-05-09",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353757",
+        "debit": 2294.07,
+        "credit": null,
+        "balance": 3003.86
+      },
+      {
+        "date": "2026-05-11",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353758",
+        "debit": 1802.32,
+        "credit": null,
+        "balance": 1201.54
+      },
+      {
+        "date": "2026-05-12",
+        "narration": "GROCERY / LIVING",
+        "ref": "353759",
+        "debit": 1001.54,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353760",
+        "ref": "353760",
+        "debit": null,
+        "credit": 8524.96,
+        "balance": 8724.96
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353761",
+        "debit": 3836.23,
+        "credit": null,
+        "balance": 4888.73
+      },
+      {
+        "date": "2026-05-18",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353762",
+        "debit": 2933.24,
+        "credit": null,
+        "balance": 1955.49
+      },
+      {
+        "date": "2026-05-19",
+        "narration": "GROCERY / LIVING",
+        "ref": "353763",
+        "debit": 1755.49,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353764",
+        "ref": "353764",
+        "debit": null,
+        "credit": 5172.88,
+        "balance": 5372.88
+      },
+      {
+        "date": "2026-05-23",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353765",
+        "debit": 2327.8,
+        "credit": null,
+        "balance": 3045.08
+      },
+      {
+        "date": "2026-05-25",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353766",
+        "debit": 1827.05,
+        "credit": null,
+        "balance": 1218.03
+      },
+      {
+        "date": "2026-05-26",
+        "narration": "GROCERY / LIVING",
+        "ref": "353767",
+        "debit": 1018.03,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-05-30",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353768",
+        "ref": "353768",
+        "debit": null,
+        "credit": 8511.73,
+        "balance": 8711.73
+      },
+      {
+        "date": "2026-05-30",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353769",
+        "debit": 3830.28,
+        "credit": null,
+        "balance": 4881.45
+      },
+      {
+        "date": "2026-06-01",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353770",
+        "debit": 2928.87,
+        "credit": null,
+        "balance": 1952.58
+      },
+      {
+        "date": "2026-06-02",
+        "narration": "GROCERY / LIVING",
+        "ref": "353771",
+        "debit": 1752.58,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353772",
+        "ref": "353772",
+        "debit": null,
+        "credit": 4954.92,
+        "balance": 5154.92
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353773",
+        "debit": 2229.71,
+        "credit": null,
+        "balance": 2925.21
+      },
+      {
+        "date": "2026-06-08",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353774",
+        "debit": 1755.13,
+        "credit": null,
+        "balance": 1170.08
+      },
+      {
+        "date": "2026-06-09",
+        "narration": "GROCERY / LIVING",
+        "ref": "353775",
+        "debit": 970.08,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-06-13",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353776",
+        "ref": "353776",
+        "debit": null,
+        "credit": 7664.25,
+        "balance": 7864.25
+      },
+      {
+        "date": "2026-06-13",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353777",
+        "debit": 3448.91,
+        "credit": null,
+        "balance": 4415.34
+      },
+      {
+        "date": "2026-06-15",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353778",
+        "debit": 2649.2,
+        "credit": null,
+        "balance": 1766.14
+      },
+      {
+        "date": "2026-06-16",
+        "narration": "GROCERY / LIVING",
+        "ref": "353779",
+        "debit": 1566.14,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353780",
+        "ref": "353780",
+        "debit": null,
+        "credit": 4946.57,
+        "balance": 5146.57
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353781",
+        "debit": 2225.96,
+        "credit": null,
+        "balance": 2920.61
+      },
+      {
+        "date": "2026-06-22",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353782",
+        "debit": 1752.37,
+        "credit": null,
+        "balance": 1168.24
+      },
+      {
+        "date": "2026-06-23",
+        "narration": "GROCERY / LIVING",
+        "ref": "353783",
+        "debit": 968.24,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-06-27",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353784",
+        "ref": "353784",
+        "debit": null,
+        "credit": 8100.67,
+        "balance": 8300.67
+      },
+      {
+        "date": "2026-06-27",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353785",
+        "debit": 3645.3,
+        "credit": null,
+        "balance": 4655.37
+      },
+      {
+        "date": "2026-06-29",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353786",
+        "debit": 2793.22,
+        "credit": null,
+        "balance": 1862.15
+      },
+      {
+        "date": "2026-06-30",
+        "narration": "GROCERY / LIVING",
+        "ref": "353787",
+        "debit": 1662.15,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353788",
+        "ref": "353788",
+        "debit": null,
+        "credit": 4881.37,
+        "balance": 5081.37
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353789",
+        "debit": 2196.62,
+        "credit": null,
+        "balance": 2884.75
+      },
+      {
+        "date": "2026-07-06",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353790",
+        "debit": 1730.85,
+        "credit": null,
+        "balance": 1153.9
+      },
+      {
+        "date": "2026-07-07",
+        "narration": "GROCERY / LIVING",
+        "ref": "353791",
+        "debit": 953.9,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-07-11",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353792",
+        "ref": "353792",
+        "debit": null,
+        "credit": 7742.77,
+        "balance": 7942.77
+      },
+      {
+        "date": "2026-07-11",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353793",
+        "debit": 3484.25,
+        "credit": null,
+        "balance": 4458.52
+      },
+      {
+        "date": "2026-07-13",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353794",
+        "debit": 2675.11,
+        "credit": null,
+        "balance": 1783.41
+      },
+      {
+        "date": "2026-07-14",
+        "narration": "GROCERY / LIVING",
+        "ref": "353795",
+        "debit": 1583.41,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353796",
+        "ref": "353796",
+        "debit": null,
+        "credit": 4967.93,
+        "balance": 5167.93
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353797",
+        "debit": 2235.57,
+        "credit": null,
+        "balance": 2932.36
+      },
+      {
+        "date": "2026-07-20",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353798",
+        "debit": 1759.42,
+        "credit": null,
+        "balance": 1172.94
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "GROCERY / LIVING",
+        "ref": "353799",
+        "debit": 972.94,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-07-25",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353800",
+        "ref": "353800",
+        "debit": null,
+        "credit": 8107.42,
+        "balance": 8307.42
+      },
+      {
+        "date": "2026-07-25",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353801",
+        "debit": 3648.34,
+        "credit": null,
+        "balance": 4659.08
+      },
+      {
+        "date": "2026-07-27",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353802",
+        "debit": 2795.45,
+        "credit": null,
+        "balance": 1863.63
+      },
+      {
+        "date": "2026-07-28",
+        "narration": "GROCERY / LIVING",
+        "ref": "353803",
+        "debit": 1663.63,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-01",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353804",
+        "ref": "353804",
+        "debit": null,
+        "credit": 4791.19,
+        "balance": 4991.19
+      },
+      {
+        "date": "2026-08-01",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353805",
+        "debit": 2156.04,
+        "credit": null,
+        "balance": 2835.15
+      },
+      {
+        "date": "2026-08-03",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353806",
+        "debit": 1701.09,
+        "credit": null,
+        "balance": 1134.06
+      },
+      {
+        "date": "2026-08-04",
+        "narration": "GROCERY / LIVING",
+        "ref": "353807",
+        "debit": 934.06,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-08",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353808",
+        "ref": "353808",
+        "debit": null,
+        "credit": 8093.84,
+        "balance": 8293.84
+      },
+      {
+        "date": "2026-08-08",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353809",
+        "debit": 3642.23,
+        "credit": null,
+        "balance": 4651.61
+      },
+      {
+        "date": "2026-08-10",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353810",
+        "debit": 2790.97,
+        "credit": null,
+        "balance": 1860.64
+      },
+      {
+        "date": "2026-08-11",
+        "narration": "GROCERY / LIVING",
+        "ref": "353811",
+        "debit": 1660.64,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353812",
+        "ref": "353812",
+        "debit": null,
+        "credit": 4557.81,
+        "balance": 4757.81
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353813",
+        "debit": 2051.01,
+        "credit": null,
+        "balance": 2706.8
+      },
+      {
+        "date": "2026-08-17",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353814",
+        "debit": 1624.08,
+        "credit": null,
+        "balance": 1082.72
+      },
+      {
+        "date": "2026-08-18",
+        "narration": "GROCERY / LIVING",
+        "ref": "353815",
+        "debit": 882.72,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353816",
+        "ref": "353816",
+        "debit": null,
+        "credit": 8311.08,
+        "balance": 8511.08
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353817",
+        "debit": 3739.99,
+        "credit": null,
+        "balance": 4771.09
+      },
+      {
+        "date": "2026-08-24",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353818",
+        "debit": 2862.65,
+        "credit": null,
+        "balance": 1908.44
+      },
+      {
+        "date": "2026-08-25",
+        "narration": "GROCERY / LIVING",
+        "ref": "353819",
+        "debit": 1708.44,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-08-29",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353820",
+        "ref": "353820",
+        "debit": null,
+        "credit": 5041.77,
+        "balance": 5241.77
+      },
+      {
+        "date": "2026-08-29",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353821",
+        "debit": 2268.8,
+        "credit": null,
+        "balance": 2972.97
+      },
+      {
+        "date": "2026-08-31",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353822",
+        "debit": 1783.78,
+        "credit": null,
+        "balance": 1189.19
+      },
+      {
+        "date": "2026-09-01",
+        "narration": "GROCERY / LIVING",
+        "ref": "353823",
+        "debit": 989.19,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353824",
+        "ref": "353824",
+        "debit": null,
+        "credit": 7623.41,
+        "balance": 7823.41
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353825",
+        "debit": 3430.53,
+        "credit": null,
+        "balance": 4392.88
+      },
+      {
+        "date": "2026-09-07",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353826",
+        "debit": 2635.73,
+        "credit": null,
+        "balance": 1757.15
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "GROCERY / LIVING",
+        "ref": "353827",
+        "debit": 1557.15,
+        "credit": null,
+        "balance": 200.0
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/353828",
+        "ref": "353828",
+        "debit": null,
+        "credit": 5220.43,
+        "balance": 5420.43
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "VEHICLE LEASE AUTO-DEBIT",
+        "ref": "353829",
+        "debit": 2349.19,
+        "credit": null,
+        "balance": 3071.24
+      },
+      {
+        "date": "2026-09-14",
+        "narration": "FUEL BULK PAYMENT",
+        "ref": "353830",
+        "debit": 1842.74,
+        "credit": null,
+        "balance": 1228.5
+      }
+    ]
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P10",
+    "full_name": "Vikram Joshi",
+    "phone": "9812345610",
+    "declared_address": "42, Koramangala 4th Block, Bengaluru - 560034",
+    "stated_vocation": "cab driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

@@ -1,0 +1,75 @@
+# Deterministic 10-dim signal embedding (Phase 6). CLAUDE.md ★ addition:
+# pgvector precedent matching needs SOME numeric vector per applicant, and the
+# only auditable choice is one built entirely from the same 10 already-
+# transparent scorecard features -- never a black-box text/image embedding
+# model, and never anything containing PII (no name/address/phone ever
+# reaches this module).
+#
+# Why fixed bounds, not min/max FITTED on data: a fitted bound would silently
+# shift every time data/synth/history.parquet is regenerated (a different
+# seed run, a bigger corpus, ...), quietly changing what "extreme" means and
+# making precedent similarity non-reproducible across runs. These bounds are
+# instead hand-set from domain knowledge (the same reasoning `scorecard_v1.yaml`
+# already documents for its own bin edges), rounded to numbers an underwriter
+# would recognise. A value outside its bound is CLIPPED, not rejected -- an
+# outlier still gets embedded, just pinned to the corresponding edge of the
+# space.
+#
+# embed_features() in app/services/vectors/embedder.py:
+#   1. missing (None) feature -> 0.0 (the exact CENTER of [-1, 1] -- "no
+#      signal" is deliberately neutral, not treated as an extreme value in
+#      either direction).
+#   2. present feature -> clip to [min, max] -> center-and-scale to [-1, 1]
+#      via (clipped - mid) / half_range, where mid=(min+max)/2 and
+#      half_range=(max-min)/2. Centering (not a plain 0-1 min-max scale) is
+#      what makes cosine similarity between two embeddings meaningful: cosine
+#      similarity is scale- and sign-sensitive, so every dimension needs a
+#      shared, comparable notion of "positive/negative direction from
+#      neutral" -- an uncentered [0, 1] scaling would make every applicant's
+#      vector point into the same all-positive orthant, collapsing cosine
+#      similarity toward 1.0 for everyone regardless of how different their
+#      actual profiles are.
+#   3. the full 10-dim vector is L2-normalised (unit length) -- required for
+#      pgvector's `vector_cosine_ops` HNSW index to behave as intended, and
+#      keeps every applicant's vector comparable regardless of how many of
+#      its 10 dimensions happened to be non-missing.
+#
+# Dimension order is FIXED (index in this list = index in the stored
+# pgvector column) -- do not reorder without a new embedding_v2.yaml + a
+# full re-embed of historical_borrowers via `scripts/seed_history.py`.
+version: v1
+dimensions:
+  - feature: utility_tenure_months
+    min: 0
+    max: 36
+  - feature: utility_on_time_ratio
+    min: 0
+    max: 1
+  - feature: weekly_inflow_cv
+    min: 0
+    max: 2
+  - feature: avg_daily_balance_inr
+    min: 0
+    max: 20000
+  - feature: low_balance_day_ratio
+    min: 0
+    max: 1
+  - feature: gig_active_days_per_week
+    min: 0
+    max: 7
+  - feature: gig_weekly_earnings_cv
+    min: 0
+    max: 2
+  - feature: gig_tenure_weeks
+    min: 0
+    max: 104
+  - feature: income_reconciliation_ratio
+    min: 0
+    max: 1.5
+  - feature: log_verified_monthly_income_inr
+    # log() of verified_monthly_income_inr, itself derived (not a raw
+    # CANONICAL_FEATURE_NAMES entry) -- bounds are log(1000) and log(200000),
+    # i.e. roughly a thin-file floor to the policy's absolute credit-line-
+    # sizing ceiling from policy_v1.yaml.
+    min: 6.907755278982137
+    max: 12.206072645530174

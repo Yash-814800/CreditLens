@@ -1,0 +1,9 @@
+{
+  "persona_id": "P08",
+  "docs_present": [
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "REFER",
+  "notes": "Thin file: only the bank CSV was submitted (no gig payout, no utility bill) -> incomplete application caps at REFER (RC09), never DECLINE for missing data alone.",
+  "requested_line_inr": 15000
+}

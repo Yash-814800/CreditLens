@@ -1,0 +1,13 @@
+{
+  "persona_id": "P07",
+  "full_name": "Rohit Verma",
+  "phone": "9812345607",
+  "pan": "GGGPV7890G",
+  "aadhaar": "234567890107",
+  "declared_address": "Andheri East, Mumbai - 400069",
+  "stated_vocation": "cab driver",
+  "requested_line_inr": 20000,
+  "consent_given": true,
+  "consent_text_version": "v1",
+  "consent_at": "2026-09-01T10:00:00+05:30"
+}

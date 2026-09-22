@@ -1,0 +1,87 @@
+# Production compose file for the single-EC2-instance deployment (Phase 9).
+# Differences from the dev-only ../docker-compose.yml at the repo root:
+#   - backend/frontend come from ECR image URIs, not built locally
+#   - Caddy is added as the ONLY public listener (automatic HTTPS)
+#   - db/backend/frontend publish no host ports at all (Caddy is the sole
+#     entry point; db isn't reachable from outside the instance)
+#   - data/ is bind-mounted from /opt/creditlens/data (populated by
+#     deploy/scripts/run.sh from S3-held seed data, not a git checkout)
+#   - every service logs to the CloudWatch log group created by Terraform
+#
+# Run via deploy/scripts/run.sh, which supplies ECR_BACKEND_IMAGE,
+# ECR_FRONTEND_IMAGE, AWS_LOG_GROUP and reads everything else from
+# /opt/creditlens/.env.prod (secrets fetched from SSM + non-secret config
+# written by bootstrap.sh -- see that script for the full list).
+
+x-awslogs: &awslogs
+  driver: awslogs
+  options:
+    awslogs-region: ${AWS_REGION}
+    awslogs-group: ${AWS_LOG_GROUP}
+    awslogs-create-group: "false" # Terraform already created it (cloudwatch.tf)
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    env_file: .env.prod
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - creditlens_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+    mem_limit: 1200m
+    logging: *awslogs
+
+  backend:
+    image: ${ECR_BACKEND_IMAGE}
+    env_file: .env.prod
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      # Bind-mounted from the host, NOT baked into the image: populated by
+      # run.sh from S3 (data/demo_pack + data/synth/history.parquet), since
+      # this box never has a git checkout of the repo. See push_seed_data.sh.
+      - /opt/creditlens/data:/app/data
+    restart: unless-stopped
+    mem_limit: 1200m
+    logging: *awslogs
+
+  frontend:
+    image: ${ECR_FRONTEND_IMAGE}
+    depends_on:
+      - backend
+    restart: unless-stopped
+    mem_limit: 256m
+    logging: *awslogs
+    # No published port: Caddy reverse-proxies to this container over the
+    # internal compose network only.
+
+  caddy:
+    image: caddy:2-alpine
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - frontend
+    restart: unless-stopped
+    mem_limit: 256m
+    logging: *awslogs
+
+volumes:
+  creditlens_db_data:
+  caddy_data:
+  caddy_config:

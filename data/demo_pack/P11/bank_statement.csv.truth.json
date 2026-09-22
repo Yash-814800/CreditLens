@@ -1,0 +1,2073 @@
+{
+  "doc_type": "BANK_STATEMENT",
+  "doc_id": "P11-bank_statement",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "account_holder": "Ananya Sen",
+    "account_number_masked": "XXXXXXXX5507",
+    "bank": "Demo Sahakari Bank",
+    "period_from": "2026-03-18",
+    "period_to": "2026-09-14",
+    "transactions": [
+      {
+        "date": "2026-03-18",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342735",
+        "debit": 544.41,
+        "credit": null,
+        "balance": 655.59
+      },
+      {
+        "date": "2026-03-19",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342736",
+        "debit": 105.59,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-03-22",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342737",
+        "ref": "342737",
+        "debit": null,
+        "credit": 2378.75,
+        "balance": 2928.75
+      },
+      {
+        "date": "2026-03-23",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342738",
+        "debit": 777.53,
+        "credit": null,
+        "balance": 2151.22
+      },
+      {
+        "date": "2026-03-25",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342739",
+        "debit": 693.48,
+        "credit": null,
+        "balance": 1457.74
+      },
+      {
+        "date": "2026-03-26",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342740",
+        "debit": 713.67,
+        "credit": null,
+        "balance": 744.07
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342741",
+        "debit": 194.07,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-03-29",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342742",
+        "ref": "342742",
+        "debit": null,
+        "credit": 1872.55,
+        "balance": 2422.55
+      },
+      {
+        "date": "2026-03-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342743",
+        "debit": 681.92,
+        "credit": null,
+        "balance": 1740.63
+      },
+      {
+        "date": "2026-03-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342744",
+        "debit": 490.01,
+        "credit": null,
+        "balance": 1250.62
+      },
+      {
+        "date": "2026-03-31",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342745",
+        "debit": 700.62,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-04-05",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342746",
+        "ref": "342746",
+        "debit": null,
+        "credit": 2333.52,
+        "balance": 2883.52
+      },
+      {
+        "date": "2026-04-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342747",
+        "debit": 659.93,
+        "credit": null,
+        "balance": 2223.59
+      },
+      {
+        "date": "2026-04-09",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342748",
+        "debit": 449.73,
+        "credit": null,
+        "balance": 1773.86
+      },
+      {
+        "date": "2026-04-10",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342749",
+        "debit": 504.02,
+        "credit": null,
+        "balance": 1269.84
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342750",
+        "debit": 569.96,
+        "credit": null,
+        "balance": 699.88
+      },
+      {
+        "date": "2026-04-12",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342751",
+        "ref": "342751",
+        "debit": null,
+        "credit": 2335.39,
+        "balance": 3035.27
+      },
+      {
+        "date": "2026-04-14",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342752",
+        "debit": 594.35,
+        "credit": null,
+        "balance": 2440.92
+      },
+      {
+        "date": "2026-04-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342753",
+        "debit": 760.46,
+        "credit": null,
+        "balance": 1680.46
+      },
+      {
+        "date": "2026-04-17",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342754",
+        "debit": 583.92,
+        "credit": null,
+        "balance": 1096.54
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342755",
+        "debit": 546.54,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-04-19",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342756",
+        "ref": "342756",
+        "debit": null,
+        "credit": 2146.28,
+        "balance": 2696.28
+      },
+      {
+        "date": "2026-04-19",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342757",
+        "debit": 561.16,
+        "credit": null,
+        "balance": 2135.12
+      },
+      {
+        "date": "2026-04-20",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342758",
+        "debit": 480.33,
+        "credit": null,
+        "balance": 1654.79
+      },
+      {
+        "date": "2026-04-22",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342759",
+        "debit": 705.27,
+        "credit": null,
+        "balance": 949.52
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342760",
+        "debit": 399.52,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-04-26",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342761",
+        "ref": "342761",
+        "debit": null,
+        "credit": 1736.38,
+        "balance": 2286.38
+      },
+      {
+        "date": "2026-04-28",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342762",
+        "debit": 639.35,
+        "credit": null,
+        "balance": 1647.03
+      },
+      {
+        "date": "2026-04-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342763",
+        "debit": 547.82,
+        "credit": null,
+        "balance": 1099.21
+      },
+      {
+        "date": "2026-04-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342764",
+        "debit": 549.21,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-05-03",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342765",
+        "ref": "342765",
+        "debit": null,
+        "credit": 2058.41,
+        "balance": 2608.41
+      },
+      {
+        "date": "2026-05-05",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342766",
+        "debit": 701.41,
+        "credit": null,
+        "balance": 1907.0
+      },
+      {
+        "date": "2026-05-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342767",
+        "debit": 473.46,
+        "credit": null,
+        "balance": 1433.54
+      },
+      {
+        "date": "2026-05-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342768",
+        "debit": 672.83,
+        "credit": null,
+        "balance": 760.71
+      },
+      {
+        "date": "2026-05-08",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342769",
+        "debit": 210.71,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-05-10",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342770",
+        "ref": "342770",
+        "debit": null,
+        "credit": 2362.9,
+        "balance": 2912.9
+      },
+      {
+        "date": "2026-05-10",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342771",
+        "debit": 563.42,
+        "credit": null,
+        "balance": 2349.48
+      },
+      {
+        "date": "2026-05-12",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342772",
+        "debit": 722.04,
+        "credit": null,
+        "balance": 1627.44
+      },
+      {
+        "date": "2026-05-15",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342773",
+        "debit": 692.92,
+        "credit": null,
+        "balance": 934.52
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342774",
+        "debit": 384.52,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-05-17",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342775",
+        "ref": "342775",
+        "debit": null,
+        "credit": 2186.31,
+        "balance": 2736.31
+      },
+      {
+        "date": "2026-05-17",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342776",
+        "debit": 616.35,
+        "credit": null,
+        "balance": 2119.96
+      },
+      {
+        "date": "2026-05-19",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342777",
+        "debit": 585.55,
+        "credit": null,
+        "balance": 1534.41
+      },
+      {
+        "date": "2026-05-20",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342778",
+        "debit": 579.68,
+        "credit": null,
+        "balance": 954.73
+      },
+      {
+        "date": "2026-05-21",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342779",
+        "debit": 404.73,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-05-24",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342780",
+        "ref": "342780",
+        "debit": null,
+        "credit": 2371.61,
+        "balance": 2921.61
+      },
+      {
+        "date": "2026-05-24",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342781",
+        "debit": 510.03,
+        "credit": null,
+        "balance": 2411.58
+      },
+      {
+        "date": "2026-05-27",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342782",
+        "debit": 634.67,
+        "credit": null,
+        "balance": 1776.91
+      },
+      {
+        "date": "2026-05-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342783",
+        "debit": 743.92,
+        "credit": null,
+        "balance": 1032.99
+      },
+      {
+        "date": "2026-05-31",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342784",
+        "ref": "342784",
+        "debit": null,
+        "credit": 2313.77,
+        "balance": 3346.76
+      },
+      {
+        "date": "2026-06-01",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342785",
+        "debit": 616.96,
+        "credit": null,
+        "balance": 2729.8
+      },
+      {
+        "date": "2026-06-03",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342786",
+        "debit": 610.54,
+        "credit": null,
+        "balance": 2119.26
+      },
+      {
+        "date": "2026-06-04",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342787",
+        "debit": 767.91,
+        "credit": null,
+        "balance": 1351.35
+      },
+      {
+        "date": "2026-06-05",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342788",
+        "debit": 689.02,
+        "credit": null,
+        "balance": 662.33
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342789",
+        "debit": 112.33,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-06-07",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342790",
+        "ref": "342790",
+        "debit": null,
+        "credit": 2143.37,
+        "balance": 2693.37
+      },
+      {
+        "date": "2026-06-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342791",
+        "debit": 694.61,
+        "credit": null,
+        "balance": 1998.76
+      },
+      {
+        "date": "2026-06-08",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342792",
+        "debit": 636.13,
+        "credit": null,
+        "balance": 1362.63
+      },
+      {
+        "date": "2026-06-09",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342793",
+        "debit": 683.78,
+        "credit": null,
+        "balance": 678.85
+      },
+      {
+        "date": "2026-06-11",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342794",
+        "debit": 128.85,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-06-14",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342795",
+        "ref": "342795",
+        "debit": null,
+        "credit": 2283.03,
+        "balance": 2833.03
+      },
+      {
+        "date": "2026-06-15",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342796",
+        "debit": 456.37,
+        "credit": null,
+        "balance": 2376.66
+      },
+      {
+        "date": "2026-06-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342797",
+        "debit": 629.54,
+        "credit": null,
+        "balance": 1747.12
+      },
+      {
+        "date": "2026-06-18",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342798",
+        "debit": 567.3,
+        "credit": null,
+        "balance": 1179.82
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342799",
+        "debit": 595.0,
+        "credit": null,
+        "balance": 584.82
+      },
+      {
+        "date": "2026-06-21",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342800",
+        "ref": "342800",
+        "debit": null,
+        "credit": 2090.29,
+        "balance": 2675.11
+      },
+      {
+        "date": "2026-06-21",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342801",
+        "debit": 604.41,
+        "credit": null,
+        "balance": 2070.7
+      },
+      {
+        "date": "2026-06-22",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342802",
+        "debit": 476.49,
+        "credit": null,
+        "balance": 1594.21
+      },
+      {
+        "date": "2026-06-23",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342803",
+        "debit": 544.25,
+        "credit": null,
+        "balance": 1049.96
+      },
+      {
+        "date": "2026-06-24",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342804",
+        "debit": 499.96,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-06-28",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342805",
+        "ref": "342805",
+        "debit": null,
+        "credit": 1860.54,
+        "balance": 2410.54
+      },
+      {
+        "date": "2026-06-28",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342806",
+        "debit": 616.2,
+        "credit": null,
+        "balance": 1794.34
+      },
+      {
+        "date": "2026-06-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342807",
+        "debit": 644.36,
+        "credit": null,
+        "balance": 1149.98
+      },
+      {
+        "date": "2026-06-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342808",
+        "debit": 407.57,
+        "credit": null,
+        "balance": 742.41
+      },
+      {
+        "date": "2026-07-01",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342809",
+        "debit": 192.41,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-07-05",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342810",
+        "ref": "342810",
+        "debit": null,
+        "credit": 2229.43,
+        "balance": 2779.43
+      },
+      {
+        "date": "2026-07-05",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342811",
+        "debit": 698.93,
+        "credit": null,
+        "balance": 2080.5
+      },
+      {
+        "date": "2026-07-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342812",
+        "debit": 689.85,
+        "credit": null,
+        "balance": 1390.65
+      },
+      {
+        "date": "2026-07-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342813",
+        "debit": 535.77,
+        "credit": null,
+        "balance": 854.88
+      },
+      {
+        "date": "2026-07-10",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342814",
+        "debit": 304.88,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-07-12",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342815",
+        "ref": "342815",
+        "debit": null,
+        "credit": 2256.56,
+        "balance": 2806.56
+      },
+      {
+        "date": "2026-07-12",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342816",
+        "debit": 710.95,
+        "credit": null,
+        "balance": 2095.61
+      },
+      {
+        "date": "2026-07-14",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342817",
+        "debit": 745.31,
+        "credit": null,
+        "balance": 1350.3
+      },
+      {
+        "date": "2026-07-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342818",
+        "debit": 485.98,
+        "credit": null,
+        "balance": 864.32
+      },
+      {
+        "date": "2026-07-17",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342819",
+        "debit": 314.32,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-07-19",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342820",
+        "ref": "342820",
+        "debit": null,
+        "credit": 2282.63,
+        "balance": 2832.63
+      },
+      {
+        "date": "2026-07-20",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342821",
+        "debit": 683.68,
+        "credit": null,
+        "balance": 2148.95
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342822",
+        "debit": 656.79,
+        "credit": null,
+        "balance": 1492.16
+      },
+      {
+        "date": "2026-07-22",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342823",
+        "debit": 567.67,
+        "credit": null,
+        "balance": 924.49
+      },
+      {
+        "date": "2026-07-23",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342824",
+        "debit": 374.49,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-07-26",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342825",
+        "ref": "342825",
+        "debit": null,
+        "credit": 2175.63,
+        "balance": 2725.63
+      },
+      {
+        "date": "2026-07-26",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342826",
+        "debit": 735.87,
+        "credit": null,
+        "balance": 1989.76
+      },
+      {
+        "date": "2026-07-27",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342827",
+        "debit": 594.26,
+        "credit": null,
+        "balance": 1395.5
+      },
+      {
+        "date": "2026-07-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342828",
+        "debit": 522.92,
+        "credit": null,
+        "balance": 872.58
+      },
+      {
+        "date": "2026-07-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342829",
+        "debit": 322.58,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-02",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342830",
+        "ref": "342830",
+        "debit": null,
+        "credit": 2310.11,
+        "balance": 2860.11
+      },
+      {
+        "date": "2026-08-03",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342831",
+        "debit": 620.88,
+        "credit": null,
+        "balance": 2239.23
+      },
+      {
+        "date": "2026-08-04",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342832",
+        "debit": 799.68,
+        "credit": null,
+        "balance": 1439.55
+      },
+      {
+        "date": "2026-08-05",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342833",
+        "debit": 715.99,
+        "credit": null,
+        "balance": 723.56
+      },
+      {
+        "date": "2026-08-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342834",
+        "debit": 173.56,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342835",
+        "ref": "342835",
+        "debit": null,
+        "credit": 2170.18,
+        "balance": 2720.18
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342836",
+        "debit": 539.45,
+        "credit": null,
+        "balance": 2180.73
+      },
+      {
+        "date": "2026-08-10",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342837",
+        "debit": 610.69,
+        "credit": null,
+        "balance": 1570.04
+      },
+      {
+        "date": "2026-08-11",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342838",
+        "debit": 616.1,
+        "credit": null,
+        "balance": 953.94
+      },
+      {
+        "date": "2026-08-12",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342839",
+        "debit": 403.94,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-16",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342840",
+        "ref": "342840",
+        "debit": null,
+        "credit": 2140.12,
+        "balance": 2690.12
+      },
+      {
+        "date": "2026-08-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342841",
+        "debit": 518.77,
+        "credit": null,
+        "balance": 2171.35
+      },
+      {
+        "date": "2026-08-19",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342842",
+        "debit": 596.75,
+        "credit": null,
+        "balance": 1574.6
+      },
+      {
+        "date": "2026-08-21",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342843",
+        "debit": 682.08,
+        "credit": null,
+        "balance": 892.52
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342844",
+        "debit": 342.52,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-23",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342845",
+        "ref": "342845",
+        "debit": null,
+        "credit": 2379.84,
+        "balance": 2929.84
+      },
+      {
+        "date": "2026-08-23",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342846",
+        "debit": 665.15,
+        "credit": null,
+        "balance": 2264.69
+      },
+      {
+        "date": "2026-08-24",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342847",
+        "debit": 491.18,
+        "credit": null,
+        "balance": 1773.51
+      },
+      {
+        "date": "2026-08-25",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342848",
+        "debit": 686.27,
+        "credit": null,
+        "balance": 1087.24
+      },
+      {
+        "date": "2026-08-26",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342849",
+        "debit": 537.24,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-30",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342850",
+        "ref": "342850",
+        "debit": null,
+        "credit": 2020.79,
+        "balance": 2570.79
+      },
+      {
+        "date": "2026-08-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342851",
+        "debit": 625.1,
+        "credit": null,
+        "balance": 1945.69
+      },
+      {
+        "date": "2026-09-01",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342852",
+        "debit": 741.25,
+        "credit": null,
+        "balance": 1204.44
+      },
+      {
+        "date": "2026-09-02",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342853",
+        "debit": 619.15,
+        "credit": null,
+        "balance": 585.29
+      },
+      {
+        "date": "2026-09-06",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342854",
+        "ref": "342854",
+        "debit": null,
+        "credit": 2282.64,
+        "balance": 2867.93
+      },
+      {
+        "date": "2026-09-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342855",
+        "debit": 719.4,
+        "credit": null,
+        "balance": 2148.53
+      },
+      {
+        "date": "2026-09-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342856",
+        "debit": 590.36,
+        "credit": null,
+        "balance": 1558.17
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342857",
+        "debit": 824.42,
+        "credit": null,
+        "balance": 733.75
+      },
+      {
+        "date": "2026-09-09",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342858",
+        "debit": 183.75,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-09-13",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342859",
+        "ref": "342859",
+        "debit": null,
+        "credit": 2077.89,
+        "balance": 2627.89
+      },
+      {
+        "date": "2026-09-13",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342860",
+        "debit": 670.47,
+        "credit": null,
+        "balance": 1957.42
+      },
+      {
+        "date": "2026-09-14",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342861",
+        "debit": 659.43,
+        "credit": null,
+        "balance": 1297.99
+      }
+    ]
+  },
+  "original_fields": {
+    "account_holder": "Ananya Sen",
+    "account_number_masked": "XXXXXXXX5507",
+    "bank": "Demo Sahakari Bank",
+    "period_from": "2026-03-18",
+    "period_to": "2026-09-14",
+    "transactions": [
+      {
+        "date": "2026-03-18",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342735",
+        "debit": 544.41,
+        "credit": null,
+        "balance": 655.59
+      },
+      {
+        "date": "2026-03-19",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342736",
+        "debit": 105.59,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-03-22",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342737",
+        "ref": "342737",
+        "debit": null,
+        "credit": 2378.75,
+        "balance": 2928.75
+      },
+      {
+        "date": "2026-03-23",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342738",
+        "debit": 777.53,
+        "credit": null,
+        "balance": 2151.22
+      },
+      {
+        "date": "2026-03-25",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342739",
+        "debit": 693.48,
+        "credit": null,
+        "balance": 1457.74
+      },
+      {
+        "date": "2026-03-26",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342740",
+        "debit": 713.67,
+        "credit": null,
+        "balance": 744.07
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342741",
+        "debit": 194.07,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-03-29",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342742",
+        "ref": "342742",
+        "debit": null,
+        "credit": 1872.55,
+        "balance": 2422.55
+      },
+      {
+        "date": "2026-03-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342743",
+        "debit": 681.92,
+        "credit": null,
+        "balance": 1740.63
+      },
+      {
+        "date": "2026-03-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342744",
+        "debit": 490.01,
+        "credit": null,
+        "balance": 1250.62
+      },
+      {
+        "date": "2026-03-31",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342745",
+        "debit": 700.62,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-04-05",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342746",
+        "ref": "342746",
+        "debit": null,
+        "credit": 2333.52,
+        "balance": 2883.52
+      },
+      {
+        "date": "2026-04-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342747",
+        "debit": 659.93,
+        "credit": null,
+        "balance": 2223.59
+      },
+      {
+        "date": "2026-04-09",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342748",
+        "debit": 449.73,
+        "credit": null,
+        "balance": 1773.86
+      },
+      {
+        "date": "2026-04-10",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342749",
+        "debit": 504.02,
+        "credit": null,
+        "balance": 1269.84
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342750",
+        "debit": 569.96,
+        "credit": null,
+        "balance": 699.88
+      },
+      {
+        "date": "2026-04-12",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342751",
+        "ref": "342751",
+        "debit": null,
+        "credit": 2335.39,
+        "balance": 3035.27
+      },
+      {
+        "date": "2026-04-14",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342752",
+        "debit": 594.35,
+        "credit": null,
+        "balance": 2440.92
+      },
+      {
+        "date": "2026-04-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342753",
+        "debit": 760.46,
+        "credit": null,
+        "balance": 1680.46
+      },
+      {
+        "date": "2026-04-17",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342754",
+        "debit": 583.92,
+        "credit": null,
+        "balance": 1096.54
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342755",
+        "debit": 546.54,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-04-19",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342756",
+        "ref": "342756",
+        "debit": null,
+        "credit": 2146.28,
+        "balance": 2696.28
+      },
+      {
+        "date": "2026-04-19",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342757",
+        "debit": 561.16,
+        "credit": null,
+        "balance": 2135.12
+      },
+      {
+        "date": "2026-04-20",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342758",
+        "debit": 480.33,
+        "credit": null,
+        "balance": 1654.79
+      },
+      {
+        "date": "2026-04-22",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342759",
+        "debit": 705.27,
+        "credit": null,
+        "balance": 949.52
+      },
+      {
+        "date": "2026-04-25",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342760",
+        "debit": 399.52,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-04-26",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342761",
+        "ref": "342761",
+        "debit": null,
+        "credit": 1736.38,
+        "balance": 2286.38
+      },
+      {
+        "date": "2026-04-28",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342762",
+        "debit": 639.35,
+        "credit": null,
+        "balance": 1647.03
+      },
+      {
+        "date": "2026-04-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342763",
+        "debit": 547.82,
+        "credit": null,
+        "balance": 1099.21
+      },
+      {
+        "date": "2026-04-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342764",
+        "debit": 549.21,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-05-03",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342765",
+        "ref": "342765",
+        "debit": null,
+        "credit": 2058.41,
+        "balance": 2608.41
+      },
+      {
+        "date": "2026-05-05",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342766",
+        "debit": 701.41,
+        "credit": null,
+        "balance": 1907.0
+      },
+      {
+        "date": "2026-05-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342767",
+        "debit": 473.46,
+        "credit": null,
+        "balance": 1433.54
+      },
+      {
+        "date": "2026-05-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342768",
+        "debit": 672.83,
+        "credit": null,
+        "balance": 760.71
+      },
+      {
+        "date": "2026-05-08",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342769",
+        "debit": 210.71,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-05-10",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342770",
+        "ref": "342770",
+        "debit": null,
+        "credit": 2362.9,
+        "balance": 2912.9
+      },
+      {
+        "date": "2026-05-10",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342771",
+        "debit": 563.42,
+        "credit": null,
+        "balance": 2349.48
+      },
+      {
+        "date": "2026-05-12",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342772",
+        "debit": 722.04,
+        "credit": null,
+        "balance": 1627.44
+      },
+      {
+        "date": "2026-05-15",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342773",
+        "debit": 692.92,
+        "credit": null,
+        "balance": 934.52
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342774",
+        "debit": 384.52,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-05-17",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342775",
+        "ref": "342775",
+        "debit": null,
+        "credit": 2186.31,
+        "balance": 2736.31
+      },
+      {
+        "date": "2026-05-17",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342776",
+        "debit": 616.35,
+        "credit": null,
+        "balance": 2119.96
+      },
+      {
+        "date": "2026-05-19",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342777",
+        "debit": 585.55,
+        "credit": null,
+        "balance": 1534.41
+      },
+      {
+        "date": "2026-05-20",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342778",
+        "debit": 579.68,
+        "credit": null,
+        "balance": 954.73
+      },
+      {
+        "date": "2026-05-21",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342779",
+        "debit": 404.73,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-05-24",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342780",
+        "ref": "342780",
+        "debit": null,
+        "credit": 2371.61,
+        "balance": 2921.61
+      },
+      {
+        "date": "2026-05-24",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342781",
+        "debit": 510.03,
+        "credit": null,
+        "balance": 2411.58
+      },
+      {
+        "date": "2026-05-27",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342782",
+        "debit": 634.67,
+        "credit": null,
+        "balance": 1776.91
+      },
+      {
+        "date": "2026-05-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342783",
+        "debit": 743.92,
+        "credit": null,
+        "balance": 1032.99
+      },
+      {
+        "date": "2026-05-31",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342784",
+        "ref": "342784",
+        "debit": null,
+        "credit": 2313.77,
+        "balance": 3346.76
+      },
+      {
+        "date": "2026-06-01",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342785",
+        "debit": 616.96,
+        "credit": null,
+        "balance": 2729.8
+      },
+      {
+        "date": "2026-06-03",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342786",
+        "debit": 610.54,
+        "credit": null,
+        "balance": 2119.26
+      },
+      {
+        "date": "2026-06-04",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342787",
+        "debit": 767.91,
+        "credit": null,
+        "balance": 1351.35
+      },
+      {
+        "date": "2026-06-05",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342788",
+        "debit": 689.02,
+        "credit": null,
+        "balance": 662.33
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342789",
+        "debit": 112.33,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-06-07",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342790",
+        "ref": "342790",
+        "debit": null,
+        "credit": 2143.37,
+        "balance": 2693.37
+      },
+      {
+        "date": "2026-06-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342791",
+        "debit": 694.61,
+        "credit": null,
+        "balance": 1998.76
+      },
+      {
+        "date": "2026-06-08",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342792",
+        "debit": 636.13,
+        "credit": null,
+        "balance": 1362.63
+      },
+      {
+        "date": "2026-06-09",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342793",
+        "debit": 683.78,
+        "credit": null,
+        "balance": 678.85
+      },
+      {
+        "date": "2026-06-11",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342794",
+        "debit": 128.85,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-06-14",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342795",
+        "ref": "342795",
+        "debit": null,
+        "credit": 2283.03,
+        "balance": 2833.03
+      },
+      {
+        "date": "2026-06-15",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342796",
+        "debit": 456.37,
+        "credit": null,
+        "balance": 2376.66
+      },
+      {
+        "date": "2026-06-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342797",
+        "debit": 629.54,
+        "credit": null,
+        "balance": 1747.12
+      },
+      {
+        "date": "2026-06-18",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342798",
+        "debit": 567.3,
+        "credit": null,
+        "balance": 1179.82
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342799",
+        "debit": 595.0,
+        "credit": null,
+        "balance": 584.82
+      },
+      {
+        "date": "2026-06-21",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342800",
+        "ref": "342800",
+        "debit": null,
+        "credit": 2090.29,
+        "balance": 2675.11
+      },
+      {
+        "date": "2026-06-21",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342801",
+        "debit": 604.41,
+        "credit": null,
+        "balance": 2070.7
+      },
+      {
+        "date": "2026-06-22",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342802",
+        "debit": 476.49,
+        "credit": null,
+        "balance": 1594.21
+      },
+      {
+        "date": "2026-06-23",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342803",
+        "debit": 544.25,
+        "credit": null,
+        "balance": 1049.96
+      },
+      {
+        "date": "2026-06-24",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342804",
+        "debit": 499.96,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-06-28",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342805",
+        "ref": "342805",
+        "debit": null,
+        "credit": 1860.54,
+        "balance": 2410.54
+      },
+      {
+        "date": "2026-06-28",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342806",
+        "debit": 616.2,
+        "credit": null,
+        "balance": 1794.34
+      },
+      {
+        "date": "2026-06-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342807",
+        "debit": 644.36,
+        "credit": null,
+        "balance": 1149.98
+      },
+      {
+        "date": "2026-06-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342808",
+        "debit": 407.57,
+        "credit": null,
+        "balance": 742.41
+      },
+      {
+        "date": "2026-07-01",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342809",
+        "debit": 192.41,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-07-05",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342810",
+        "ref": "342810",
+        "debit": null,
+        "credit": 2229.43,
+        "balance": 2779.43
+      },
+      {
+        "date": "2026-07-05",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342811",
+        "debit": 698.93,
+        "credit": null,
+        "balance": 2080.5
+      },
+      {
+        "date": "2026-07-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342812",
+        "debit": 689.85,
+        "credit": null,
+        "balance": 1390.65
+      },
+      {
+        "date": "2026-07-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342813",
+        "debit": 535.77,
+        "credit": null,
+        "balance": 854.88
+      },
+      {
+        "date": "2026-07-10",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342814",
+        "debit": 304.88,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-07-12",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342815",
+        "ref": "342815",
+        "debit": null,
+        "credit": 2256.56,
+        "balance": 2806.56
+      },
+      {
+        "date": "2026-07-12",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342816",
+        "debit": 710.95,
+        "credit": null,
+        "balance": 2095.61
+      },
+      {
+        "date": "2026-07-14",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342817",
+        "debit": 745.31,
+        "credit": null,
+        "balance": 1350.3
+      },
+      {
+        "date": "2026-07-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342818",
+        "debit": 485.98,
+        "credit": null,
+        "balance": 864.32
+      },
+      {
+        "date": "2026-07-17",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342819",
+        "debit": 314.32,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-07-19",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342820",
+        "ref": "342820",
+        "debit": null,
+        "credit": 2282.63,
+        "balance": 2832.63
+      },
+      {
+        "date": "2026-07-20",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342821",
+        "debit": 683.68,
+        "credit": null,
+        "balance": 2148.95
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342822",
+        "debit": 656.79,
+        "credit": null,
+        "balance": 1492.16
+      },
+      {
+        "date": "2026-07-22",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342823",
+        "debit": 567.67,
+        "credit": null,
+        "balance": 924.49
+      },
+      {
+        "date": "2026-07-23",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342824",
+        "debit": 374.49,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-07-26",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342825",
+        "ref": "342825",
+        "debit": null,
+        "credit": 2175.63,
+        "balance": 2725.63
+      },
+      {
+        "date": "2026-07-26",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342826",
+        "debit": 735.87,
+        "credit": null,
+        "balance": 1989.76
+      },
+      {
+        "date": "2026-07-27",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342827",
+        "debit": 594.26,
+        "credit": null,
+        "balance": 1395.5
+      },
+      {
+        "date": "2026-07-29",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342828",
+        "debit": 522.92,
+        "credit": null,
+        "balance": 872.58
+      },
+      {
+        "date": "2026-07-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342829",
+        "debit": 322.58,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-02",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342830",
+        "ref": "342830",
+        "debit": null,
+        "credit": 2310.11,
+        "balance": 2860.11
+      },
+      {
+        "date": "2026-08-03",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342831",
+        "debit": 620.88,
+        "credit": null,
+        "balance": 2239.23
+      },
+      {
+        "date": "2026-08-04",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342832",
+        "debit": 799.68,
+        "credit": null,
+        "balance": 1439.55
+      },
+      {
+        "date": "2026-08-05",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342833",
+        "debit": 715.99,
+        "credit": null,
+        "balance": 723.56
+      },
+      {
+        "date": "2026-08-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342834",
+        "debit": 173.56,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342835",
+        "ref": "342835",
+        "debit": null,
+        "credit": 2170.18,
+        "balance": 2720.18
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342836",
+        "debit": 539.45,
+        "credit": null,
+        "balance": 2180.73
+      },
+      {
+        "date": "2026-08-10",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342837",
+        "debit": 610.69,
+        "credit": null,
+        "balance": 1570.04
+      },
+      {
+        "date": "2026-08-11",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342838",
+        "debit": 616.1,
+        "credit": null,
+        "balance": 953.94
+      },
+      {
+        "date": "2026-08-12",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342839",
+        "debit": 403.94,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-16",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342840",
+        "ref": "342840",
+        "debit": null,
+        "credit": 2140.12,
+        "balance": 2690.12
+      },
+      {
+        "date": "2026-08-16",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342841",
+        "debit": 518.77,
+        "credit": null,
+        "balance": 2171.35
+      },
+      {
+        "date": "2026-08-19",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342842",
+        "debit": 596.75,
+        "credit": null,
+        "balance": 1574.6
+      },
+      {
+        "date": "2026-08-21",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342843",
+        "debit": 682.08,
+        "credit": null,
+        "balance": 892.52
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342844",
+        "debit": 342.52,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-23",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342845",
+        "ref": "342845",
+        "debit": null,
+        "credit": 2379.84,
+        "balance": 2929.84
+      },
+      {
+        "date": "2026-08-23",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342846",
+        "debit": 665.15,
+        "credit": null,
+        "balance": 2264.69
+      },
+      {
+        "date": "2026-08-24",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342847",
+        "debit": 491.18,
+        "credit": null,
+        "balance": 1773.51
+      },
+      {
+        "date": "2026-08-25",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342848",
+        "debit": 686.27,
+        "credit": null,
+        "balance": 1087.24
+      },
+      {
+        "date": "2026-08-26",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342849",
+        "debit": 537.24,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-08-30",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342850",
+        "ref": "342850",
+        "debit": null,
+        "credit": 2020.79,
+        "balance": 2570.79
+      },
+      {
+        "date": "2026-08-30",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342851",
+        "debit": 625.1,
+        "credit": null,
+        "balance": 1945.69
+      },
+      {
+        "date": "2026-09-01",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342852",
+        "debit": 741.25,
+        "credit": null,
+        "balance": 1204.44
+      },
+      {
+        "date": "2026-09-02",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342853",
+        "debit": 619.15,
+        "credit": null,
+        "balance": 585.29
+      },
+      {
+        "date": "2026-09-06",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342854",
+        "ref": "342854",
+        "debit": null,
+        "credit": 2282.64,
+        "balance": 2867.93
+      },
+      {
+        "date": "2026-09-06",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342855",
+        "debit": 719.4,
+        "credit": null,
+        "balance": 2148.53
+      },
+      {
+        "date": "2026-09-07",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342856",
+        "debit": 590.36,
+        "credit": null,
+        "balance": 1558.17
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342857",
+        "debit": 824.42,
+        "credit": null,
+        "balance": 733.75
+      },
+      {
+        "date": "2026-09-09",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342858",
+        "debit": 183.75,
+        "credit": null,
+        "balance": 550.0
+      },
+      {
+        "date": "2026-09-13",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/342859",
+        "ref": "342859",
+        "debit": null,
+        "credit": 2077.89,
+        "balance": 2627.89
+      },
+      {
+        "date": "2026-09-13",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342860",
+        "debit": 670.47,
+        "credit": null,
+        "balance": 1957.42
+      },
+      {
+        "date": "2026-09-14",
+        "narration": "UPI/MERCHANT/GROCERY",
+        "ref": "342861",
+        "debit": 659.43,
+        "credit": null,
+        "balance": 1297.99
+      }
+    ]
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P11",
+    "full_name": "Ananya Sen",
+    "phone": "9812345611",
+    "declared_address": "18, Salt Lake Sector 1, Kolkata - 700064",
+    "stated_vocation": "ride-hailing driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

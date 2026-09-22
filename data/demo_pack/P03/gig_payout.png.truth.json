@@ -1,0 +1,287 @@
+{
+  "doc_type": "GIG_PAYOUT",
+  "doc_id": "P03-gig_payout",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Deepak Yadav",
+    "partner_id": "ZIP-P03",
+    "partner_since": "2026-07-13",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 3,
+        "trips_or_orders": 11,
+        "gross_earnings": 2544.86,
+        "incentives": 90.21,
+        "deductions": 227.83,
+        "net_payout": 2407.24
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 4,
+        "trips_or_orders": 18,
+        "gross_earnings": 3331.12,
+        "incentives": 96.39,
+        "deductions": 213.34,
+        "net_payout": 3214.17
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 4,
+        "trips_or_orders": 20,
+        "gross_earnings": 4438.35,
+        "incentives": 261.52,
+        "deductions": 234.38,
+        "net_payout": 4465.49
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 3,
+        "trips_or_orders": 14,
+        "gross_earnings": 3017.44,
+        "incentives": 147.7,
+        "deductions": 320.03,
+        "net_payout": 2845.11
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 3,
+        "trips_or_orders": 12,
+        "gross_earnings": 2446.84,
+        "incentives": 126.67,
+        "deductions": 250.08,
+        "net_payout": 2323.43
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 4,
+        "trips_or_orders": 19,
+        "gross_earnings": 2663.27,
+        "incentives": 128.47,
+        "deductions": 257.57,
+        "net_payout": 2534.17
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 4,
+        "trips_or_orders": 26,
+        "gross_earnings": 2464.19,
+        "incentives": 48.39,
+        "deductions": 140.98,
+        "net_payout": 2371.6
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 3,
+        "trips_or_orders": 9,
+        "gross_earnings": 2655.5,
+        "incentives": 140.14,
+        "deductions": 240.97,
+        "net_payout": 2554.67
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 3,
+        "trips_or_orders": 16,
+        "gross_earnings": 3130.18,
+        "incentives": 89.18,
+        "deductions": 184.37,
+        "net_payout": 3034.99
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 2,
+        "trips_or_orders": 9,
+        "gross_earnings": 2016.07,
+        "incentives": 125.77,
+        "deductions": 163.56,
+        "net_payout": 1978.28
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 3,
+        "trips_or_orders": 13,
+        "gross_earnings": 2328.56,
+        "incentives": 13.36,
+        "deductions": 263.73,
+        "net_payout": 2078.19
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 2,
+        "trips_or_orders": 10,
+        "gross_earnings": 2641.36,
+        "incentives": 136.72,
+        "deductions": 232.86,
+        "net_payout": 2545.22
+      }
+    ],
+    "total_net_payout_period": 32352.56,
+    "payout_account_last4": "4411"
+  },
+  "original_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Deepak Yadav",
+    "partner_id": "ZIP-P03",
+    "partner_since": "2026-07-13",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 3,
+        "trips_or_orders": 11,
+        "gross_earnings": 2544.86,
+        "incentives": 90.21,
+        "deductions": 227.83,
+        "net_payout": 2407.24
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 4,
+        "trips_or_orders": 18,
+        "gross_earnings": 3331.12,
+        "incentives": 96.39,
+        "deductions": 213.34,
+        "net_payout": 3214.17
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 4,
+        "trips_or_orders": 20,
+        "gross_earnings": 4438.35,
+        "incentives": 261.52,
+        "deductions": 234.38,
+        "net_payout": 4465.49
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 3,
+        "trips_or_orders": 14,
+        "gross_earnings": 3017.44,
+        "incentives": 147.7,
+        "deductions": 320.03,
+        "net_payout": 2845.11
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 3,
+        "trips_or_orders": 12,
+        "gross_earnings": 2446.84,
+        "incentives": 126.67,
+        "deductions": 250.08,
+        "net_payout": 2323.43
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 4,
+        "trips_or_orders": 19,
+        "gross_earnings": 2663.27,
+        "incentives": 128.47,
+        "deductions": 257.57,
+        "net_payout": 2534.17
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 4,
+        "trips_or_orders": 26,
+        "gross_earnings": 2464.19,
+        "incentives": 48.39,
+        "deductions": 140.98,
+        "net_payout": 2371.6
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 3,
+        "trips_or_orders": 9,
+        "gross_earnings": 2655.5,
+        "incentives": 140.14,
+        "deductions": 240.97,
+        "net_payout": 2554.67
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 3,
+        "trips_or_orders": 16,
+        "gross_earnings": 3130.18,
+        "incentives": 89.18,
+        "deductions": 184.37,
+        "net_payout": 3034.99
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 2,
+        "trips_or_orders": 9,
+        "gross_earnings": 2016.07,
+        "incentives": 125.77,
+        "deductions": 163.56,
+        "net_payout": 1978.28
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 3,
+        "trips_or_orders": 13,
+        "gross_earnings": 2328.56,
+        "incentives": 13.36,
+        "deductions": 263.73,
+        "net_payout": 2078.19
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 2,
+        "trips_or_orders": 10,
+        "gross_earnings": 2641.36,
+        "incentives": 136.72,
+        "deductions": 232.86,
+        "net_payout": 2545.22
+      }
+    ],
+    "total_net_payout_period": 32352.56,
+    "payout_account_last4": "4411"
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P03",
+    "full_name": "Deepak Yadav",
+    "phone": "9812345603",
+    "declared_address": "Sector 62, Noida - 201309",
+    "stated_vocation": "auto-rickshaw driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

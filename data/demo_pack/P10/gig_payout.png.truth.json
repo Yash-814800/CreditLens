@@ -1,0 +1,287 @@
+{
+  "doc_type": "GIG_PAYOUT",
+  "doc_id": "P10-gig_payout",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Vikram Joshi",
+    "partner_id": "ZIP-P10",
+    "partner_since": "2026-08-10",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 6,
+        "trips_or_orders": 28,
+        "gross_earnings": 7999.0,
+        "incentives": 196.78,
+        "deductions": 694.68,
+        "net_payout": 7501.1
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 4,
+        "trips_or_orders": 17,
+        "gross_earnings": 1539.6,
+        "incentives": 66.52,
+        "deductions": 110.79,
+        "net_payout": 1495.33
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 6,
+        "trips_or_orders": 28,
+        "gross_earnings": 7882.79,
+        "incentives": 170.89,
+        "deductions": 631.24,
+        "net_payout": 7422.44
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 4,
+        "trips_or_orders": 20,
+        "gross_earnings": 1525.96,
+        "incentives": 113.26,
+        "deductions": 181.84,
+        "net_payout": 1457.38
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 6,
+        "trips_or_orders": 33,
+        "gross_earnings": 8022.03,
+        "incentives": 585.45,
+        "deductions": 583.45,
+        "net_payout": 8024.03
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 4,
+        "trips_or_orders": 20,
+        "gross_earnings": 1515.53,
+        "incentives": 16.15,
+        "deductions": 144.47,
+        "net_payout": 1387.21
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 6,
+        "trips_or_orders": 32,
+        "gross_earnings": 7768.19,
+        "incentives": 104.83,
+        "deductions": 655.39,
+        "net_payout": 7217.63
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 4,
+        "trips_or_orders": 19,
+        "gross_earnings": 1533.98,
+        "incentives": 62.99,
+        "deductions": 97.37,
+        "net_payout": 1499.6
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 6,
+        "trips_or_orders": 31,
+        "gross_earnings": 8070.29,
+        "incentives": 118.48,
+        "deductions": 839.36,
+        "net_payout": 7349.41
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 4,
+        "trips_or_orders": 23,
+        "gross_earnings": 1620.21,
+        "incentives": 88.02,
+        "deductions": 85.08,
+        "net_payout": 1623.15
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 6,
+        "trips_or_orders": 33,
+        "gross_earnings": 8148.97,
+        "incentives": 9.18,
+        "deductions": 818.24,
+        "net_payout": 7339.91
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 1581.77,
+        "incentives": 28.13,
+        "deductions": 132.52,
+        "net_payout": 1477.38
+      }
+    ],
+    "total_net_payout_period": 53794.57,
+    "payout_account_last4": "5370"
+  },
+  "original_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Vikram Joshi",
+    "partner_id": "ZIP-P10",
+    "partner_since": "2026-08-10",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 6,
+        "trips_or_orders": 28,
+        "gross_earnings": 7999.0,
+        "incentives": 196.78,
+        "deductions": 694.68,
+        "net_payout": 7501.1
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 4,
+        "trips_or_orders": 17,
+        "gross_earnings": 1539.6,
+        "incentives": 66.52,
+        "deductions": 110.79,
+        "net_payout": 1495.33
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 6,
+        "trips_or_orders": 28,
+        "gross_earnings": 7882.79,
+        "incentives": 170.89,
+        "deductions": 631.24,
+        "net_payout": 7422.44
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 4,
+        "trips_or_orders": 20,
+        "gross_earnings": 1525.96,
+        "incentives": 113.26,
+        "deductions": 181.84,
+        "net_payout": 1457.38
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 6,
+        "trips_or_orders": 33,
+        "gross_earnings": 8022.03,
+        "incentives": 585.45,
+        "deductions": 583.45,
+        "net_payout": 8024.03
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 4,
+        "trips_or_orders": 20,
+        "gross_earnings": 1515.53,
+        "incentives": 16.15,
+        "deductions": 144.47,
+        "net_payout": 1387.21
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 6,
+        "trips_or_orders": 32,
+        "gross_earnings": 7768.19,
+        "incentives": 104.83,
+        "deductions": 655.39,
+        "net_payout": 7217.63
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 4,
+        "trips_or_orders": 19,
+        "gross_earnings": 1533.98,
+        "incentives": 62.99,
+        "deductions": 97.37,
+        "net_payout": 1499.6
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 6,
+        "trips_or_orders": 31,
+        "gross_earnings": 8070.29,
+        "incentives": 118.48,
+        "deductions": 839.36,
+        "net_payout": 7349.41
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 4,
+        "trips_or_orders": 23,
+        "gross_earnings": 1620.21,
+        "incentives": 88.02,
+        "deductions": 85.08,
+        "net_payout": 1623.15
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 6,
+        "trips_or_orders": 33,
+        "gross_earnings": 8148.97,
+        "incentives": 9.18,
+        "deductions": 818.24,
+        "net_payout": 7339.91
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 1581.77,
+        "incentives": 28.13,
+        "deductions": 132.52,
+        "net_payout": 1477.38
+      }
+    ],
+    "total_net_payout_period": 53794.57,
+    "payout_account_last4": "5370"
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P10",
+    "full_name": "Vikram Joshi",
+    "phone": "9812345610",
+    "declared_address": "42, Koramangala 4th Block, Bengaluru - 560034",
+    "stated_vocation": "cab driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

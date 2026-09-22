@@ -1,0 +1,139 @@
+{
+  "doc_type": "UTILITY_BILL",
+  "doc_id": "P11-utility_bill",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Ananya Sen",
+    "consumer_number": "CN11778899",
+    "service_address": "18, Salt Lake Sector 1, Kolkata - 700064",
+    "connection_date": "2026-04-24",
+    "meter_number": "MT1155",
+    "bill_date": "2026-09-10",
+    "due_date": "2026-09-25",
+    "billing_period_start": "2026-08-10",
+    "billing_period_end": "2026-09-07",
+    "units_consumed": 253,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 1720.4
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 83.78
+      },
+      {
+        "label": "Tax",
+        "amount": 90.21
+      }
+    ],
+    "total_amount_due": 1894.39,
+    "payment_history": [
+      {
+        "month": "2026-05",
+        "amount": 1835.79,
+        "due_date": "2026-05-20",
+        "paid_date": "2026-05-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-06",
+        "amount": 2267.07,
+        "due_date": "2026-06-20",
+        "paid_date": "2026-06-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-07",
+        "amount": 2092.81,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-08-02",
+        "status": "Late"
+      },
+      {
+        "month": "2026-08",
+        "amount": 2073.61,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-24",
+        "status": "Late"
+      }
+    ]
+  },
+  "original_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Ananya Sen",
+    "consumer_number": "CN11778899",
+    "service_address": "18, Salt Lake Sector 1, Kolkata - 700064",
+    "connection_date": "2026-04-24",
+    "meter_number": "MT1155",
+    "bill_date": "2026-09-10",
+    "due_date": "2026-09-25",
+    "billing_period_start": "2026-08-10",
+    "billing_period_end": "2026-09-07",
+    "units_consumed": 253,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 1720.4
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 83.78
+      },
+      {
+        "label": "Tax",
+        "amount": 90.21
+      }
+    ],
+    "total_amount_due": 1894.39,
+    "payment_history": [
+      {
+        "month": "2026-05",
+        "amount": 1835.79,
+        "due_date": "2026-05-20",
+        "paid_date": "2026-05-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-06",
+        "amount": 2267.07,
+        "due_date": "2026-06-20",
+        "paid_date": "2026-06-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-07",
+        "amount": 2092.81,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-08-02",
+        "status": "Late"
+      },
+      {
+        "month": "2026-08",
+        "amount": 2073.61,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-24",
+        "status": "Late"
+      }
+    ]
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P11",
+    "full_name": "Ananya Sen",
+    "phone": "9812345611",
+    "declared_address": "18, Salt Lake Sector 1, Kolkata - 700064",
+    "stated_vocation": "ride-hailing driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

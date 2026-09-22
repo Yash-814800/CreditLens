@@ -1,0 +1,13 @@
+{
+  "persona_id": "P01",
+  "full_name": "Aarav Mehta",
+  "phone": "9812345601",
+  "pan": "AAAPM1234A",
+  "aadhaar": "234567890101",
+  "declared_address": "14, Whitefield, Bengaluru - 560066",
+  "stated_vocation": "ride-hailing driver",
+  "requested_line_inr": 25000,
+  "consent_given": true,
+  "consent_text_version": "v1",
+  "consent_at": "2026-09-01T10:00:00+05:30"
+}

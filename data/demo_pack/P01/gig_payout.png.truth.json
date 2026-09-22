@@ -1,0 +1,287 @@
+{
+  "doc_type": "GIG_PAYOUT",
+  "doc_id": "P01-gig_payout",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Aarav Mehta",
+    "partner_id": "ZIP-P01",
+    "partner_since": "2025-07-21",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 5,
+        "trips_or_orders": 25,
+        "gross_earnings": 4095.11,
+        "incentives": 241.98,
+        "deductions": 407.07,
+        "net_payout": 3930.02
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 7,
+        "trips_or_orders": 34,
+        "gross_earnings": 6205.66,
+        "incentives": 437.52,
+        "deductions": 444.23,
+        "net_payout": 6198.95
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 7,
+        "trips_or_orders": 33,
+        "gross_earnings": 5719.93,
+        "incentives": 421.86,
+        "deductions": 454.44,
+        "net_payout": 5687.35
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 6,
+        "trips_or_orders": 29,
+        "gross_earnings": 4957.89,
+        "incentives": 129.81,
+        "deductions": 361.1,
+        "net_payout": 4726.6
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 6,
+        "trips_or_orders": 34,
+        "gross_earnings": 5061.14,
+        "incentives": 97.79,
+        "deductions": 592.5,
+        "net_payout": 4566.43
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 5,
+        "trips_or_orders": 30,
+        "gross_earnings": 4068.28,
+        "incentives": 116.04,
+        "deductions": 210.57,
+        "net_payout": 3973.75
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 7,
+        "trips_or_orders": 35,
+        "gross_earnings": 6275.24,
+        "incentives": 143.87,
+        "deductions": 633.37,
+        "net_payout": 5785.74
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 7,
+        "trips_or_orders": 33,
+        "gross_earnings": 6154.03,
+        "incentives": 171.58,
+        "deductions": 325.97,
+        "net_payout": 5999.64
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 7,
+        "trips_or_orders": 39,
+        "gross_earnings": 6352.38,
+        "incentives": 394.02,
+        "deductions": 490.45,
+        "net_payout": 6255.95
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 6,
+        "trips_or_orders": 27,
+        "gross_earnings": 5414.74,
+        "incentives": 167.85,
+        "deductions": 438.77,
+        "net_payout": 5143.82
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 7,
+        "trips_or_orders": 36,
+        "gross_earnings": 6256.99,
+        "incentives": 464.92,
+        "deductions": 716.19,
+        "net_payout": 6005.72
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 7,
+        "trips_or_orders": 34,
+        "gross_earnings": 5910.14,
+        "incentives": 341.62,
+        "deductions": 450.15,
+        "net_payout": 5801.61
+      }
+    ],
+    "total_net_payout_period": 64075.58,
+    "payout_account_last4": "4137"
+  },
+  "original_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Aarav Mehta",
+    "partner_id": "ZIP-P01",
+    "partner_since": "2025-07-21",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 5,
+        "trips_or_orders": 25,
+        "gross_earnings": 4095.11,
+        "incentives": 241.98,
+        "deductions": 407.07,
+        "net_payout": 3930.02
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 7,
+        "trips_or_orders": 34,
+        "gross_earnings": 6205.66,
+        "incentives": 437.52,
+        "deductions": 444.23,
+        "net_payout": 6198.95
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 7,
+        "trips_or_orders": 33,
+        "gross_earnings": 5719.93,
+        "incentives": 421.86,
+        "deductions": 454.44,
+        "net_payout": 5687.35
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 6,
+        "trips_or_orders": 29,
+        "gross_earnings": 4957.89,
+        "incentives": 129.81,
+        "deductions": 361.1,
+        "net_payout": 4726.6
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 6,
+        "trips_or_orders": 34,
+        "gross_earnings": 5061.14,
+        "incentives": 97.79,
+        "deductions": 592.5,
+        "net_payout": 4566.43
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 5,
+        "trips_or_orders": 30,
+        "gross_earnings": 4068.28,
+        "incentives": 116.04,
+        "deductions": 210.57,
+        "net_payout": 3973.75
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 7,
+        "trips_or_orders": 35,
+        "gross_earnings": 6275.24,
+        "incentives": 143.87,
+        "deductions": 633.37,
+        "net_payout": 5785.74
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 7,
+        "trips_or_orders": 33,
+        "gross_earnings": 6154.03,
+        "incentives": 171.58,
+        "deductions": 325.97,
+        "net_payout": 5999.64
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 7,
+        "trips_or_orders": 39,
+        "gross_earnings": 6352.38,
+        "incentives": 394.02,
+        "deductions": 490.45,
+        "net_payout": 6255.95
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 6,
+        "trips_or_orders": 27,
+        "gross_earnings": 5414.74,
+        "incentives": 167.85,
+        "deductions": 438.77,
+        "net_payout": 5143.82
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 7,
+        "trips_or_orders": 36,
+        "gross_earnings": 6256.99,
+        "incentives": 464.92,
+        "deductions": 716.19,
+        "net_payout": 6005.72
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 7,
+        "trips_or_orders": 34,
+        "gross_earnings": 5910.14,
+        "incentives": 341.62,
+        "deductions": 450.15,
+        "net_payout": 5801.61
+      }
+    ],
+    "total_net_payout_period": 64075.58,
+    "payout_account_last4": "4137"
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P01",
+    "full_name": "Aarav Mehta",
+    "phone": "9812345601",
+    "declared_address": "14, Whitefield, Bengaluru - 560066",
+    "stated_vocation": "ride-hailing driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

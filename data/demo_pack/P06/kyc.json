@@ -1,0 +1,13 @@
+{
+  "persona_id": "P06",
+  "full_name": "Vikram Chauhan",
+  "phone": "9812345606",
+  "pan": "FFFPC6789F",
+  "aadhaar": "234567890106",
+  "declared_address": "Salt Lake, Kolkata - 700091",
+  "stated_vocation": "ride-hailing driver",
+  "requested_line_inr": 20000,
+  "consent_given": true,
+  "consent_text_version": "v1",
+  "consent_at": "2026-09-01T10:00:00+05:30"
+}

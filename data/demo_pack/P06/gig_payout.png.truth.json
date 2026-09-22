@@ -1,0 +1,287 @@
+{
+  "doc_type": "GIG_PAYOUT",
+  "doc_id": "P06-gig_payout",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Vikram Chauhan",
+    "partner_id": "ZIP-P06",
+    "partner_since": "2025-09-29",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 4,
+        "trips_or_orders": 19,
+        "gross_earnings": 3526.21,
+        "incentives": 12.92,
+        "deductions": 380.44,
+        "net_payout": 3158.69
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 3809.63,
+        "incentives": 28.66,
+        "deductions": 321.16,
+        "net_payout": 3517.13
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 5,
+        "trips_or_orders": 28,
+        "gross_earnings": 3885.48,
+        "incentives": 238.33,
+        "deductions": 300.32,
+        "net_payout": 3823.49
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 5,
+        "trips_or_orders": 21,
+        "gross_earnings": 4874.9,
+        "incentives": 191.01,
+        "deductions": 372.65,
+        "net_payout": 4693.26
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 3,
+        "trips_or_orders": 19,
+        "gross_earnings": 2521.16,
+        "incentives": 184.34,
+        "deductions": 241.86,
+        "net_payout": 2463.64
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 6,
+        "trips_or_orders": 29,
+        "gross_earnings": 5581.76,
+        "incentives": 105.86,
+        "deductions": 292.69,
+        "net_payout": 5394.93
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 6,
+        "trips_or_orders": 35,
+        "gross_earnings": 4501.47,
+        "incentives": 7.89,
+        "deductions": 485.03,
+        "net_payout": 4024.33
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 6,
+        "trips_or_orders": 33,
+        "gross_earnings": 4685.34,
+        "incentives": 160.65,
+        "deductions": 300.62,
+        "net_payout": 4545.37
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 6,
+        "trips_or_orders": 27,
+        "gross_earnings": 4904.84,
+        "incentives": 221.28,
+        "deductions": 369.95,
+        "net_payout": 4756.17
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 7,
+        "trips_or_orders": 36,
+        "gross_earnings": 6727.83,
+        "incentives": 531.47,
+        "deductions": 485.54,
+        "net_payout": 6773.76
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 7,
+        "trips_or_orders": 36,
+        "gross_earnings": 5854.64,
+        "incentives": 410.7,
+        "deductions": 492.03,
+        "net_payout": 5773.31
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 6,
+        "trips_or_orders": 32,
+        "gross_earnings": 5569.56,
+        "incentives": 120.44,
+        "deductions": 460.13,
+        "net_payout": 5229.87
+      }
+    ],
+    "total_net_payout_period": 54153.95,
+    "payout_account_last4": "4822"
+  },
+  "original_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Vikram Chauhan",
+    "partner_id": "ZIP-P06",
+    "partner_since": "2025-09-29",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 4,
+        "trips_or_orders": 19,
+        "gross_earnings": 3526.21,
+        "incentives": 12.92,
+        "deductions": 380.44,
+        "net_payout": 3158.69
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 3809.63,
+        "incentives": 28.66,
+        "deductions": 321.16,
+        "net_payout": 3517.13
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 5,
+        "trips_or_orders": 28,
+        "gross_earnings": 3885.48,
+        "incentives": 238.33,
+        "deductions": 300.32,
+        "net_payout": 3823.49
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 5,
+        "trips_or_orders": 21,
+        "gross_earnings": 4874.9,
+        "incentives": 191.01,
+        "deductions": 372.65,
+        "net_payout": 4693.26
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 3,
+        "trips_or_orders": 19,
+        "gross_earnings": 2521.16,
+        "incentives": 184.34,
+        "deductions": 241.86,
+        "net_payout": 2463.64
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 6,
+        "trips_or_orders": 29,
+        "gross_earnings": 5581.76,
+        "incentives": 105.86,
+        "deductions": 292.69,
+        "net_payout": 5394.93
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 6,
+        "trips_or_orders": 35,
+        "gross_earnings": 4501.47,
+        "incentives": 7.89,
+        "deductions": 485.03,
+        "net_payout": 4024.33
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 6,
+        "trips_or_orders": 33,
+        "gross_earnings": 4685.34,
+        "incentives": 160.65,
+        "deductions": 300.62,
+        "net_payout": 4545.37
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 6,
+        "trips_or_orders": 27,
+        "gross_earnings": 4904.84,
+        "incentives": 221.28,
+        "deductions": 369.95,
+        "net_payout": 4756.17
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 7,
+        "trips_or_orders": 36,
+        "gross_earnings": 6727.83,
+        "incentives": 531.47,
+        "deductions": 485.54,
+        "net_payout": 6773.76
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 7,
+        "trips_or_orders": 36,
+        "gross_earnings": 5854.64,
+        "incentives": 410.7,
+        "deductions": 492.03,
+        "net_payout": 5773.31
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 6,
+        "trips_or_orders": 32,
+        "gross_earnings": 5569.56,
+        "incentives": 120.44,
+        "deductions": 460.13,
+        "net_payout": 5229.87
+      }
+    ],
+    "total_net_payout_period": 54153.95,
+    "payout_account_last4": "4822"
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P06",
+    "full_name": "Vikram Chauhan",
+    "phone": "9812345606",
+    "declared_address": "Salt Lake, Kolkata - 700091",
+    "stated_vocation": "ride-hailing driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

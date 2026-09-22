@@ -1,0 +1,287 @@
+{
+  "doc_type": "GIG_PAYOUT",
+  "doc_id": "P05-gig_payout",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "platform_name": "FoodDash Partner",
+    "partner_name": "Farhan Sheikh",
+    "partner_id": "FOO-P05",
+    "partner_since": "2025-11-10",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 5,
+        "trips_or_orders": 22,
+        "gross_earnings": 3946.41,
+        "incentives": 42.89,
+        "deductions": 438.92,
+        "net_payout": 3550.38
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 5,
+        "trips_or_orders": 30,
+        "gross_earnings": 4572.71,
+        "incentives": 184.96,
+        "deductions": 371.19,
+        "net_payout": 4386.48
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 6,
+        "trips_or_orders": 29,
+        "gross_earnings": 5080.17,
+        "incentives": 96.61,
+        "deductions": 403.77,
+        "net_payout": 4773.01
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 5,
+        "trips_or_orders": 20,
+        "gross_earnings": 3760.13,
+        "incentives": 239.38,
+        "deductions": 446.88,
+        "net_payout": 3552.63
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 6,
+        "trips_or_orders": 28,
+        "gross_earnings": 4350.85,
+        "incentives": 288.91,
+        "deductions": 381.97,
+        "net_payout": 4257.79
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 5,
+        "trips_or_orders": 25,
+        "gross_earnings": 4311.69,
+        "incentives": 77.04,
+        "deductions": 338.9,
+        "net_payout": 4049.83
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 7,
+        "trips_or_orders": 30,
+        "gross_earnings": 5649.7,
+        "incentives": 79.77,
+        "deductions": 378.03,
+        "net_payout": 5351.44
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 5,
+        "trips_or_orders": 29,
+        "gross_earnings": 4325.45,
+        "incentives": 342.11,
+        "deductions": 455.78,
+        "net_payout": 4211.78
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 4,
+        "trips_or_orders": 21,
+        "gross_earnings": 2787.2,
+        "incentives": 56.62,
+        "deductions": 240.1,
+        "net_payout": 2603.72
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 5,
+        "trips_or_orders": 21,
+        "gross_earnings": 3777.72,
+        "incentives": 85.3,
+        "deductions": 266.27,
+        "net_payout": 3596.75
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 5,
+        "trips_or_orders": 22,
+        "gross_earnings": 4245.35,
+        "incentives": 36.46,
+        "deductions": 397.86,
+        "net_payout": 3883.95
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 4,
+        "trips_or_orders": 23,
+        "gross_earnings": 3799.66,
+        "incentives": 222.71,
+        "deductions": 389.92,
+        "net_payout": 3632.45
+      }
+    ],
+    "total_net_payout_period": 47850.21,
+    "payout_account_last4": "4685"
+  },
+  "original_fields": {
+    "platform_name": "FoodDash Partner",
+    "partner_name": "Farhan Sheikh",
+    "partner_id": "FOO-P05",
+    "partner_since": "2025-11-10",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 5,
+        "trips_or_orders": 22,
+        "gross_earnings": 3946.41,
+        "incentives": 42.89,
+        "deductions": 438.92,
+        "net_payout": 3550.38
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 5,
+        "trips_or_orders": 30,
+        "gross_earnings": 4572.71,
+        "incentives": 184.96,
+        "deductions": 371.19,
+        "net_payout": 4386.48
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 6,
+        "trips_or_orders": 29,
+        "gross_earnings": 5080.17,
+        "incentives": 96.61,
+        "deductions": 403.77,
+        "net_payout": 4773.01
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 5,
+        "trips_or_orders": 20,
+        "gross_earnings": 3760.13,
+        "incentives": 239.38,
+        "deductions": 446.88,
+        "net_payout": 3552.63
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 6,
+        "trips_or_orders": 28,
+        "gross_earnings": 4350.85,
+        "incentives": 288.91,
+        "deductions": 381.97,
+        "net_payout": 4257.79
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 5,
+        "trips_or_orders": 25,
+        "gross_earnings": 4311.69,
+        "incentives": 77.04,
+        "deductions": 338.9,
+        "net_payout": 4049.83
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 7,
+        "trips_or_orders": 30,
+        "gross_earnings": 5649.7,
+        "incentives": 79.77,
+        "deductions": 378.03,
+        "net_payout": 5351.44
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 5,
+        "trips_or_orders": 29,
+        "gross_earnings": 4325.45,
+        "incentives": 342.11,
+        "deductions": 455.78,
+        "net_payout": 4211.78
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 4,
+        "trips_or_orders": 21,
+        "gross_earnings": 2787.2,
+        "incentives": 56.62,
+        "deductions": 240.1,
+        "net_payout": 2603.72
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 5,
+        "trips_or_orders": 21,
+        "gross_earnings": 3777.72,
+        "incentives": 85.3,
+        "deductions": 266.27,
+        "net_payout": 3596.75
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 5,
+        "trips_or_orders": 22,
+        "gross_earnings": 4245.35,
+        "incentives": 36.46,
+        "deductions": 397.86,
+        "net_payout": 3883.95
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 4,
+        "trips_or_orders": 23,
+        "gross_earnings": 3799.66,
+        "incentives": 222.71,
+        "deductions": 389.92,
+        "net_payout": 3632.45
+      }
+    ],
+    "total_net_payout_period": 47850.21,
+    "payout_account_last4": "4685"
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P05",
+    "full_name": "Farhan Sheikh",
+    "phone": "9812345605",
+    "declared_address": "Banjara Hills, Hyderabad - 500034",
+    "stated_vocation": "food delivery partner"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

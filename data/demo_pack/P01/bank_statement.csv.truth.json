@@ -1,0 +1,2313 @@
+{
+  "doc_type": "BANK_STATEMENT",
+  "doc_id": "P01-bank_statement",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "account_holder": "Aarav Mehta",
+    "account_number_masked": "XXXXXXXX4137",
+    "bank": "Demo Sahakari Bank",
+    "period_from": "2026-03-18",
+    "period_to": "2026-09-14",
+    "transactions": [
+      {
+        "date": "2026-03-18",
+        "narration": "ATM CASH WDL",
+        "ref": "671069",
+        "debit": 94.35,
+        "credit": null,
+        "balance": 9405.65
+      },
+      {
+        "date": "2026-03-19",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671070",
+        "debit": 161.21,
+        "credit": null,
+        "balance": 9244.44
+      },
+      {
+        "date": "2026-03-20",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671071",
+        "ref": "671071",
+        "debit": null,
+        "credit": 5687.51,
+        "balance": 14931.95
+      },
+      {
+        "date": "2026-03-20",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671072",
+        "debit": 60.11,
+        "credit": null,
+        "balance": 14871.84
+      },
+      {
+        "date": "2026-03-23",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671073",
+        "debit": 95.81,
+        "credit": null,
+        "balance": 14776.03
+      },
+      {
+        "date": "2026-03-25",
+        "narration": "ATM CASH WDL",
+        "ref": "671074",
+        "debit": 194.17,
+        "credit": null,
+        "balance": 14581.86
+      },
+      {
+        "date": "2026-03-27",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671075",
+        "ref": "671075",
+        "debit": null,
+        "credit": 9315.7,
+        "balance": 23897.56
+      },
+      {
+        "date": "2026-03-27",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671076",
+        "debit": 168.8,
+        "credit": null,
+        "balance": 23728.76
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671077",
+        "debit": null,
+        "credit": 1132.18,
+        "balance": 24860.94
+      },
+      {
+        "date": "2026-03-30",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671078",
+        "debit": 275.58,
+        "credit": null,
+        "balance": 24585.36
+      },
+      {
+        "date": "2026-04-02",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671079",
+        "debit": 165.12,
+        "credit": null,
+        "balance": 24420.24
+      },
+      {
+        "date": "2026-04-03",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671080",
+        "ref": "671080",
+        "debit": null,
+        "credit": 8162.78,
+        "balance": 32583.02
+      },
+      {
+        "date": "2026-04-03",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671081",
+        "debit": null,
+        "credit": 1207.2,
+        "balance": 33790.22
+      },
+      {
+        "date": "2026-04-07",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671082",
+        "debit": 110.88,
+        "credit": null,
+        "balance": 33679.34
+      },
+      {
+        "date": "2026-04-08",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671083",
+        "debit": null,
+        "credit": 916.62,
+        "balance": 34595.96
+      },
+      {
+        "date": "2026-04-09",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671084",
+        "debit": null,
+        "credit": 1188.75,
+        "balance": 35784.71
+      },
+      {
+        "date": "2026-04-10",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671085",
+        "ref": "671085",
+        "debit": null,
+        "credit": 6148.12,
+        "balance": 41932.83
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671086",
+        "debit": 163.67,
+        "credit": null,
+        "balance": 41769.16
+      },
+      {
+        "date": "2026-04-14",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671087",
+        "debit": 114.04,
+        "credit": null,
+        "balance": 41655.12
+      },
+      {
+        "date": "2026-04-16",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671088",
+        "debit": 208.48,
+        "credit": null,
+        "balance": 41446.64
+      },
+      {
+        "date": "2026-04-17",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671089",
+        "ref": "671089",
+        "debit": null,
+        "credit": 7076.9,
+        "balance": 48523.54
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671090",
+        "debit": 201.6,
+        "credit": null,
+        "balance": 48321.94
+      },
+      {
+        "date": "2026-04-19",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671091",
+        "debit": null,
+        "credit": 749.65,
+        "balance": 49071.59
+      },
+      {
+        "date": "2026-04-20",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671092",
+        "debit": 250.33,
+        "credit": null,
+        "balance": 48821.26
+      },
+      {
+        "date": "2026-04-22",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671093",
+        "debit": 202.04,
+        "credit": null,
+        "balance": 48619.22
+      },
+      {
+        "date": "2026-04-23",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671094",
+        "debit": 195.46,
+        "credit": null,
+        "balance": 48423.76
+      },
+      {
+        "date": "2026-04-24",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671095",
+        "ref": "671095",
+        "debit": null,
+        "credit": 7048.66,
+        "balance": 55472.42
+      },
+      {
+        "date": "2026-04-24",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671096",
+        "debit": 162.55,
+        "credit": null,
+        "balance": 55309.87
+      },
+      {
+        "date": "2026-04-28",
+        "narration": "ATM CASH WDL",
+        "ref": "671097",
+        "debit": 278.36,
+        "credit": null,
+        "balance": 55031.51
+      },
+      {
+        "date": "2026-05-01",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671098",
+        "ref": "671098",
+        "debit": null,
+        "credit": 8791.98,
+        "balance": 63823.49
+      },
+      {
+        "date": "2026-05-01",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671099",
+        "debit": 340.59,
+        "credit": null,
+        "balance": 63482.9
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671100",
+        "debit": null,
+        "credit": 787.96,
+        "balance": 64270.86
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671101",
+        "debit": 191.36,
+        "credit": null,
+        "balance": 64079.5
+      },
+      {
+        "date": "2026-05-03",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671102",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 64049.5
+      },
+      {
+        "date": "2026-05-04",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671103",
+        "debit": 187.99,
+        "credit": null,
+        "balance": 63861.51
+      },
+      {
+        "date": "2026-05-08",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671104",
+        "ref": "671104",
+        "debit": null,
+        "credit": 7268.9,
+        "balance": 71130.41
+      },
+      {
+        "date": "2026-05-10",
+        "narration": "ATM CASH WDL",
+        "ref": "671105",
+        "debit": 404.85,
+        "credit": null,
+        "balance": 70725.56
+      },
+      {
+        "date": "2026-05-12",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671106",
+        "debit": null,
+        "credit": 703.7,
+        "balance": 71429.26
+      },
+      {
+        "date": "2026-05-12",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671107",
+        "debit": 132.86,
+        "credit": null,
+        "balance": 71296.4
+      },
+      {
+        "date": "2026-05-15",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671108",
+        "ref": "671108",
+        "debit": null,
+        "credit": 4906.96,
+        "balance": 76203.36
+      },
+      {
+        "date": "2026-05-15",
+        "narration": "ATM CASH WDL",
+        "ref": "671109",
+        "debit": 201.75,
+        "credit": null,
+        "balance": 76001.61
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671110",
+        "debit": 164.87,
+        "credit": null,
+        "balance": 75836.74
+      },
+      {
+        "date": "2026-05-17",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671111",
+        "debit": 105.58,
+        "credit": null,
+        "balance": 75731.16
+      },
+      {
+        "date": "2026-05-18",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671112",
+        "debit": 385.62,
+        "credit": null,
+        "balance": 75345.54
+      },
+      {
+        "date": "2026-05-19",
+        "narration": "ATM CASH WDL",
+        "ref": "671113",
+        "debit": 270.15,
+        "credit": null,
+        "balance": 75075.39
+      },
+      {
+        "date": "2026-05-20",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671114",
+        "debit": 260.42,
+        "credit": null,
+        "balance": 74814.97
+      },
+      {
+        "date": "2026-05-21",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671115",
+        "debit": null,
+        "credit": 1168.17,
+        "balance": 75983.14
+      },
+      {
+        "date": "2026-05-22",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671116",
+        "ref": "671116",
+        "debit": null,
+        "credit": 9086.99,
+        "balance": 85070.13
+      },
+      {
+        "date": "2026-05-24",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671117",
+        "debit": 403.41,
+        "credit": null,
+        "balance": 84666.72
+      },
+      {
+        "date": "2026-05-26",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671118",
+        "debit": 96.37,
+        "credit": null,
+        "balance": 84570.35
+      },
+      {
+        "date": "2026-05-27",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671119",
+        "debit": 282.21,
+        "credit": null,
+        "balance": 84288.14
+      },
+      {
+        "date": "2026-05-28",
+        "narration": "ATM CASH WDL",
+        "ref": "671120",
+        "debit": 149.4,
+        "credit": null,
+        "balance": 84138.74
+      },
+      {
+        "date": "2026-05-29",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671121",
+        "ref": "671121",
+        "debit": null,
+        "credit": 7523.55,
+        "balance": 91662.29
+      },
+      {
+        "date": "2026-05-29",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671122",
+        "debit": null,
+        "credit": 516.4,
+        "balance": 92178.69
+      },
+      {
+        "date": "2026-05-30",
+        "narration": "ATM CASH WDL",
+        "ref": "671123",
+        "debit": 121.28,
+        "credit": null,
+        "balance": 92057.41
+      },
+      {
+        "date": "2026-05-31",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671124",
+        "debit": null,
+        "credit": 619.86,
+        "balance": 92677.27
+      },
+      {
+        "date": "2026-05-31",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671125",
+        "debit": 115.48,
+        "credit": null,
+        "balance": 92561.79
+      },
+      {
+        "date": "2026-06-01",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671126",
+        "debit": 62.38,
+        "credit": null,
+        "balance": 92499.41
+      },
+      {
+        "date": "2026-06-05",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671127",
+        "ref": "671127",
+        "debit": null,
+        "credit": 7455.46,
+        "balance": 99954.87
+      },
+      {
+        "date": "2026-06-05",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671128",
+        "debit": null,
+        "credit": 623.96,
+        "balance": 100578.83
+      },
+      {
+        "date": "2026-06-05",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671129",
+        "debit": 316.87,
+        "credit": null,
+        "balance": 100261.96
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671130",
+        "debit": 91.72,
+        "credit": null,
+        "balance": 100170.24
+      },
+      {
+        "date": "2026-06-08",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671131",
+        "debit": 208.85,
+        "credit": null,
+        "balance": 99961.39
+      },
+      {
+        "date": "2026-06-09",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671132",
+        "debit": 100.54,
+        "credit": null,
+        "balance": 99860.85
+      },
+      {
+        "date": "2026-06-10",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671133",
+        "debit": 77.07,
+        "credit": null,
+        "balance": 99783.78
+      },
+      {
+        "date": "2026-06-11",
+        "narration": "ATM CASH WDL",
+        "ref": "671134",
+        "debit": 233.36,
+        "credit": null,
+        "balance": 99550.42
+      },
+      {
+        "date": "2026-06-12",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671135",
+        "ref": "671135",
+        "debit": null,
+        "credit": 5389.84,
+        "balance": 104940.26
+      },
+      {
+        "date": "2026-06-12",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671136",
+        "debit": 83.59,
+        "credit": null,
+        "balance": 104856.67
+      },
+      {
+        "date": "2026-06-13",
+        "narration": "ATM CASH WDL",
+        "ref": "671137",
+        "debit": 136.5,
+        "credit": null,
+        "balance": 104720.17
+      },
+      {
+        "date": "2026-06-14",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671138",
+        "debit": null,
+        "credit": 133.9,
+        "balance": 104854.07
+      },
+      {
+        "date": "2026-06-14",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671139",
+        "debit": 401.85,
+        "credit": null,
+        "balance": 104452.22
+      },
+      {
+        "date": "2026-06-15",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671140",
+        "debit": 170.76,
+        "credit": null,
+        "balance": 104281.46
+      },
+      {
+        "date": "2026-06-16",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671141",
+        "debit": null,
+        "credit": 884.07,
+        "balance": 105165.53
+      },
+      {
+        "date": "2026-06-16",
+        "narration": "ATM CASH WDL",
+        "ref": "671142",
+        "debit": 40.24,
+        "credit": null,
+        "balance": 105125.29
+      },
+      {
+        "date": "2026-06-18",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671143",
+        "debit": null,
+        "credit": 812.73,
+        "balance": 105938.02
+      },
+      {
+        "date": "2026-06-18",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671144",
+        "debit": 236.0,
+        "credit": null,
+        "balance": 105702.02
+      },
+      {
+        "date": "2026-06-19",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671145",
+        "ref": "671145",
+        "debit": null,
+        "credit": 8374.98,
+        "balance": 114077.0
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671146",
+        "debit": 116.57,
+        "credit": null,
+        "balance": 113960.43
+      },
+      {
+        "date": "2026-06-25",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671147",
+        "debit": 83.63,
+        "credit": null,
+        "balance": 113876.8
+      },
+      {
+        "date": "2026-06-26",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671148",
+        "ref": "671148",
+        "debit": null,
+        "credit": 9111.41,
+        "balance": 122988.21
+      },
+      {
+        "date": "2026-06-29",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671149",
+        "debit": 246.22,
+        "credit": null,
+        "balance": 122741.99
+      },
+      {
+        "date": "2026-06-30",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671150",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 122711.99
+      },
+      {
+        "date": "2026-07-03",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671151",
+        "ref": "671151",
+        "debit": null,
+        "credit": 6207.2,
+        "balance": 128919.19
+      },
+      {
+        "date": "2026-07-03",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671152",
+        "debit": 120.4,
+        "credit": null,
+        "balance": 128798.79
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671153",
+        "debit": 282.48,
+        "credit": null,
+        "balance": 128516.31
+      },
+      {
+        "date": "2026-07-05",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671154",
+        "debit": 291.12,
+        "credit": null,
+        "balance": 128225.19
+      },
+      {
+        "date": "2026-07-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671155",
+        "debit": 213.28,
+        "credit": null,
+        "balance": 128011.91
+      },
+      {
+        "date": "2026-07-08",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671156",
+        "debit": 324.61,
+        "credit": null,
+        "balance": 127687.3
+      },
+      {
+        "date": "2026-07-10",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671157",
+        "ref": "671157",
+        "debit": null,
+        "credit": 5855.17,
+        "balance": 133542.47
+      },
+      {
+        "date": "2026-07-10",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671158",
+        "debit": 116.44,
+        "credit": null,
+        "balance": 133426.03
+      },
+      {
+        "date": "2026-07-11",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671159",
+        "debit": 216.36,
+        "credit": null,
+        "balance": 133209.67
+      },
+      {
+        "date": "2026-07-16",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671160",
+        "debit": 242.46,
+        "credit": null,
+        "balance": 132967.21
+      },
+      {
+        "date": "2026-07-17",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671161",
+        "ref": "671161",
+        "debit": null,
+        "credit": 3604.11,
+        "balance": 136571.32
+      },
+      {
+        "date": "2026-07-17",
+        "narration": "ATM CASH WDL",
+        "ref": "671162",
+        "debit": 144.1,
+        "credit": null,
+        "balance": 136427.22
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671163",
+        "debit": 107.78,
+        "credit": null,
+        "balance": 136319.44
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671164",
+        "debit": 159.69,
+        "credit": null,
+        "balance": 136159.75
+      },
+      {
+        "date": "2026-07-22",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671165",
+        "debit": 318.47,
+        "credit": null,
+        "balance": 135841.28
+      },
+      {
+        "date": "2026-07-24",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671166",
+        "ref": "671166",
+        "debit": null,
+        "credit": 5810.06,
+        "balance": 141651.34
+      },
+      {
+        "date": "2026-07-24",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671167",
+        "debit": 155.98,
+        "credit": null,
+        "balance": 141495.36
+      },
+      {
+        "date": "2026-07-25",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671168",
+        "debit": 188.93,
+        "credit": null,
+        "balance": 141306.43
+      },
+      {
+        "date": "2026-07-26",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671169",
+        "debit": 117.48,
+        "credit": null,
+        "balance": 141188.95
+      },
+      {
+        "date": "2026-07-27",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671170",
+        "debit": 179.38,
+        "credit": null,
+        "balance": 141009.57
+      },
+      {
+        "date": "2026-07-28",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671171",
+        "debit": 128.09,
+        "credit": null,
+        "balance": 140881.48
+      },
+      {
+        "date": "2026-07-29",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671172",
+        "debit": 115.46,
+        "credit": null,
+        "balance": 140766.02
+      },
+      {
+        "date": "2026-07-30",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671173",
+        "debit": 169.89,
+        "credit": null,
+        "balance": 140596.13
+      },
+      {
+        "date": "2026-07-31",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671174",
+        "ref": "671174",
+        "debit": null,
+        "credit": 7181.37,
+        "balance": 147777.5
+      },
+      {
+        "date": "2026-08-01",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671175",
+        "debit": 152.98,
+        "credit": null,
+        "balance": 147624.52
+      },
+      {
+        "date": "2026-08-03",
+        "narration": "ATM CASH WDL",
+        "ref": "671176",
+        "debit": 167.84,
+        "credit": null,
+        "balance": 147456.68
+      },
+      {
+        "date": "2026-08-05",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671177",
+        "debit": 113.58,
+        "credit": null,
+        "balance": 147343.1
+      },
+      {
+        "date": "2026-08-07",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671178",
+        "ref": "671178",
+        "debit": null,
+        "credit": 7011.54,
+        "balance": 154354.64
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671179",
+        "debit": null,
+        "credit": 886.16,
+        "balance": 155240.8
+      },
+      {
+        "date": "2026-08-10",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671180",
+        "debit": 170.5,
+        "credit": null,
+        "balance": 155070.3
+      },
+      {
+        "date": "2026-08-13",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671181",
+        "debit": 149.04,
+        "credit": null,
+        "balance": 154921.26
+      },
+      {
+        "date": "2026-08-14",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671182",
+        "ref": "671182",
+        "debit": null,
+        "credit": 7381.04,
+        "balance": 162302.3
+      },
+      {
+        "date": "2026-08-14",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671183",
+        "debit": null,
+        "credit": 809.72,
+        "balance": 163112.02
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671184",
+        "debit": 271.29,
+        "credit": null,
+        "balance": 162840.73
+      },
+      {
+        "date": "2026-08-16",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671185",
+        "debit": 179.85,
+        "credit": null,
+        "balance": 162660.88
+      },
+      {
+        "date": "2026-08-17",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671186",
+        "debit": 110.55,
+        "credit": null,
+        "balance": 162550.33
+      },
+      {
+        "date": "2026-08-20",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671187",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 162520.33
+      },
+      {
+        "date": "2026-08-21",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671188",
+        "ref": "671188",
+        "debit": null,
+        "credit": 7449.63,
+        "balance": 169969.96
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671189",
+        "debit": 245.33,
+        "credit": null,
+        "balance": 169724.63
+      },
+      {
+        "date": "2026-08-23",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671190",
+        "debit": 191.24,
+        "credit": null,
+        "balance": 169533.39
+      },
+      {
+        "date": "2026-08-24",
+        "narration": "ATM CASH WDL",
+        "ref": "671191",
+        "debit": 406.51,
+        "credit": null,
+        "balance": 169126.88
+      },
+      {
+        "date": "2026-08-25",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671192",
+        "debit": 283.0,
+        "credit": null,
+        "balance": 168843.88
+      },
+      {
+        "date": "2026-08-28",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671193",
+        "ref": "671193",
+        "debit": null,
+        "credit": 5801.21,
+        "balance": 174645.09
+      },
+      {
+        "date": "2026-08-29",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671194",
+        "debit": 136.74,
+        "credit": null,
+        "balance": 174508.35
+      },
+      {
+        "date": "2026-08-30",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671195",
+        "debit": 116.35,
+        "credit": null,
+        "balance": 174392.0
+      },
+      {
+        "date": "2026-08-31",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671196",
+        "debit": 237.4,
+        "credit": null,
+        "balance": 174154.6
+      },
+      {
+        "date": "2026-09-01",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671197",
+        "debit": 43.85,
+        "credit": null,
+        "balance": 174110.75
+      },
+      {
+        "date": "2026-09-03",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671198",
+        "debit": 362.68,
+        "credit": null,
+        "balance": 173748.07
+      },
+      {
+        "date": "2026-09-04",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671199",
+        "ref": "671199",
+        "debit": null,
+        "credit": 9378.84,
+        "balance": 183126.91
+      },
+      {
+        "date": "2026-09-04",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671200",
+        "debit": null,
+        "credit": 1022.9,
+        "balance": 184149.81
+      },
+      {
+        "date": "2026-09-04",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671201",
+        "debit": 309.21,
+        "credit": null,
+        "balance": 183840.6
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671202",
+        "debit": 114.43,
+        "credit": null,
+        "balance": 183726.17
+      },
+      {
+        "date": "2026-09-06",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671203",
+        "debit": 268.96,
+        "credit": null,
+        "balance": 183457.21
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671204",
+        "debit": 137.9,
+        "credit": null,
+        "balance": 183319.31
+      },
+      {
+        "date": "2026-09-09",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671205",
+        "debit": 284.76,
+        "credit": null,
+        "balance": 183034.55
+      },
+      {
+        "date": "2026-09-11",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671206",
+        "ref": "671206",
+        "debit": null,
+        "credit": 8970.4,
+        "balance": 192004.95
+      },
+      {
+        "date": "2026-09-11",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671207",
+        "debit": 171.7,
+        "credit": null,
+        "balance": 191833.25
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671208",
+        "debit": null,
+        "credit": 855.41,
+        "balance": 192688.66
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671209",
+        "debit": 207.35,
+        "credit": null,
+        "balance": 192481.31
+      },
+      {
+        "date": "2026-09-13",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671210",
+        "debit": 124.68,
+        "credit": null,
+        "balance": 192356.63
+      }
+    ]
+  },
+  "original_fields": {
+    "account_holder": "Aarav Mehta",
+    "account_number_masked": "XXXXXXXX4137",
+    "bank": "Demo Sahakari Bank",
+    "period_from": "2026-03-18",
+    "period_to": "2026-09-14",
+    "transactions": [
+      {
+        "date": "2026-03-18",
+        "narration": "ATM CASH WDL",
+        "ref": "671069",
+        "debit": 94.35,
+        "credit": null,
+        "balance": 9405.65
+      },
+      {
+        "date": "2026-03-19",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671070",
+        "debit": 161.21,
+        "credit": null,
+        "balance": 9244.44
+      },
+      {
+        "date": "2026-03-20",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671071",
+        "ref": "671071",
+        "debit": null,
+        "credit": 5687.51,
+        "balance": 14931.95
+      },
+      {
+        "date": "2026-03-20",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671072",
+        "debit": 60.11,
+        "credit": null,
+        "balance": 14871.84
+      },
+      {
+        "date": "2026-03-23",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671073",
+        "debit": 95.81,
+        "credit": null,
+        "balance": 14776.03
+      },
+      {
+        "date": "2026-03-25",
+        "narration": "ATM CASH WDL",
+        "ref": "671074",
+        "debit": 194.17,
+        "credit": null,
+        "balance": 14581.86
+      },
+      {
+        "date": "2026-03-27",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671075",
+        "ref": "671075",
+        "debit": null,
+        "credit": 9315.7,
+        "balance": 23897.56
+      },
+      {
+        "date": "2026-03-27",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671076",
+        "debit": 168.8,
+        "credit": null,
+        "balance": 23728.76
+      },
+      {
+        "date": "2026-03-28",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671077",
+        "debit": null,
+        "credit": 1132.18,
+        "balance": 24860.94
+      },
+      {
+        "date": "2026-03-30",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671078",
+        "debit": 275.58,
+        "credit": null,
+        "balance": 24585.36
+      },
+      {
+        "date": "2026-04-02",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671079",
+        "debit": 165.12,
+        "credit": null,
+        "balance": 24420.24
+      },
+      {
+        "date": "2026-04-03",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671080",
+        "ref": "671080",
+        "debit": null,
+        "credit": 8162.78,
+        "balance": 32583.02
+      },
+      {
+        "date": "2026-04-03",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671081",
+        "debit": null,
+        "credit": 1207.2,
+        "balance": 33790.22
+      },
+      {
+        "date": "2026-04-07",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671082",
+        "debit": 110.88,
+        "credit": null,
+        "balance": 33679.34
+      },
+      {
+        "date": "2026-04-08",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671083",
+        "debit": null,
+        "credit": 916.62,
+        "balance": 34595.96
+      },
+      {
+        "date": "2026-04-09",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671084",
+        "debit": null,
+        "credit": 1188.75,
+        "balance": 35784.71
+      },
+      {
+        "date": "2026-04-10",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671085",
+        "ref": "671085",
+        "debit": null,
+        "credit": 6148.12,
+        "balance": 41932.83
+      },
+      {
+        "date": "2026-04-11",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671086",
+        "debit": 163.67,
+        "credit": null,
+        "balance": 41769.16
+      },
+      {
+        "date": "2026-04-14",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671087",
+        "debit": 114.04,
+        "credit": null,
+        "balance": 41655.12
+      },
+      {
+        "date": "2026-04-16",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671088",
+        "debit": 208.48,
+        "credit": null,
+        "balance": 41446.64
+      },
+      {
+        "date": "2026-04-17",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671089",
+        "ref": "671089",
+        "debit": null,
+        "credit": 7076.9,
+        "balance": 48523.54
+      },
+      {
+        "date": "2026-04-18",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671090",
+        "debit": 201.6,
+        "credit": null,
+        "balance": 48321.94
+      },
+      {
+        "date": "2026-04-19",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671091",
+        "debit": null,
+        "credit": 749.65,
+        "balance": 49071.59
+      },
+      {
+        "date": "2026-04-20",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671092",
+        "debit": 250.33,
+        "credit": null,
+        "balance": 48821.26
+      },
+      {
+        "date": "2026-04-22",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671093",
+        "debit": 202.04,
+        "credit": null,
+        "balance": 48619.22
+      },
+      {
+        "date": "2026-04-23",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671094",
+        "debit": 195.46,
+        "credit": null,
+        "balance": 48423.76
+      },
+      {
+        "date": "2026-04-24",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671095",
+        "ref": "671095",
+        "debit": null,
+        "credit": 7048.66,
+        "balance": 55472.42
+      },
+      {
+        "date": "2026-04-24",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671096",
+        "debit": 162.55,
+        "credit": null,
+        "balance": 55309.87
+      },
+      {
+        "date": "2026-04-28",
+        "narration": "ATM CASH WDL",
+        "ref": "671097",
+        "debit": 278.36,
+        "credit": null,
+        "balance": 55031.51
+      },
+      {
+        "date": "2026-05-01",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671098",
+        "ref": "671098",
+        "debit": null,
+        "credit": 8791.98,
+        "balance": 63823.49
+      },
+      {
+        "date": "2026-05-01",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671099",
+        "debit": 340.59,
+        "credit": null,
+        "balance": 63482.9
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671100",
+        "debit": null,
+        "credit": 787.96,
+        "balance": 64270.86
+      },
+      {
+        "date": "2026-05-02",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671101",
+        "debit": 191.36,
+        "credit": null,
+        "balance": 64079.5
+      },
+      {
+        "date": "2026-05-03",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671102",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 64049.5
+      },
+      {
+        "date": "2026-05-04",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671103",
+        "debit": 187.99,
+        "credit": null,
+        "balance": 63861.51
+      },
+      {
+        "date": "2026-05-08",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671104",
+        "ref": "671104",
+        "debit": null,
+        "credit": 7268.9,
+        "balance": 71130.41
+      },
+      {
+        "date": "2026-05-10",
+        "narration": "ATM CASH WDL",
+        "ref": "671105",
+        "debit": 404.85,
+        "credit": null,
+        "balance": 70725.56
+      },
+      {
+        "date": "2026-05-12",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671106",
+        "debit": null,
+        "credit": 703.7,
+        "balance": 71429.26
+      },
+      {
+        "date": "2026-05-12",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671107",
+        "debit": 132.86,
+        "credit": null,
+        "balance": 71296.4
+      },
+      {
+        "date": "2026-05-15",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671108",
+        "ref": "671108",
+        "debit": null,
+        "credit": 4906.96,
+        "balance": 76203.36
+      },
+      {
+        "date": "2026-05-15",
+        "narration": "ATM CASH WDL",
+        "ref": "671109",
+        "debit": 201.75,
+        "credit": null,
+        "balance": 76001.61
+      },
+      {
+        "date": "2026-05-16",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671110",
+        "debit": 164.87,
+        "credit": null,
+        "balance": 75836.74
+      },
+      {
+        "date": "2026-05-17",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671111",
+        "debit": 105.58,
+        "credit": null,
+        "balance": 75731.16
+      },
+      {
+        "date": "2026-05-18",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671112",
+        "debit": 385.62,
+        "credit": null,
+        "balance": 75345.54
+      },
+      {
+        "date": "2026-05-19",
+        "narration": "ATM CASH WDL",
+        "ref": "671113",
+        "debit": 270.15,
+        "credit": null,
+        "balance": 75075.39
+      },
+      {
+        "date": "2026-05-20",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671114",
+        "debit": 260.42,
+        "credit": null,
+        "balance": 74814.97
+      },
+      {
+        "date": "2026-05-21",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671115",
+        "debit": null,
+        "credit": 1168.17,
+        "balance": 75983.14
+      },
+      {
+        "date": "2026-05-22",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671116",
+        "ref": "671116",
+        "debit": null,
+        "credit": 9086.99,
+        "balance": 85070.13
+      },
+      {
+        "date": "2026-05-24",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671117",
+        "debit": 403.41,
+        "credit": null,
+        "balance": 84666.72
+      },
+      {
+        "date": "2026-05-26",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671118",
+        "debit": 96.37,
+        "credit": null,
+        "balance": 84570.35
+      },
+      {
+        "date": "2026-05-27",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671119",
+        "debit": 282.21,
+        "credit": null,
+        "balance": 84288.14
+      },
+      {
+        "date": "2026-05-28",
+        "narration": "ATM CASH WDL",
+        "ref": "671120",
+        "debit": 149.4,
+        "credit": null,
+        "balance": 84138.74
+      },
+      {
+        "date": "2026-05-29",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671121",
+        "ref": "671121",
+        "debit": null,
+        "credit": 7523.55,
+        "balance": 91662.29
+      },
+      {
+        "date": "2026-05-29",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671122",
+        "debit": null,
+        "credit": 516.4,
+        "balance": 92178.69
+      },
+      {
+        "date": "2026-05-30",
+        "narration": "ATM CASH WDL",
+        "ref": "671123",
+        "debit": 121.28,
+        "credit": null,
+        "balance": 92057.41
+      },
+      {
+        "date": "2026-05-31",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671124",
+        "debit": null,
+        "credit": 619.86,
+        "balance": 92677.27
+      },
+      {
+        "date": "2026-05-31",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671125",
+        "debit": 115.48,
+        "credit": null,
+        "balance": 92561.79
+      },
+      {
+        "date": "2026-06-01",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671126",
+        "debit": 62.38,
+        "credit": null,
+        "balance": 92499.41
+      },
+      {
+        "date": "2026-06-05",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671127",
+        "ref": "671127",
+        "debit": null,
+        "credit": 7455.46,
+        "balance": 99954.87
+      },
+      {
+        "date": "2026-06-05",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671128",
+        "debit": null,
+        "credit": 623.96,
+        "balance": 100578.83
+      },
+      {
+        "date": "2026-06-05",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671129",
+        "debit": 316.87,
+        "credit": null,
+        "balance": 100261.96
+      },
+      {
+        "date": "2026-06-06",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671130",
+        "debit": 91.72,
+        "credit": null,
+        "balance": 100170.24
+      },
+      {
+        "date": "2026-06-08",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671131",
+        "debit": 208.85,
+        "credit": null,
+        "balance": 99961.39
+      },
+      {
+        "date": "2026-06-09",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671132",
+        "debit": 100.54,
+        "credit": null,
+        "balance": 99860.85
+      },
+      {
+        "date": "2026-06-10",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671133",
+        "debit": 77.07,
+        "credit": null,
+        "balance": 99783.78
+      },
+      {
+        "date": "2026-06-11",
+        "narration": "ATM CASH WDL",
+        "ref": "671134",
+        "debit": 233.36,
+        "credit": null,
+        "balance": 99550.42
+      },
+      {
+        "date": "2026-06-12",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671135",
+        "ref": "671135",
+        "debit": null,
+        "credit": 5389.84,
+        "balance": 104940.26
+      },
+      {
+        "date": "2026-06-12",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671136",
+        "debit": 83.59,
+        "credit": null,
+        "balance": 104856.67
+      },
+      {
+        "date": "2026-06-13",
+        "narration": "ATM CASH WDL",
+        "ref": "671137",
+        "debit": 136.5,
+        "credit": null,
+        "balance": 104720.17
+      },
+      {
+        "date": "2026-06-14",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671138",
+        "debit": null,
+        "credit": 133.9,
+        "balance": 104854.07
+      },
+      {
+        "date": "2026-06-14",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671139",
+        "debit": 401.85,
+        "credit": null,
+        "balance": 104452.22
+      },
+      {
+        "date": "2026-06-15",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671140",
+        "debit": 170.76,
+        "credit": null,
+        "balance": 104281.46
+      },
+      {
+        "date": "2026-06-16",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671141",
+        "debit": null,
+        "credit": 884.07,
+        "balance": 105165.53
+      },
+      {
+        "date": "2026-06-16",
+        "narration": "ATM CASH WDL",
+        "ref": "671142",
+        "debit": 40.24,
+        "credit": null,
+        "balance": 105125.29
+      },
+      {
+        "date": "2026-06-18",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671143",
+        "debit": null,
+        "credit": 812.73,
+        "balance": 105938.02
+      },
+      {
+        "date": "2026-06-18",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671144",
+        "debit": 236.0,
+        "credit": null,
+        "balance": 105702.02
+      },
+      {
+        "date": "2026-06-19",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671145",
+        "ref": "671145",
+        "debit": null,
+        "credit": 8374.98,
+        "balance": 114077.0
+      },
+      {
+        "date": "2026-06-20",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671146",
+        "debit": 116.57,
+        "credit": null,
+        "balance": 113960.43
+      },
+      {
+        "date": "2026-06-25",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671147",
+        "debit": 83.63,
+        "credit": null,
+        "balance": 113876.8
+      },
+      {
+        "date": "2026-06-26",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671148",
+        "ref": "671148",
+        "debit": null,
+        "credit": 9111.41,
+        "balance": 122988.21
+      },
+      {
+        "date": "2026-06-29",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671149",
+        "debit": 246.22,
+        "credit": null,
+        "balance": 122741.99
+      },
+      {
+        "date": "2026-06-30",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671150",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 122711.99
+      },
+      {
+        "date": "2026-07-03",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671151",
+        "ref": "671151",
+        "debit": null,
+        "credit": 6207.2,
+        "balance": 128919.19
+      },
+      {
+        "date": "2026-07-03",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671152",
+        "debit": 120.4,
+        "credit": null,
+        "balance": 128798.79
+      },
+      {
+        "date": "2026-07-04",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671153",
+        "debit": 282.48,
+        "credit": null,
+        "balance": 128516.31
+      },
+      {
+        "date": "2026-07-05",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671154",
+        "debit": 291.12,
+        "credit": null,
+        "balance": 128225.19
+      },
+      {
+        "date": "2026-07-07",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671155",
+        "debit": 213.28,
+        "credit": null,
+        "balance": 128011.91
+      },
+      {
+        "date": "2026-07-08",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671156",
+        "debit": 324.61,
+        "credit": null,
+        "balance": 127687.3
+      },
+      {
+        "date": "2026-07-10",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671157",
+        "ref": "671157",
+        "debit": null,
+        "credit": 5855.17,
+        "balance": 133542.47
+      },
+      {
+        "date": "2026-07-10",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671158",
+        "debit": 116.44,
+        "credit": null,
+        "balance": 133426.03
+      },
+      {
+        "date": "2026-07-11",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671159",
+        "debit": 216.36,
+        "credit": null,
+        "balance": 133209.67
+      },
+      {
+        "date": "2026-07-16",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671160",
+        "debit": 242.46,
+        "credit": null,
+        "balance": 132967.21
+      },
+      {
+        "date": "2026-07-17",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671161",
+        "ref": "671161",
+        "debit": null,
+        "credit": 3604.11,
+        "balance": 136571.32
+      },
+      {
+        "date": "2026-07-17",
+        "narration": "ATM CASH WDL",
+        "ref": "671162",
+        "debit": 144.1,
+        "credit": null,
+        "balance": 136427.22
+      },
+      {
+        "date": "2026-07-18",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671163",
+        "debit": 107.78,
+        "credit": null,
+        "balance": 136319.44
+      },
+      {
+        "date": "2026-07-21",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671164",
+        "debit": 159.69,
+        "credit": null,
+        "balance": 136159.75
+      },
+      {
+        "date": "2026-07-22",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671165",
+        "debit": 318.47,
+        "credit": null,
+        "balance": 135841.28
+      },
+      {
+        "date": "2026-07-24",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671166",
+        "ref": "671166",
+        "debit": null,
+        "credit": 5810.06,
+        "balance": 141651.34
+      },
+      {
+        "date": "2026-07-24",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671167",
+        "debit": 155.98,
+        "credit": null,
+        "balance": 141495.36
+      },
+      {
+        "date": "2026-07-25",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671168",
+        "debit": 188.93,
+        "credit": null,
+        "balance": 141306.43
+      },
+      {
+        "date": "2026-07-26",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671169",
+        "debit": 117.48,
+        "credit": null,
+        "balance": 141188.95
+      },
+      {
+        "date": "2026-07-27",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671170",
+        "debit": 179.38,
+        "credit": null,
+        "balance": 141009.57
+      },
+      {
+        "date": "2026-07-28",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671171",
+        "debit": 128.09,
+        "credit": null,
+        "balance": 140881.48
+      },
+      {
+        "date": "2026-07-29",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671172",
+        "debit": 115.46,
+        "credit": null,
+        "balance": 140766.02
+      },
+      {
+        "date": "2026-07-30",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671173",
+        "debit": 169.89,
+        "credit": null,
+        "balance": 140596.13
+      },
+      {
+        "date": "2026-07-31",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671174",
+        "ref": "671174",
+        "debit": null,
+        "credit": 7181.37,
+        "balance": 147777.5
+      },
+      {
+        "date": "2026-08-01",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671175",
+        "debit": 152.98,
+        "credit": null,
+        "balance": 147624.52
+      },
+      {
+        "date": "2026-08-03",
+        "narration": "ATM CASH WDL",
+        "ref": "671176",
+        "debit": 167.84,
+        "credit": null,
+        "balance": 147456.68
+      },
+      {
+        "date": "2026-08-05",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671177",
+        "debit": 113.58,
+        "credit": null,
+        "balance": 147343.1
+      },
+      {
+        "date": "2026-08-07",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671178",
+        "ref": "671178",
+        "debit": null,
+        "credit": 7011.54,
+        "balance": 154354.64
+      },
+      {
+        "date": "2026-08-09",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671179",
+        "debit": null,
+        "credit": 886.16,
+        "balance": 155240.8
+      },
+      {
+        "date": "2026-08-10",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671180",
+        "debit": 170.5,
+        "credit": null,
+        "balance": 155070.3
+      },
+      {
+        "date": "2026-08-13",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671181",
+        "debit": 149.04,
+        "credit": null,
+        "balance": 154921.26
+      },
+      {
+        "date": "2026-08-14",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671182",
+        "ref": "671182",
+        "debit": null,
+        "credit": 7381.04,
+        "balance": 162302.3
+      },
+      {
+        "date": "2026-08-14",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671183",
+        "debit": null,
+        "credit": 809.72,
+        "balance": 163112.02
+      },
+      {
+        "date": "2026-08-15",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671184",
+        "debit": 271.29,
+        "credit": null,
+        "balance": 162840.73
+      },
+      {
+        "date": "2026-08-16",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671185",
+        "debit": 179.85,
+        "credit": null,
+        "balance": 162660.88
+      },
+      {
+        "date": "2026-08-17",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671186",
+        "debit": 110.55,
+        "credit": null,
+        "balance": 162550.33
+      },
+      {
+        "date": "2026-08-20",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671187",
+        "debit": 30.0,
+        "credit": null,
+        "balance": 162520.33
+      },
+      {
+        "date": "2026-08-21",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671188",
+        "ref": "671188",
+        "debit": null,
+        "credit": 7449.63,
+        "balance": 169969.96
+      },
+      {
+        "date": "2026-08-22",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671189",
+        "debit": 245.33,
+        "credit": null,
+        "balance": 169724.63
+      },
+      {
+        "date": "2026-08-23",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671190",
+        "debit": 191.24,
+        "credit": null,
+        "balance": 169533.39
+      },
+      {
+        "date": "2026-08-24",
+        "narration": "ATM CASH WDL",
+        "ref": "671191",
+        "debit": 406.51,
+        "credit": null,
+        "balance": 169126.88
+      },
+      {
+        "date": "2026-08-25",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671192",
+        "debit": 283.0,
+        "credit": null,
+        "balance": 168843.88
+      },
+      {
+        "date": "2026-08-28",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671193",
+        "ref": "671193",
+        "debit": null,
+        "credit": 5801.21,
+        "balance": 174645.09
+      },
+      {
+        "date": "2026-08-29",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671194",
+        "debit": 136.74,
+        "credit": null,
+        "balance": 174508.35
+      },
+      {
+        "date": "2026-08-30",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671195",
+        "debit": 116.35,
+        "credit": null,
+        "balance": 174392.0
+      },
+      {
+        "date": "2026-08-31",
+        "narration": "DTH RECHARGE UPI",
+        "ref": "671196",
+        "debit": 237.4,
+        "credit": null,
+        "balance": 174154.6
+      },
+      {
+        "date": "2026-09-01",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671197",
+        "debit": 43.85,
+        "credit": null,
+        "balance": 174110.75
+      },
+      {
+        "date": "2026-09-03",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671198",
+        "debit": 362.68,
+        "credit": null,
+        "balance": 173748.07
+      },
+      {
+        "date": "2026-09-04",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671199",
+        "ref": "671199",
+        "debit": null,
+        "credit": 9378.84,
+        "balance": 183126.91
+      },
+      {
+        "date": "2026-09-04",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671200",
+        "debit": null,
+        "credit": 1022.9,
+        "balance": 184149.81
+      },
+      {
+        "date": "2026-09-04",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671201",
+        "debit": 309.21,
+        "credit": null,
+        "balance": 183840.6
+      },
+      {
+        "date": "2026-09-05",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671202",
+        "debit": 114.43,
+        "credit": null,
+        "balance": 183726.17
+      },
+      {
+        "date": "2026-09-06",
+        "narration": "MOBILE RECHARGE UPI",
+        "ref": "671203",
+        "debit": 268.96,
+        "credit": null,
+        "balance": 183457.21
+      },
+      {
+        "date": "2026-09-08",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671204",
+        "debit": 137.9,
+        "credit": null,
+        "balance": 183319.31
+      },
+      {
+        "date": "2026-09-09",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671205",
+        "debit": 284.76,
+        "credit": null,
+        "balance": 183034.55
+      },
+      {
+        "date": "2026-09-11",
+        "narration": "UPI/ZIPRIDEPARTNER PAYOUT/671206",
+        "ref": "671206",
+        "debit": null,
+        "credit": 8970.4,
+        "balance": 192004.95
+      },
+      {
+        "date": "2026-09-11",
+        "narration": "GROCERY STORE UPI",
+        "ref": "671207",
+        "debit": 171.7,
+        "credit": null,
+        "balance": 191833.25
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "UPI/CUSTOMER TRANSFER/IN",
+        "ref": "671208",
+        "debit": null,
+        "credit": 855.41,
+        "balance": 192688.66
+      },
+      {
+        "date": "2026-09-12",
+        "narration": "ELECTRICITY BILL UPI",
+        "ref": "671209",
+        "debit": 207.35,
+        "credit": null,
+        "balance": 192481.31
+      },
+      {
+        "date": "2026-09-13",
+        "narration": "RENT PAYMENT NEFT",
+        "ref": "671210",
+        "debit": 124.68,
+        "credit": null,
+        "balance": 192356.63
+      }
+    ]
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P01",
+    "full_name": "Aarav Mehta",
+    "phone": "9812345601",
+    "declared_address": "14, Whitefield, Bengaluru - 560066",
+    "stated_vocation": "ride-hailing driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

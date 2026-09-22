@@ -1,0 +1,13 @@
+{
+  "persona_id": "P09",
+  "full_name": "Kavita Sharma",
+  "phone": "9812345609",
+  "pan": "IIIKS9012I",
+  "aadhaar": "234567890109",
+  "declared_address": "12, 4th Cross, Malleshwaram, Bengaluru - 560003",
+  "stated_vocation": "food delivery partner",
+  "requested_line_inr": 20000,
+  "consent_given": true,
+  "consent_text_version": "v1",
+  "consent_at": "2026-09-01T10:00:00+05:30"
+}

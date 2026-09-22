@@ -1,0 +1,11 @@
+{
+  "persona_id": "P10",
+  "docs_present": [
+    "GIG_PAYOUT",
+    "UTILITY_BILL",
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "REFER",
+  "notes": "Blind-spot cohort borrower: scorecard alone rates profile as APPROVE (high utility tenure, strong on-time ratio, good income), but embedding reveals brittle cashflow (short gig tenure of 5 weeks, volatile earnings CV 0.67, frequent low balances). Precedents show peer default rate CI lower bound > 0.15 -> TWO_SIGNAL_DOWNGRADE to REFER.",
+  "requested_line_inr": 25000
+}

@@ -1,0 +1,287 @@
+{
+  "doc_type": "GIG_PAYOUT",
+  "doc_id": "P11-gig_payout",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Ananya Sen",
+    "partner_id": "ZIP-P11",
+    "partner_since": "2025-04-07",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 4,
+        "trips_or_orders": 26,
+        "gross_earnings": 3662.68,
+        "incentives": 122.63,
+        "deductions": 351.66,
+        "net_payout": 3433.65
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 4,
+        "trips_or_orders": 23,
+        "gross_earnings": 3373.95,
+        "incentives": 42.7,
+        "deductions": 260.74,
+        "net_payout": 3155.91
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 5,
+        "trips_or_orders": 24,
+        "gross_earnings": 3995.65,
+        "incentives": 143.28,
+        "deductions": 336.68,
+        "net_payout": 3802.25
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 4,
+        "trips_or_orders": 19,
+        "gross_earnings": 3595.83,
+        "incentives": 84.21,
+        "deductions": 429.53,
+        "net_payout": 3250.51
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 3,
+        "trips_or_orders": 17,
+        "gross_earnings": 2651.11,
+        "incentives": 152.41,
+        "deductions": 157.81,
+        "net_payout": 2645.71
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 4093.74,
+        "incentives": 45.63,
+        "deductions": 398.17,
+        "net_payout": 3741.2
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 4,
+        "trips_or_orders": 23,
+        "gross_earnings": 3407.99,
+        "incentives": 263.5,
+        "deductions": 288.53,
+        "net_payout": 3382.96
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 3,
+        "trips_or_orders": 20,
+        "gross_earnings": 2786.82,
+        "incentives": 189.85,
+        "deductions": 255.19,
+        "net_payout": 2721.48
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 5,
+        "trips_or_orders": 21,
+        "gross_earnings": 3881.51,
+        "incentives": 163.44,
+        "deductions": 245.06,
+        "net_payout": 3799.89
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 5,
+        "trips_or_orders": 27,
+        "gross_earnings": 4146.36,
+        "incentives": 256.16,
+        "deductions": 473.25,
+        "net_payout": 3929.27
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 3546.11,
+        "incentives": 73.76,
+        "deductions": 307.07,
+        "net_payout": 3312.8
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 4,
+        "trips_or_orders": 18,
+        "gross_earnings": 3046.33,
+        "incentives": 21.41,
+        "deductions": 250.72,
+        "net_payout": 2817.02
+      }
+    ],
+    "total_net_payout_period": 39992.65,
+    "payout_account_last4": "5507"
+  },
+  "original_fields": {
+    "platform_name": "ZipRide Partner",
+    "partner_name": "Ananya Sen",
+    "partner_id": "ZIP-P11",
+    "partner_since": "2025-04-07",
+    "report_period_start": "2026-06-22",
+    "report_period_end": "2026-09-13",
+    "weeks": [
+      {
+        "week_start": "2026-06-22",
+        "week_end": "2026-06-28",
+        "active_days": 4,
+        "trips_or_orders": 26,
+        "gross_earnings": 3662.68,
+        "incentives": 122.63,
+        "deductions": 351.66,
+        "net_payout": 3433.65
+      },
+      {
+        "week_start": "2026-06-29",
+        "week_end": "2026-07-05",
+        "active_days": 4,
+        "trips_or_orders": 23,
+        "gross_earnings": 3373.95,
+        "incentives": 42.7,
+        "deductions": 260.74,
+        "net_payout": 3155.91
+      },
+      {
+        "week_start": "2026-07-06",
+        "week_end": "2026-07-12",
+        "active_days": 5,
+        "trips_or_orders": 24,
+        "gross_earnings": 3995.65,
+        "incentives": 143.28,
+        "deductions": 336.68,
+        "net_payout": 3802.25
+      },
+      {
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "active_days": 4,
+        "trips_or_orders": 19,
+        "gross_earnings": 3595.83,
+        "incentives": 84.21,
+        "deductions": 429.53,
+        "net_payout": 3250.51
+      },
+      {
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "active_days": 3,
+        "trips_or_orders": 17,
+        "gross_earnings": 2651.11,
+        "incentives": 152.41,
+        "deductions": 157.81,
+        "net_payout": 2645.71
+      },
+      {
+        "week_start": "2026-07-27",
+        "week_end": "2026-08-02",
+        "active_days": 5,
+        "trips_or_orders": 26,
+        "gross_earnings": 4093.74,
+        "incentives": 45.63,
+        "deductions": 398.17,
+        "net_payout": 3741.2
+      },
+      {
+        "week_start": "2026-08-03",
+        "week_end": "2026-08-09",
+        "active_days": 4,
+        "trips_or_orders": 23,
+        "gross_earnings": 3407.99,
+        "incentives": 263.5,
+        "deductions": 288.53,
+        "net_payout": 3382.96
+      },
+      {
+        "week_start": "2026-08-10",
+        "week_end": "2026-08-16",
+        "active_days": 3,
+        "trips_or_orders": 20,
+        "gross_earnings": 2786.82,
+        "incentives": 189.85,
+        "deductions": 255.19,
+        "net_payout": 2721.48
+      },
+      {
+        "week_start": "2026-08-17",
+        "week_end": "2026-08-23",
+        "active_days": 5,
+        "trips_or_orders": 21,
+        "gross_earnings": 3881.51,
+        "incentives": 163.44,
+        "deductions": 245.06,
+        "net_payout": 3799.89
+      },
+      {
+        "week_start": "2026-08-24",
+        "week_end": "2026-08-30",
+        "active_days": 5,
+        "trips_or_orders": 27,
+        "gross_earnings": 4146.36,
+        "incentives": 256.16,
+        "deductions": 473.25,
+        "net_payout": 3929.27
+      },
+      {
+        "week_start": "2026-08-31",
+        "week_end": "2026-09-06",
+        "active_days": 4,
+        "trips_or_orders": 22,
+        "gross_earnings": 3546.11,
+        "incentives": 73.76,
+        "deductions": 307.07,
+        "net_payout": 3312.8
+      },
+      {
+        "week_start": "2026-09-07",
+        "week_end": "2026-09-13",
+        "active_days": 4,
+        "trips_or_orders": 18,
+        "gross_earnings": 3046.33,
+        "incentives": 21.41,
+        "deductions": 250.72,
+        "net_payout": 2817.02
+      }
+    ],
+    "total_net_payout_period": 39992.65,
+    "payout_account_last4": "5507"
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P11",
+    "full_name": "Ananya Sen",
+    "phone": "9812345611",
+    "declared_address": "18, Salt Lake Sector 1, Kolkata - 700064",
+    "stated_vocation": "ride-hailing driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

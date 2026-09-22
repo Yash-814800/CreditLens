@@ -1,0 +1,11 @@
+{
+  "persona_id": "P06",
+  "docs_present": [
+    "GIG_PAYOUT",
+    "UTILITY_BILL",
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "DECLINE",
+  "notes": "Submits a resized/re-encoded COPY of P05's utility bill under a different identity. The bill still reads P05's consumer name/number -> pHash near-duplicate corroborated by mismatched identity -> HIGH fraud severity -> DECLINE regardless of score. THE syndicate collision demo (submit P05 then P06).",
+  "requested_line_inr": 20000
+}

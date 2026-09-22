@@ -1,0 +1,119 @@
+{
+  "doc_type": "UTILITY_BILL",
+  "doc_id": "P03-utility_bill",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Deepak Yadav",
+    "consumer_number": "CN03778899",
+    "service_address": "Sector 62, Noida - 201309",
+    "connection_date": "2026-07-06",
+    "meter_number": "MT0355",
+    "bill_date": "2026-09-13",
+    "due_date": "2026-10-04",
+    "billing_period_start": "2026-08-11",
+    "billing_period_end": "2026-09-11",
+    "units_consumed": 92,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 625.6
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 123.88
+      },
+      {
+        "label": "Tax",
+        "amount": 37.47
+      },
+      {
+        "label": "Prompt-payment rebate",
+        "amount": -18.75
+      }
+    ],
+    "total_amount_due": 768.2,
+    "payment_history": [
+      {
+        "month": "2026-07",
+        "amount": 875.27,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-07-22",
+        "status": "Late"
+      },
+      {
+        "month": "2026-08",
+        "amount": 789.87,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-18",
+        "status": "On-time"
+      }
+    ]
+  },
+  "original_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Deepak Yadav",
+    "consumer_number": "CN03778899",
+    "service_address": "Sector 62, Noida - 201309",
+    "connection_date": "2026-07-06",
+    "meter_number": "MT0355",
+    "bill_date": "2026-09-13",
+    "due_date": "2026-10-04",
+    "billing_period_start": "2026-08-11",
+    "billing_period_end": "2026-09-11",
+    "units_consumed": 92,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 625.6
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 123.88
+      },
+      {
+        "label": "Tax",
+        "amount": 37.47
+      },
+      {
+        "label": "Prompt-payment rebate",
+        "amount": -18.75
+      }
+    ],
+    "total_amount_due": 768.2,
+    "payment_history": [
+      {
+        "month": "2026-07",
+        "amount": 875.27,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-07-22",
+        "status": "Late"
+      },
+      {
+        "month": "2026-08",
+        "amount": 789.87,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-18",
+        "status": "On-time"
+      }
+    ]
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P03",
+    "full_name": "Deepak Yadav",
+    "phone": "9812345603",
+    "declared_address": "Sector 62, Noida - 201309",
+    "stated_vocation": "auto-rickshaw driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

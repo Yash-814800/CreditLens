@@ -1,0 +1,64 @@
+# env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# node
+node_modules/
+dist/
+.vite/
+frontend/coverage/
+test-results/
+playwright-report/
+
+# terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+*.tfplan
+*.tfplan.out
+# The provider lock file IS committed (Terraform's own recommendation), so
+# `terraform init` resolves the same provider version on every machine --
+# the previous blanket ignore here was a Phase 0 bug, fixed while building
+# Phase 9's real Terraform config.
+!.terraform.lock.hcl
+
+# data (synthetic outputs are large / regenerable; demo_pack is committed on purpose)
+data/*
+!data/demo_pack/
+!data/demo_pack/**
+!data/synth/history.parquet
+
+
+# misc
+*.log
+.DS_Store
+
+# docs/screenshots/ is committed on purpose (Phase 7 Playwright run output,
+# referenced by the README and the Phase 10 deck) -- nothing to ignore here.
+docs/_baseline/
+
+# internal / prep docs
+CLAUDE.md
+docs/PROGRESS.md
+docs/deck_outline.md
+docs/demo_script.md
+docs/qa_prep.md
+
+

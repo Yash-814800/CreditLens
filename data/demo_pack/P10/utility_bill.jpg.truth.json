@@ -1,0 +1,251 @@
+{
+  "doc_type": "UTILITY_BILL",
+  "doc_id": "P10-utility_bill",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Vikram Joshi",
+    "consumer_number": "CN10778899",
+    "service_address": "42, Koramangala 4th Block, Bengaluru - 560034",
+    "connection_date": "2025-03-03",
+    "meter_number": "MT1055",
+    "bill_date": "2026-09-13",
+    "due_date": "2026-09-30",
+    "billing_period_start": "2026-08-13",
+    "billing_period_end": "2026-09-11",
+    "units_consumed": 146,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 992.8
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 109.92
+      },
+      {
+        "label": "Tax",
+        "amount": 55.14
+      }
+    ],
+    "total_amount_due": 1157.86,
+    "payment_history": [
+      {
+        "month": "2025-09",
+        "amount": 1124.1,
+        "due_date": "2025-09-20",
+        "paid_date": "2025-09-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-10",
+        "amount": 1010.92,
+        "due_date": "2025-10-20",
+        "paid_date": "2025-10-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-11",
+        "amount": 960.85,
+        "due_date": "2025-11-20",
+        "paid_date": "2025-11-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-12",
+        "amount": 1292.83,
+        "due_date": "2025-12-20",
+        "paid_date": "2025-12-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-01",
+        "amount": 1289.45,
+        "due_date": "2026-01-20",
+        "paid_date": "2026-01-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-02",
+        "amount": 960.79,
+        "due_date": "2026-02-20",
+        "paid_date": "2026-02-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-03",
+        "amount": 1015.42,
+        "due_date": "2026-03-20",
+        "paid_date": "2026-03-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-04",
+        "amount": 974.17,
+        "due_date": "2026-04-20",
+        "paid_date": "2026-04-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-05",
+        "amount": 1034.34,
+        "due_date": "2026-05-20",
+        "paid_date": "2026-05-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-06",
+        "amount": 1342.63,
+        "due_date": "2026-06-20",
+        "paid_date": "2026-06-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-07",
+        "amount": 1146.4,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-07-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-08",
+        "amount": 1117.81,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-20",
+        "status": "On-time"
+      }
+    ]
+  },
+  "original_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Vikram Joshi",
+    "consumer_number": "CN10778899",
+    "service_address": "42, Koramangala 4th Block, Bengaluru - 560034",
+    "connection_date": "2025-03-03",
+    "meter_number": "MT1055",
+    "bill_date": "2026-09-13",
+    "due_date": "2026-09-30",
+    "billing_period_start": "2026-08-13",
+    "billing_period_end": "2026-09-11",
+    "units_consumed": 146,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 992.8
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 109.92
+      },
+      {
+        "label": "Tax",
+        "amount": 55.14
+      }
+    ],
+    "total_amount_due": 1157.86,
+    "payment_history": [
+      {
+        "month": "2025-09",
+        "amount": 1124.1,
+        "due_date": "2025-09-20",
+        "paid_date": "2025-09-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-10",
+        "amount": 1010.92,
+        "due_date": "2025-10-20",
+        "paid_date": "2025-10-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-11",
+        "amount": 960.85,
+        "due_date": "2025-11-20",
+        "paid_date": "2025-11-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2025-12",
+        "amount": 1292.83,
+        "due_date": "2025-12-20",
+        "paid_date": "2025-12-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-01",
+        "amount": 1289.45,
+        "due_date": "2026-01-20",
+        "paid_date": "2026-01-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-02",
+        "amount": 960.79,
+        "due_date": "2026-02-20",
+        "paid_date": "2026-02-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-03",
+        "amount": 1015.42,
+        "due_date": "2026-03-20",
+        "paid_date": "2026-03-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-04",
+        "amount": 974.17,
+        "due_date": "2026-04-20",
+        "paid_date": "2026-04-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-05",
+        "amount": 1034.34,
+        "due_date": "2026-05-20",
+        "paid_date": "2026-05-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-06",
+        "amount": 1342.63,
+        "due_date": "2026-06-20",
+        "paid_date": "2026-06-17",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-07",
+        "amount": 1146.4,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-07-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-08",
+        "amount": 1117.81,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-20",
+        "status": "On-time"
+      }
+    ]
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P10",
+    "full_name": "Vikram Joshi",
+    "phone": "9812345610",
+    "declared_address": "42, Koramangala 4th Block, Bengaluru - 560034",
+    "stated_vocation": "cab driver"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

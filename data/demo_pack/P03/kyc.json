@@ -1,0 +1,13 @@
+{
+  "persona_id": "P03",
+  "full_name": "Deepak Yadav",
+  "phone": "9812345603",
+  "pan": "CCCPY3456C",
+  "aadhaar": "234567890103",
+  "declared_address": "Sector 62, Noida - 201309",
+  "stated_vocation": "auto-rickshaw driver",
+  "requested_line_inr": 30000,
+  "consent_given": true,
+  "consent_text_version": "v1",
+  "consent_at": "2026-09-01T10:00:00+05:30"
+}

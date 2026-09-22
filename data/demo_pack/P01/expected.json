@@ -1,0 +1,11 @@
+{
+  "persona_id": "P01",
+  "docs_present": [
+    "GIG_PAYOUT",
+    "UTILITY_BILL",
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "APPROVE",
+  "notes": "Strong, stable profile across all three documents; clean fraud checks.",
+  "requested_line_inr": 25000
+}

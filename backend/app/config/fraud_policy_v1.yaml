@@ -1,0 +1,82 @@
+# Fraud / document-integrity policy, version v1.
+#
+# Every threshold and penalty here is a *policy* decision, not a code constant,
+# so it can be re-tuned (and re-versioned) without touching app/services/fraud/.
+# The pHash threshold and the tamper-radar bands below were chosen empirically
+# by scripts/eval_fraud.py against the DEV split of data/synth/ (never the TEST
+# split -- see docs/fraud_eval.md for the actual precision/recall numbers this
+# threshold produces on the held-out TEST split). Do not hand-tune these values
+# without re-running that script; "near_duplicate_threshold" in particular is
+# labelled [EMPIRICAL] below once eval_fraud.py has filled it in.
+
+version: v1
+phash:
+  hash_size: 16
+  near_duplicate_threshold: 6  # [EMPIRICAL] scripts/eval_fraud.py, see docs/fraud_eval.md
+  template_similarity_max_distance: 24
+corroboration:
+  identifier_fields:
+    UTILITY_BILL:
+    - consumer_number
+    GIG_PAYOUT:
+    - partner_id
+  name_match_corroboration_min_score: 85
+cross_field:
+  name_similarity:
+    pass_min: 85
+    warn_min: 70
+  address_similarity:
+    pass_min: 70
+  vocation_platform_map:
+    ride-hailing driver:
+    - ZipRide Partner
+    ride-hailing partner:
+    - ZipRide Partner
+    food delivery partner:
+    - FoodDash Partner
+    food delivery rider:
+    - FoodDash Partner
+    food delivery driver:
+    - FoodDash Partner
+arithmetic:
+  utility_line_items_tolerance_inr: 1.0
+  utility_period_days_min: 25
+  utility_period_days_max: 35
+  gig_net_tolerance_inr: 1.0
+  gig_earnings_outlier_z_threshold: 3.5
+  bank_running_balance_tolerance_inr: 0.01
+  bank_spike_multiplier: 5.0
+metadata:
+  suspicious_software_tags:
+  - Adobe Photoshop
+  - GIMP
+  - Photopea
+  - Canva
+  - PDF-XChange Editor
+  - Snapseed
+  - PicsArt
+tamper_radar:
+  high_score: 0.5404  # [EMPIRICAL] scripts/eval_fraud.py, see docs/fraud_eval.md
+  medium_score: 0.4443  # [EMPIRICAL] scripts/eval_fraud.py, see docs/fraud_eval.md
+penalties:
+  phash_high: 60
+  phash_medium: 25
+  phash_low_informational: 5
+  tamper_radar_high: 40
+  tamper_radar_medium: 15
+  arithmetic_violation: 15
+  metadata_suspicious: 10
+  cross_field_name_fail: 20
+  cross_field_name_warn: 8
+  cross_field_address_fail: 8
+  cross_field_vocation_mismatch: 10
+  cross_field_payout_account_mismatch: 20
+  income_reconciliation_low: 15
+  low_confidence_extraction: 8
+  injection_suspected: 10
+  self_consistency_disagreement: 15
+severity_bands:
+  high_max_trust_score: 39
+  medium_max_trust_score: 69
+income_reconciliation:
+  low_ratio_threshold: 0.6

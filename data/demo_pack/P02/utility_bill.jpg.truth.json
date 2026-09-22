@@ -1,0 +1,181 @@
+{
+  "doc_type": "UTILITY_BILL",
+  "doc_id": "P02-utility_bill",
+  "split": "demo",
+  "clean": true,
+  "visible_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Priya Nair",
+    "consumer_number": "CN02778899",
+    "service_address": "7B, Kothrud, Pune - 411038",
+    "connection_date": "2026-02-10",
+    "meter_number": "MT0255",
+    "bill_date": "2026-09-09",
+    "due_date": "2026-09-25",
+    "billing_period_start": "2026-08-08",
+    "billing_period_end": "2026-09-08",
+    "units_consumed": 128,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 870.4
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 126.73
+      },
+      {
+        "label": "Tax",
+        "amount": 49.86
+      }
+    ],
+    "total_amount_due": 1046.99,
+    "payment_history": [
+      {
+        "month": "2026-02",
+        "amount": 1254.2,
+        "due_date": "2026-02-20",
+        "paid_date": "2026-02-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-03",
+        "amount": 1147.93,
+        "due_date": "2026-03-20",
+        "paid_date": "2026-03-30",
+        "status": "Late"
+      },
+      {
+        "month": "2026-04",
+        "amount": 1022.21,
+        "due_date": "2026-04-20",
+        "paid_date": "2026-04-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-05",
+        "amount": 1167.43,
+        "due_date": "2026-05-20",
+        "paid_date": "2026-05-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-06",
+        "amount": 985.91,
+        "due_date": "2026-06-20",
+        "paid_date": "2026-06-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-07",
+        "amount": 1004.41,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-07-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-08",
+        "amount": 1015.63,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-18",
+        "status": "On-time"
+      }
+    ]
+  },
+  "original_fields": {
+    "utility_name": "Bharat Power Distribution (Demo)",
+    "consumer_name": "Priya Nair",
+    "consumer_number": "CN02778899",
+    "service_address": "7B, Kothrud, Pune - 411038",
+    "connection_date": "2026-02-10",
+    "meter_number": "MT0255",
+    "bill_date": "2026-09-09",
+    "due_date": "2026-09-25",
+    "billing_period_start": "2026-08-08",
+    "billing_period_end": "2026-09-08",
+    "units_consumed": 128,
+    "line_items": [
+      {
+        "label": "Energy charges",
+        "amount": 870.4
+      },
+      {
+        "label": "Fixed charges",
+        "amount": 126.73
+      },
+      {
+        "label": "Tax",
+        "amount": 49.86
+      }
+    ],
+    "total_amount_due": 1046.99,
+    "payment_history": [
+      {
+        "month": "2026-02",
+        "amount": 1254.2,
+        "due_date": "2026-02-20",
+        "paid_date": "2026-02-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-03",
+        "amount": 1147.93,
+        "due_date": "2026-03-20",
+        "paid_date": "2026-03-30",
+        "status": "Late"
+      },
+      {
+        "month": "2026-04",
+        "amount": 1022.21,
+        "due_date": "2026-04-20",
+        "paid_date": "2026-04-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-05",
+        "amount": 1167.43,
+        "due_date": "2026-05-20",
+        "paid_date": "2026-05-20",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-06",
+        "amount": 985.91,
+        "due_date": "2026-06-20",
+        "paid_date": "2026-06-18",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-07",
+        "amount": 1004.41,
+        "due_date": "2026-07-20",
+        "paid_date": "2026-07-19",
+        "status": "On-time"
+      },
+      {
+        "month": "2026-08",
+        "amount": 1015.63,
+        "due_date": "2026-08-20",
+        "paid_date": "2026-08-18",
+        "status": "On-time"
+      }
+    ]
+  },
+  "tamper_manifest": [],
+  "persona": {
+    "persona_id": "P02",
+    "full_name": "Priya Nair",
+    "phone": "9812345602",
+    "declared_address": "7B, Kothrud, Pune - 411038",
+    "stated_vocation": "food delivery partner"
+  },
+  "reuse_of": null,
+  "reuse_variant_type": null,
+  "hard_negative_group": null,
+  "metadata_stamp": null,
+  "adversarial": false,
+  "injected_string": null,
+  "true_fields": null,
+  "clean_twin": null,
+  "injection_type": null
+}

@@ -1,0 +1,11 @@
+{
+  "persona_id": "P11",
+  "docs_present": [
+    "GIG_PAYOUT",
+    "UTILITY_BILL",
+    "BANK_STATEMENT"
+  ],
+  "expected_outcome": "REFER",
+  "notes": "Resilient thin-file borrower: scorecard alone rates profile as DECLINE (short 4-month utility history, modest bank balance), but embedding reveals steady career stability (75-week gig tenure, stable weekly earnings CV 0.12, near-zero low balance days). Precedents show peer default rate CI upper bound < 0.15 -> TWO_SIGNAL_UPGRADE to REFER.",
+  "requested_line_inr": 15000
+}

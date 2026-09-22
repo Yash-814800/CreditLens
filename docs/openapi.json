@@ -1,0 +1,2236 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CreditLens API",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/api/v1/auth/login": {
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Login",
+        "operationId": "login_api_v1_auth_login_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/auth/me": {
+      "get": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Me",
+        "operationId": "me_api_v1_auth_me_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MeResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ]
+      }
+    },
+    "/api/v1/audit/verify": {
+      "get": {
+        "tags": [
+          "audit"
+        ],
+        "summary": "Audit Verify",
+        "operationId": "audit_verify_api_v1_audit_verify_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VerifyChainResponse"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ]
+      }
+    },
+    "/api/v1/audit": {
+      "get": {
+        "tags": [
+          "audit"
+        ],
+        "summary": "List Audit Log",
+        "operationId": "list_audit_log_api_v1_audit_get",
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "event_type",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Event Type"
+            }
+          },
+          {
+            "name": "application_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Application Id"
+            }
+          },
+          {
+            "name": "applicant_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Applicant Id"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "title": "Page"
+            }
+          },
+          {
+            "name": "page_size",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 200,
+              "minimum": 1,
+              "default": 50,
+              "title": "Page Size"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuditLogListResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/applications": {
+      "post": {
+        "tags": [
+          "applications"
+        ],
+        "summary": "Create Application",
+        "operationId": "create_application_api_v1_applications_post",
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_create_application_api_v1_applications_post"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "title": "Response Create Application Api V1 Applications Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "applications"
+        ],
+        "summary": "List Applications",
+        "operationId": "list_applications_api_v1_applications_get",
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "title": "Page"
+            }
+          },
+          {
+            "name": "page_size",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 100,
+              "minimum": 1,
+              "default": 20,
+              "title": "Page Size"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationListResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/applications/{application_id}": {
+      "get": {
+        "tags": [
+          "applications"
+        ],
+        "summary": "Get Application",
+        "operationId": "get_application_api_v1_applications__application_id__get",
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "application_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Application Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationDetail"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/applications/{application_id}/documents/{document_id}/file": {
+      "get": {
+        "tags": [
+          "applications"
+        ],
+        "summary": "Get Document File",
+        "operationId": "get_document_file_api_v1_applications__application_id__documents__document_id__file_get",
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "application_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Application Id"
+            }
+          },
+          {
+            "name": "document_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Document Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/applications/{application_id}/documents/{document_id}/overlay": {
+      "get": {
+        "tags": [
+          "applications"
+        ],
+        "summary": "Get Document Overlay",
+        "operationId": "get_document_overlay_api_v1_applications__application_id__documents__document_id__overlay_get",
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "application_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Application Id"
+            }
+          },
+          {
+            "name": "document_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Document Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/applications/{application_id}/override": {
+      "post": {
+        "tags": [
+          "applications"
+        ],
+        "summary": "Override Decision",
+        "operationId": "override_decision_api_v1_applications__application_id__override_post",
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "application_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Application Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OverrideRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Override Decision Api V1 Applications  Application Id  Override Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/applications/{application_id}/notice": {
+      "get": {
+        "tags": [
+          "applications"
+        ],
+        "summary": "Get Notice",
+        "operationId": "get_notice_api_v1_applications__application_id__notice_get",
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "application_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "title": "Application Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AdverseActionNotice"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/meta/scorecard": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Get Scorecard Meta",
+        "operationId": "get_scorecard_meta_api_v1_meta_scorecard_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get Scorecard Meta Api V1 Meta Scorecard Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ]
+      }
+    },
+    "/api/v1/fraud/graph": {
+      "get": {
+        "tags": [
+          "fraud"
+        ],
+        "summary": "Get Fraud Graph",
+        "description": "Reconstructs the document-reuse graph from `phash_collision` findings\nalready persisted in fraud_findings -- no separate graph table exists;\nevery edge's corroboration evidence is already in `evidence` (see\napp/services/fraud/service.py's `_run_phash_check`).",
+        "operationId": "get_fraud_graph_api_v1_fraud_graph_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Get Fraud Graph Api V1 Fraud Graph Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ]
+      }
+    },
+    "/api/v1/demo/personas": {
+      "get": {
+        "tags": [
+          "demo"
+        ],
+        "summary": "List Demo Personas",
+        "operationId": "list_demo_personas_api_v1_demo_personas_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/DemoPersonaInfo"
+                  },
+                  "type": "array",
+                  "title": "Response List Demo Personas Api V1 Demo Personas Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ]
+      }
+    },
+    "/api/v1/demo/personas/{persona_id}/submit": {
+      "post": {
+        "tags": [
+          "demo"
+        ],
+        "summary": "Submit Demo Persona",
+        "operationId": "submit_demo_persona_api_v1_demo_personas__persona_id__submit_post",
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "persona_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Persona Id"
+            }
+          }
+        ],
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "title": "Response Submit Demo Persona Api V1 Demo Personas  Persona Id  Submit Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/healthz": {
+      "get": {
+        "summary": "Healthz",
+        "description": "Liveness probe. Does not touch the DB -- see /readyz for that.",
+        "operationId": "healthz_healthz_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object",
+                  "title": "Response Healthz Healthz Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/readyz": {
+      "get": {
+        "summary": "Readyz",
+        "operationId": "readyz_readyz_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AdverseActionNotice": {
+        "properties": {
+          "decision": {
+            "type": "string",
+            "title": "Decision"
+          },
+          "generated_at": {
+            "type": "string",
+            "title": "Generated At"
+          },
+          "applicant_reference": {
+            "type": "string",
+            "title": "Applicant Reference"
+          },
+          "principal_reasons": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Principal Reasons"
+          },
+          "what_you_can_do": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "What You Can Do"
+          },
+          "basis_statement": {
+            "type": "string",
+            "title": "Basis Statement"
+          },
+          "appeal_contact_placeholder": {
+            "type": "string",
+            "title": "Appeal Contact Placeholder"
+          },
+          "non_discrimination_statement": {
+            "type": "string",
+            "title": "Non Discrimination Statement"
+          }
+        },
+        "type": "object",
+        "required": [
+          "decision",
+          "generated_at",
+          "applicant_reference",
+          "basis_statement",
+          "appeal_contact_placeholder",
+          "non_discrimination_statement"
+        ],
+        "title": "AdverseActionNotice"
+      },
+      "ApplicationDetail": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Id"
+          },
+          "applicant_reference": {
+            "type": "string",
+            "title": "Applicant Reference"
+          },
+          "applicant_name": {
+            "type": "string",
+            "title": "Applicant Name"
+          },
+          "requested_line_inr": {
+            "type": "number",
+            "title": "Requested Line Inr"
+          },
+          "eligible_line_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eligible Line Inr"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "stage": {
+            "type": "string",
+            "title": "Stage"
+          },
+          "error_code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error Code"
+          },
+          "outcome": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Outcome"
+          },
+          "final_outcome": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Final Outcome"
+          },
+          "overridden_by": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uuid"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Overridden By"
+          },
+          "override_reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Override Reason"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          },
+          "fraud_severity": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fraud Severity"
+          },
+          "data_completeness": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Data Completeness"
+          },
+          "scorecard_version": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scorecard Version"
+          },
+          "policy_version": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Policy Version"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+          },
+          "completed_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Completed At"
+          },
+          "documents": {
+            "items": {
+              "$ref": "#/components/schemas/DocumentSummary"
+            },
+            "type": "array",
+            "title": "Documents"
+          },
+          "fraud_report": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/FraudReport"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sanitization_report": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SanitizationReport"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "score_breakdown": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ScoreBreakdown"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "decision": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Decision"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "precedents": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PrecedentPanel"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "recourse": {
+            "items": {
+              "$ref": "#/components/schemas/RecourseAction"
+            },
+            "type": "array",
+            "title": "Recourse"
+          },
+          "summary": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SummaryResult"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "notice": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/AdverseActionNotice"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "applicant_reference",
+          "applicant_name",
+          "requested_line_inr",
+          "eligible_line_inr",
+          "status",
+          "stage",
+          "error_code",
+          "outcome",
+          "final_outcome",
+          "overridden_by",
+          "override_reason",
+          "score",
+          "fraud_severity",
+          "data_completeness",
+          "scorecard_version",
+          "policy_version",
+          "created_at",
+          "completed_at",
+          "documents",
+          "fraud_report",
+          "sanitization_report",
+          "score_breakdown",
+          "decision",
+          "precedents",
+          "recourse",
+          "summary",
+          "notice"
+        ],
+        "title": "ApplicationDetail"
+      },
+      "ApplicationListResponse": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/ApplicationSummary"
+            },
+            "type": "array",
+            "title": "Items"
+          },
+          "total": {
+            "type": "integer",
+            "title": "Total"
+          },
+          "page": {
+            "type": "integer",
+            "title": "Page"
+          },
+          "page_size": {
+            "type": "integer",
+            "title": "Page Size"
+          }
+        },
+        "type": "object",
+        "required": [
+          "items",
+          "total",
+          "page",
+          "page_size"
+        ],
+        "title": "ApplicationListResponse"
+      },
+      "ApplicationSummary": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Id"
+          },
+          "applicant_reference": {
+            "type": "string",
+            "title": "Applicant Reference"
+          },
+          "requested_line_inr": {
+            "type": "number",
+            "title": "Requested Line Inr"
+          },
+          "eligible_line_inr": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eligible Line Inr"
+          },
+          "outcome": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Outcome"
+          },
+          "final_outcome": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Final Outcome"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          },
+          "fraud_severity": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fraud Severity"
+          },
+          "stage": {
+            "type": "string",
+            "title": "Stage"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "applicant_reference",
+          "requested_line_inr",
+          "eligible_line_inr",
+          "outcome",
+          "final_outcome",
+          "score",
+          "fraud_severity",
+          "stage",
+          "created_at"
+        ],
+        "title": "ApplicationSummary"
+      },
+      "AuditLogEntry": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "ts": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Ts"
+          },
+          "event_type": {
+            "type": "string",
+            "title": "Event Type"
+          },
+          "application_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Application Id"
+          },
+          "applicant_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Applicant Id"
+          },
+          "actor": {
+            "type": "string",
+            "title": "Actor"
+          },
+          "payload": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Payload"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "ts",
+          "event_type",
+          "application_id",
+          "applicant_id",
+          "actor",
+          "payload"
+        ],
+        "title": "AuditLogEntry"
+      },
+      "AuditLogListResponse": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/AuditLogEntry"
+            },
+            "type": "array",
+            "title": "Items"
+          },
+          "total": {
+            "type": "integer",
+            "title": "Total"
+          },
+          "page": {
+            "type": "integer",
+            "title": "Page"
+          },
+          "page_size": {
+            "type": "integer",
+            "title": "Page Size"
+          }
+        },
+        "type": "object",
+        "required": [
+          "items",
+          "total",
+          "page",
+          "page_size"
+        ],
+        "title": "AuditLogListResponse"
+      },
+      "Body_create_application_api_v1_applications_post": {
+        "properties": {
+          "kyc": {
+            "type": "string",
+            "title": "Kyc"
+          },
+          "gig_payout": {
+            "anyOf": [
+              {
+                "type": "string",
+                "contentMediaType": "application/octet-stream"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Gig Payout"
+          },
+          "utility_bill": {
+            "anyOf": [
+              {
+                "type": "string",
+                "contentMediaType": "application/octet-stream"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Utility Bill"
+          },
+          "bank_statement": {
+            "anyOf": [
+              {
+                "type": "string",
+                "contentMediaType": "application/octet-stream"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Bank Statement"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kyc"
+        ],
+        "title": "Body_create_application_api_v1_applications_post"
+      },
+      "Decision": {
+        "properties": {
+          "outcome": {
+            "type": "string",
+            "title": "Outcome"
+          },
+          "tier": {
+            "type": "string",
+            "title": "Tier"
+          },
+          "eligible_line_inr": {
+            "type": "number",
+            "title": "Eligible Line Inr"
+          },
+          "reason_codes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Reason Codes"
+          },
+          "rules_fired": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Rules Fired"
+          },
+          "score": {
+            "type": "integer",
+            "title": "Score"
+          },
+          "fraud_severity": {
+            "type": "string",
+            "title": "Fraud Severity"
+          },
+          "data_completeness": {
+            "type": "number",
+            "title": "Data Completeness"
+          }
+        },
+        "type": "object",
+        "required": [
+          "outcome",
+          "tier",
+          "eligible_line_inr",
+          "reason_codes",
+          "rules_fired",
+          "score",
+          "fraud_severity",
+          "data_completeness"
+        ],
+        "title": "Decision"
+      },
+      "DemoPersonaInfo": {
+        "properties": {
+          "persona_id": {
+            "type": "string",
+            "title": "Persona Id"
+          },
+          "expected_outcome": {
+            "type": "string",
+            "title": "Expected Outcome"
+          },
+          "notes": {
+            "type": "string",
+            "title": "Notes"
+          },
+          "docs_present": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Docs Present"
+          }
+        },
+        "type": "object",
+        "required": [
+          "persona_id",
+          "expected_outcome",
+          "notes",
+          "docs_present"
+        ],
+        "title": "DemoPersonaInfo"
+      },
+      "DocumentRadar": {
+        "properties": {
+          "document_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uuid"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Document Id"
+          },
+          "doc_type": {
+            "type": "string",
+            "title": "Doc Type"
+          },
+          "radar_score": {
+            "type": "number",
+            "title": "Radar Score"
+          },
+          "applicable_checks": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Applicable Checks"
+          },
+          "flagged_regions": {
+            "items": {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array"
+            },
+            "type": "array",
+            "title": "Flagged Regions"
+          },
+          "heatmap_storage_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Heatmap Storage Key"
+          }
+        },
+        "type": "object",
+        "required": [
+          "doc_type",
+          "radar_score",
+          "applicable_checks"
+        ],
+        "title": "DocumentRadar",
+        "description": "Per-document tamper-radar summary (Phase 7's UI overlay reads this)."
+      },
+      "DocumentSummary": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Id"
+          },
+          "doc_type": {
+            "type": "string",
+            "title": "Doc Type"
+          },
+          "mime": {
+            "type": "string",
+            "title": "Mime"
+          },
+          "extracted": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Extracted"
+          },
+          "extraction_confidence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Extraction Confidence"
+          },
+          "extraction_model": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Extraction Model"
+          },
+          "forensic": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Forensic"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "doc_type",
+          "mime",
+          "extracted",
+          "extraction_confidence",
+          "extraction_model",
+          "forensic"
+        ],
+        "title": "DocumentSummary"
+      },
+      "Finding": {
+        "properties": {
+          "check_name": {
+            "type": "string",
+            "title": "Check Name"
+          },
+          "severity": {
+            "type": "string",
+            "title": "Severity"
+          },
+          "penalty_points": {
+            "type": "integer",
+            "title": "Penalty Points"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "evidence": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Evidence"
+          },
+          "document_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uuid"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Document Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "check_name",
+          "severity",
+          "penalty_points",
+          "message"
+        ],
+        "title": "Finding"
+      },
+      "FraudReport": {
+        "properties": {
+          "findings": {
+            "items": {
+              "$ref": "#/components/schemas/Finding"
+            },
+            "type": "array",
+            "title": "Findings"
+          },
+          "per_document_radar": {
+            "items": {
+              "$ref": "#/components/schemas/DocumentRadar"
+            },
+            "type": "array",
+            "title": "Per Document Radar"
+          },
+          "trust_score": {
+            "type": "integer",
+            "title": "Trust Score"
+          },
+          "authenticity_score": {
+            "type": "number",
+            "title": "Authenticity Score"
+          },
+          "severity": {
+            "type": "string",
+            "title": "Severity"
+          },
+          "graph_edges": {
+            "items": {
+              "$ref": "#/components/schemas/GraphEdge"
+            },
+            "type": "array",
+            "title": "Graph Edges"
+          }
+        },
+        "type": "object",
+        "required": [
+          "findings",
+          "per_document_radar",
+          "trust_score",
+          "authenticity_score",
+          "severity"
+        ],
+        "title": "FraudReport"
+      },
+      "GraphEdge": {
+        "properties": {
+          "applicant_a": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Applicant A"
+          },
+          "applicant_b": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Applicant B"
+          },
+          "doc_type": {
+            "type": "string",
+            "title": "Doc Type"
+          },
+          "hamming_distance": {
+            "type": "integer",
+            "title": "Hamming Distance"
+          },
+          "sha256_match": {
+            "type": "boolean",
+            "title": "Sha256 Match"
+          },
+          "corroborated": {
+            "type": "boolean",
+            "title": "Corroborated"
+          }
+        },
+        "type": "object",
+        "required": [
+          "applicant_a",
+          "applicant_b",
+          "doc_type",
+          "hamming_distance",
+          "sha256_match",
+          "corroborated"
+        ],
+        "title": "GraphEdge",
+        "description": "One corroborated-or-not document-reuse edge, for Phase 7's syndicate graph."
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "LoginRequest": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email",
+            "title": "Email"
+          },
+          "password": {
+            "type": "string",
+            "title": "Password"
+          }
+        },
+        "type": "object",
+        "required": [
+          "email",
+          "password"
+        ],
+        "title": "LoginRequest"
+      },
+      "LoginResponse": {
+        "properties": {
+          "access_token": {
+            "type": "string",
+            "title": "Access Token"
+          },
+          "token_type": {
+            "type": "string",
+            "title": "Token Type",
+            "default": "bearer"
+          },
+          "role": {
+            "type": "string",
+            "title": "Role"
+          }
+        },
+        "type": "object",
+        "required": [
+          "access_token",
+          "role"
+        ],
+        "title": "LoginResponse"
+      },
+      "MeResponse": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "email": {
+            "type": "string",
+            "title": "Email"
+          },
+          "role": {
+            "type": "string",
+            "title": "Role"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "email",
+          "role"
+        ],
+        "title": "MeResponse"
+      },
+      "OverrideRequest": {
+        "properties": {
+          "outcome": {
+            "type": "string",
+            "title": "Outcome"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "outcome",
+          "reason"
+        ],
+        "title": "OverrideRequest"
+      },
+      "PrecedentMatchOut": {
+        "properties": {
+          "historical_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Historical Id"
+          },
+          "rank": {
+            "type": "integer",
+            "title": "Rank"
+          },
+          "similarity": {
+            "type": "number",
+            "title": "Similarity"
+          },
+          "defaulted": {
+            "type": "boolean",
+            "title": "Defaulted"
+          },
+          "cohort": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cohort"
+          }
+        },
+        "type": "object",
+        "required": [
+          "historical_id",
+          "rank",
+          "similarity",
+          "defaulted",
+          "cohort"
+        ],
+        "title": "PrecedentMatchOut"
+      },
+      "PrecedentPanel": {
+        "properties": {
+          "matches": {
+            "items": {
+              "$ref": "#/components/schemas/PrecedentMatchOut"
+            },
+            "type": "array",
+            "title": "Matches"
+          },
+          "peer_default_rate": {
+            "type": "number",
+            "title": "Peer Default Rate"
+          },
+          "peer_default_rate_weighted": {
+            "type": "number",
+            "title": "Peer Default Rate Weighted"
+          },
+          "ci_lower": {
+            "type": "number",
+            "title": "Ci Lower"
+          },
+          "ci_upper": {
+            "type": "number",
+            "title": "Ci Upper"
+          },
+          "sample_size": {
+            "type": "integer",
+            "title": "Sample Size"
+          },
+          "agrees_with_scorecard": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Agrees With Scorecard"
+          }
+        },
+        "type": "object",
+        "required": [
+          "matches",
+          "peer_default_rate",
+          "peer_default_rate_weighted",
+          "ci_lower",
+          "ci_upper",
+          "sample_size",
+          "agrees_with_scorecard"
+        ],
+        "title": "PrecedentPanel"
+      },
+      "RecourseAction": {
+        "properties": {
+          "feature": {
+            "type": "string",
+            "title": "Feature"
+          },
+          "current": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current"
+          },
+          "target": {
+            "type": "number",
+            "title": "Target"
+          },
+          "points_gain": {
+            "type": "integer",
+            "title": "Points Gain"
+          },
+          "resulting_score": {
+            "type": "integer",
+            "title": "Resulting Score"
+          },
+          "horizon_days": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Horizon Days"
+          },
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "actionable": {
+            "type": "boolean",
+            "title": "Actionable",
+            "default": true
+          }
+        },
+        "type": "object",
+        "required": [
+          "feature",
+          "current",
+          "target",
+          "points_gain",
+          "resulting_score",
+          "horizon_days",
+          "text"
+        ],
+        "title": "RecourseAction"
+      },
+      "RemovedField": {
+        "properties": {
+          "field": {
+            "type": "string",
+            "title": "Field"
+          },
+          "reason": {
+            "type": "string",
+            "title": "Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "field",
+          "reason"
+        ],
+        "title": "RemovedField",
+        "description": "One field the sanitizer stripped before scoring, and why. Phase 7's\nResponsible-AI Guardrail panel renders this list verbatim so an\nunderwriter can see exactly what never reached the scorer."
+      },
+      "SanitizationReport": {
+        "properties": {
+          "removed": {
+            "items": {
+              "$ref": "#/components/schemas/RemovedField"
+            },
+            "type": "array",
+            "title": "Removed"
+          },
+          "allowed": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Allowed"
+          }
+        },
+        "type": "object",
+        "required": [
+          "removed",
+          "allowed"
+        ],
+        "title": "SanitizationReport"
+      },
+      "ScoreBreakdown": {
+        "properties": {
+          "version": {
+            "type": "string",
+            "title": "Version"
+          },
+          "base": {
+            "type": "integer",
+            "title": "Base"
+          },
+          "total": {
+            "type": "integer",
+            "title": "Total"
+          },
+          "factors": {
+            "items": {
+              "$ref": "#/components/schemas/ScoreFactor"
+            },
+            "type": "array",
+            "title": "Factors"
+          },
+          "data_completeness": {
+            "type": "number",
+            "title": "Data Completeness"
+          }
+        },
+        "type": "object",
+        "required": [
+          "version",
+          "base",
+          "total",
+          "factors",
+          "data_completeness"
+        ],
+        "title": "ScoreBreakdown"
+      },
+      "ScoreFactor": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Value"
+          },
+          "bin_label": {
+            "type": "string",
+            "title": "Bin Label"
+          },
+          "points": {
+            "type": "integer",
+            "title": "Points"
+          },
+          "max_up": {
+            "type": "integer",
+            "title": "Max Up"
+          },
+          "max_down": {
+            "type": "integer",
+            "title": "Max Down"
+          },
+          "direction": {
+            "type": "string",
+            "title": "Direction"
+          },
+          "reason_code": {
+            "type": "string",
+            "title": "Reason Code"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "value",
+          "bin_label",
+          "points",
+          "max_up",
+          "max_down",
+          "direction",
+          "reason_code"
+        ],
+        "title": "ScoreFactor"
+      },
+      "SummaryResult": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "source": {
+            "type": "string",
+            "title": "Source"
+          },
+          "model": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model"
+          },
+          "prompt_version": {
+            "type": "string",
+            "title": "Prompt Version"
+          },
+          "verified": {
+            "type": "boolean",
+            "title": "Verified"
+          },
+          "sampling_params": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Sampling Params",
+            "default": {}
+          }
+        },
+        "type": "object",
+        "required": [
+          "text",
+          "source",
+          "model",
+          "prompt_version",
+          "verified"
+        ],
+        "title": "SummaryResult"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "VerifyChainResponse": {
+        "properties": {
+          "valid": {
+            "type": "boolean",
+            "title": "Valid"
+          },
+          "first_broken_id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "First Broken Id"
+          },
+          "checked": {
+            "type": "integer",
+            "title": "Checked"
+          }
+        },
+        "type": "object",
+        "required": [
+          "valid",
+          "first_broken_id",
+          "checked"
+        ],
+        "title": "VerifyChainResponse"
+      }
+    },
+    "securitySchemes": {
+      "OAuth2PasswordBearer": {
+        "type": "oauth2",
+        "flows": {
+          "password": {
+            "scopes": {},
+            "tokenUrl": "/api/v1/auth/login"
+          }
+        }
+      }
+    }
+  }
+}
